@@ -2,102 +2,94 @@
 import requests
 from bs4 import BeautifulSoup
 from sources import SOURCES
+from scoring import score_job
 
 
-# Palavras que indicam lixo / conteúdo não relacionado a vagas
 IGNORE_KEYWORDS = [
     "whatsapp",
     "baixar agora",
     "subscribe",
     "telegram",
-    "http",
     "+",
+    "http",
     "clique aqui",
-    "download",
-    "share",
     "login",
     "register"
 ]
 
 
-def is_valid_job_text(text: str) -> bool:
-    """
-    Filtra textos irrelevantes.
-    Mantém apenas candidatos prováveis a título de vaga.
-    """
-
+def is_valid(text):
     if not text:
         return False
 
-    text = text.strip()
+    text = text.strip().lower()
 
-    # Rejeita textos curtos demais
     if len(text) < 15:
         return False
 
-    # Rejeita textos com lixo conhecido
-    lower_text = text.lower()
-    for word in IGNORE_KEYWORDS:
-        if word in lower_text:
-            return False
-
-    # Evita números de contacto e spam óbvio
-    if any(char.isdigit() for char in text) and len(text) < 40:
+    if any(k in text for k in IGNORE_KEYWORDS):
         return False
 
     return True
 
 
 def fetch_jobs():
-    all_jobs = []
+    jobs = []
+    seen = set()
 
     for source in SOURCES:
         print(f"\nA recolher de: {source['name']}")
 
         try:
-            response = requests.get(
+            r = requests.get(
                 source["url"],
                 timeout=15,
-                headers={
-                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-                }
+                headers={"User-Agent": "Mozilla/5.0"}
             )
 
-            soup = BeautifulSoup(response.text, "html.parser")
+            soup = BeautifulSoup(r.text, "html.parser")
 
-            # estratégia simples inicial (será melhorada depois)
-            links = soup.find_all("a")
+            for a in soup.find_all("a"):
+                title = a.get_text(strip=True)
 
-            count = 0
+                if not is_valid(title):
+                    continue
 
-            for link in links:
-                text = link.get_text(strip=True)
+                # remover duplicados
+                key = title.lower()
+                if key in seen:
+                    continue
 
-                if is_valid_job_text(text):
-                    all_jobs.append({
-                        "title": text,
-                        "company": "",
-                        "location": "Moçambique",
-                        "description": text,
-                        "url": source["url"],
-                        "source": source["name"]
-                    })
-                    count += 1
+                seen.add(key)
 
-            print(f"Vagas filtradas: {count}")
+                job = {
+                    "title": title,
+                    "company": "",
+                    "location": "Moçambique",
+                    "description": title,
+                    "url": source["url"],
+                    "source": source["name"]
+                }
+
+                job["score"] = score_job(job)
+
+                jobs.append(job)
 
         except Exception as e:
-            print(f"Erro ao processar {source['name']}: {e}")
+            print(f"Erro em {source['name']}: {e}")
 
-    return all_jobs
+    return jobs
 
 
 if __name__ == "__main__":
     jobs = fetch_jobs()
 
-    print("\n==============================")
-    print("TOTAL DE VAGAS ENCONTRADAS:", len(jobs))
-    print("==============================\n")
+    # ordenar por relevância
+    jobs = sorted(jobs, key=lambda x: x["score"], reverse=True)
 
-    for job in jobs[:10]:
+    print("\n========================")
+    print("TOTAL LIMPO:", len(jobs))
+    print("========================\n")
+
+    for job in jobs[:20]:
         print(job)
