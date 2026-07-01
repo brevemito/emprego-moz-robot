@@ -12,11 +12,6 @@ SOURCES = [
     },
 
     {
-        "name": "njobs",
-        "url": "https://njobs.co.mz"
-    },
-
-    {
         "name": "contact_mz",
         "url": "https://www.contact.co.mz"
     },
@@ -25,14 +20,26 @@ SOURCES = [
     # EMPRESAS
     # =========================
 
+    # ENERGIA / OIL & GAS
     {
         "name": "totalenergies",
         "url": "https://jobs.totalenergies.com/pt_BR/careers/Home"
     },
 
     {
-        "name": "vodacom_mz",
-        "url": "https://careers.vodafone.com/mozambique/"
+        "name": "mozambique_lng",
+        "url": "https://www.mozambiquelng.co.mz/opportunities/working-with-us/"
+    },
+
+    {
+        "name": "enh",
+        "url": "https://www.enh.co.mz/carreira/"
+    },
+
+    # BANCOS
+    {
+        "name": "bci",
+        "url": "https://www.bci.co.mz/recrutamento/"
     },
 
     {
@@ -41,13 +48,56 @@ SOURCES = [
     },
 
     {
-        "name": "bci",
-        "url": "https://www.bci.co.mz/recrutamento/"
+        "name": "bni",
+        "url": "https://www.bni.co.mz/en/about-bni/careers/"
     },
 
     {
-        "name": "mozambique_lng",
-        "url": "https://www.mozambiquelng.co.mz/opportunities/working-with-us/"
+        "name": "moza_banco",
+        "url": "https://www.mozabanco.co.mz/en/institutional/careers"
+    },
+
+    # TELECOMUNICAÇÕES
+    {
+        "name": "vodacom_mz",
+        "url": "https://careers.vodafone.com/mozambique/"
+    },
+
+    {
+        "name": "tmcel",
+        "url": "https://www.tmcel.co.mz/"
+    },
+
+    {
+        "name": "movitel",
+        "url": "https://www.movitel.co.mz/"
+    },
+
+    # INDÚSTRIA / FMCG
+    {
+        "name": "heineken_mz",
+        "url": "https://careers.theheinekencompany.com/Mozambique/"
+    },
+
+    {
+        "name": "cim",
+        "url": "https://www.cim.co.mz/careers"
+    },
+
+    {
+        "name": "mozparks",
+        "url": "https://mozparks.co.mz/careers/"
+    },
+
+    # CONSULTORIA / SERVIÇOS
+    {
+        "name": "crowe_mz",
+        "url": "https://www.crowe.com/mz/en-gb/careers"
+    },
+
+    {
+        "name": "contact_mz",
+        "url": "https://www.contact.co.mz"
     },
 
     # =========================
