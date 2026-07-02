@@ -1,8 +1,12 @@
 # Robô de recolha de empregos - Moçambique
+
 import requests
 from bs4 import BeautifulSoup
+
 from sources import SOURCES
 from scoring import score_job
+
+from database import initialize_database, insert_job
 
 
 IGNORE_KEYWORDS = [
@@ -55,7 +59,7 @@ def fetch_jobs():
                 if not is_valid(title):
                     continue
 
-                # remover duplicados
+                # remover duplicados em memória
                 key = title.lower()
                 if key in seen:
                     continue
@@ -82,17 +86,25 @@ def fetch_jobs():
 
 
 if __name__ == "__main__":
+
+    # 1. inicializar base de dados
+    initialize_database()
+
+    # 2. recolher vagas
     jobs = fetch_jobs()
 
-    # ordenar por relevância
+    # 3. ordenar por relevância
     jobs = sorted(jobs, key=lambda x: x["score"], reverse=True)
 
     print("\n========================")
     print("TOTAL LIMPO:", len(jobs))
     print("========================\n")
 
+    # 4. inserir na base de dados
     for job in jobs[:20]:
-        print(job)
-from database import initialize_database
+        inserted = insert_job(job)
 
-initialize_database()
+        if inserted:
+            print("🟢 Inserido:", job["title"])
+        else:
+            print("🟡 Duplicado:", job["title"])
