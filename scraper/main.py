@@ -93,3 +93,6 @@ if __name__ == "__main__":
 
     for job in jobs[:20]:
         print(job)
+from database import initialize_database
+
+initialize_database()
