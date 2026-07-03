@@ -1,12 +1,13 @@
 # Robô de recolha de empregos - Moçambique
 
-import requests
 import re
+import requests
 
 from parsers import PARSERS
 from sources import SOURCES
 from scoring import score_job
 from database import initialize_database, insert_job
+from export_json import export_jobs_to_json
 
 
 # =========================
@@ -27,7 +28,7 @@ def normalize_job(job):
 
 
 # =========================
-# FILTRO DE QUALIDADE (CRÍTICO)
+# FILTRO DE QUALIDADE
 # =========================
 def is_real_job(job):
     title = (job.get("title") or "").lower()
@@ -53,7 +54,7 @@ def is_real_job(job):
         "informática e programação"
     ]
 
-    return not any(b in title for b in bad_patterns)
+    return not any(pattern in title for pattern in bad_patterns)
 
 
 # =========================
@@ -63,19 +64,31 @@ def fetch_jobs():
     jobs = []
 
     for source in SOURCES:
+
         print(f"\nA recolher de: {source['name']}")
 
         try:
-            r = requests.get(
+
+            response = requests.get(
                 source["url"],
                 timeout=15,
-                headers={"User-Agent": "Mozilla/5.0"}
+                headers={
+                    "User-Agent": (
+                        "Mozilla/5.0 "
+                        "(Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 "
+                        "(KHTML, like Gecko) "
+                        "Chrome/138.0 Safari/537.36"
+                    )
+                }
             )
+
+            response.raise_for_status()
 
             parser = PARSERS.get(source["name"])
 
             if parser:
-                parsed_jobs = parser(r.text, source["url"])
+                parsed_jobs = parser(response.text, source["url"])
                 jobs.extend(parsed_jobs)
             else:
                 print(f"Sem parser definido para {source['name']}")
@@ -91,40 +104,57 @@ def fetch_jobs():
 # =========================
 if __name__ == "__main__":
 
-    # 1. inicializar base de dados
+    # Inicializar a base de dados
     initialize_database()
 
-    # 2. recolher vagas
+    # Recolher vagas
     jobs = fetch_jobs()
 
     cleaned_jobs = []
 
-    # 3. normalização + filtro + scoring
+    # Normalizar, filtrar e classificar
     for job in jobs:
 
         job = normalize_job(job)
 
-        # 🔥 FILTRO CRÍTICO AQUI
         if not is_real_job(job):
             continue
 
         job["score"] = score_job(job)
+
         cleaned_jobs.append(job)
 
-    jobs = cleaned_jobs
-
-    # 4. ordenar por relevância
-    jobs = sorted(jobs, key=lambda x: x["score"], reverse=True)
+    # Ordenar por score
+    jobs = sorted(
+        cleaned_jobs,
+        key=lambda x: x["score"],
+        reverse=True
+    )
 
     print("\n========================")
-    print("TOTAL LIMPO:", len(jobs))
+    print(f"TOTAL LIMPO: {len(jobs)}")
     print("========================\n")
 
-    # 5. inserir na base de dados
-    for job in jobs:
-        inserted = insert_job(job)
+    # Guardar todas as vagas
+    inserted = 0
+    duplicated = 0
 
-        if inserted:
+    for job in jobs:
+
+        if insert_job(job):
+            inserted += 1
             print("🟢 Inserido:", job["title"])
         else:
+            duplicated += 1
             print("🟡 Duplicado:", job["title"])
+
+    print("\n========================")
+    print(f"Novas vagas: {inserted}")
+    print(f"Duplicadas: {duplicated}")
+    print("========================")
+
+    # Exportar para JSON
+    print("\nExportando JSON...")
+    export_jobs_to_json()
+
+    print("Concluído.")
