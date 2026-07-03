@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
 
 def parse_emprego_co_mz(html, source_url):
@@ -6,30 +7,34 @@ def parse_emprego_co_mz(html, source_url):
 
     jobs = []
 
-    # Seleciona todos os links
     for a in soup.find_all("a"):
+
         title = a.get_text(strip=True)
 
-        if not title:
+        if not title or len(title) < 20:
             continue
+
+        # tenta capturar link real da vaga
+        link = a.get("href")
+
+        if link:
+            link = urljoin(source_url, link)
+        else:
+            link = source_url
 
         title_lower = title.lower()
 
-        # 🔴 FILTRO DE LIXO (menus e conteúdo irrelevante)
         lixo = [
             "cookie",
             "política",
             "privacidade",
             "login",
             "register",
-            "subscribe",
             "sobre nós",
             "contacto",
-            "faq"
+            "faq",
+            "subscribe"
         ]
-
-        if len(title) < 20:
-            continue
 
         if any(x in title_lower for x in lixo):
             continue
@@ -39,7 +44,7 @@ def parse_emprego_co_mz(html, source_url):
             "company": "",
             "location": "Moçambique",
             "description": title,
-            "url": source_url,
+            "url": link,
             "source": "emprego_co_mz"
         }
 
