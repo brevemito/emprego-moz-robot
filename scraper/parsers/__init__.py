@@ -7,6 +7,7 @@ from parsers.bci import parse_bci
 from parsers.millennium_bim import parse_millennium_bim
 from parsers.movitel import parse_movitel
 from parsers.contact_mz import parse_contact_mz
+from parsers.enh import parse_enh
 
 
 PARSERS = {
@@ -18,5 +19,6 @@ PARSERS = {
     "bci": parse_bci,
     "millennium_bim": parse_millennium_bim,
     "movitel": parse_movitel,
-     "contact_mz": parse_contact_mz
+     "contact_mz": parse_contact_mz,
+    "enh": parse_enh
 }
