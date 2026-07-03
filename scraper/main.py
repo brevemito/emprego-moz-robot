@@ -1,6 +1,7 @@
 # Robô de recolha de empregos - Moçambique
 
 import requests
+import re
 
 from parsers import PARSERS
 from sources import SOURCES
@@ -8,28 +9,51 @@ from scoring import score_job
 from database import initialize_database, insert_job
 
 
-import re
-
-
 # =========================
-# NORMALIZAÇÃO (CAMADA FINAL)
+# NORMALIZAÇÃO
 # =========================
 def normalize_job(job):
     title = job.get("title", "")
 
-    # limpar espaços duplicados
     title = re.sub(r"\s+", " ", title).strip()
-
-    # normalizar separadores
     title = re.sub(r"[|•–—]", "-", title)
 
     job["title"] = title
 
-    # garantir company padrão
     if not job.get("company"):
         job["company"] = "Desconhecida"
 
     return job
+
+
+# =========================
+# FILTRO DE QUALIDADE (CRÍTICO)
+# =========================
+def is_real_job(job):
+    title = (job.get("title") or "").lower()
+
+    if len(title) < 12:
+        return False
+
+    bad_patterns = [
+        "cookie",
+        "política",
+        "privacidade",
+        "faq",
+        "perguntas frequentes",
+        "sobre nós",
+        "contacto",
+        "administração e secretariado",
+        "agricultura e pescas",
+        "aquisições e procurement",
+        "auditoria",
+        "comercial e vendas",
+        "design e multimédia",
+        "hotelaria e turismo",
+        "informática e programação"
+    ]
+
+    return not any(b in title for b in bad_patterns)
 
 
 # =========================
@@ -75,9 +99,15 @@ if __name__ == "__main__":
 
     cleaned_jobs = []
 
-    # 3. normalização + scoring
+    # 3. normalização + filtro + scoring
     for job in jobs:
+
         job = normalize_job(job)
+
+        # 🔥 FILTRO CRÍTICO AQUI
+        if not is_real_job(job):
+            continue
+
         job["score"] = score_job(job)
         cleaned_jobs.append(job)
 
