@@ -8,6 +8,33 @@ from scoring import score_job
 from database import initialize_database, insert_job
 
 
+import re
+
+
+# =========================
+# NORMALIZAÇÃO (CAMADA FINAL)
+# =========================
+def normalize_job(job):
+    title = job.get("title", "")
+
+    # limpar espaços duplicados
+    title = re.sub(r"\s+", " ", title).strip()
+
+    # normalizar separadores
+    title = re.sub(r"[|•–—]", "-", title)
+
+    job["title"] = title
+
+    # garantir company padrão
+    if not job.get("company"):
+        job["company"] = "Desconhecida"
+
+    return job
+
+
+# =========================
+# SCRAPING CORE
+# =========================
 def fetch_jobs():
     jobs = []
 
@@ -21,7 +48,6 @@ def fetch_jobs():
                 headers={"User-Agent": "Mozilla/5.0"}
             )
 
-            # 🔥 escolhe parser certo
             parser = PARSERS.get(source["name"])
 
             if parser:
@@ -36,6 +62,9 @@ def fetch_jobs():
     return jobs
 
 
+# =========================
+# EXECUÇÃO PRINCIPAL
+# =========================
 if __name__ == "__main__":
 
     # 1. inicializar base de dados
@@ -44,9 +73,15 @@ if __name__ == "__main__":
     # 2. recolher vagas
     jobs = fetch_jobs()
 
-    # 3. aplicar scoring
+    cleaned_jobs = []
+
+    # 3. normalização + scoring
     for job in jobs:
+        job = normalize_job(job)
         job["score"] = score_job(job)
+        cleaned_jobs.append(job)
+
+    jobs = cleaned_jobs
 
     # 4. ordenar por relevância
     jobs = sorted(jobs, key=lambda x: x["score"], reverse=True)
