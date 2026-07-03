@@ -4,6 +4,7 @@ from parsers.unjobs import parse_unjobs
 from parsers.reliefweb import parse_reliefweb
 from parsers.vodacom_mz import parse_vodacom_mz
 from parsers.bci import parse_bci
+from parsers.millennium_bim import parse_millennium_bim
 
 
 PARSERS = {
@@ -12,5 +13,6 @@ PARSERS = {
     "unjobs": parse_unjobs,
     "reliefweb": parse_reliefweb,
     "vodacom_mz": parse_vodacom_mz,
-    "bci": parse_bci
+    "bci": parse_bci,
+    "millennium_bim": parse_millennium_bim
 }
