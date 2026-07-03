@@ -3,6 +3,9 @@ name: Job Scraper Moçambique
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-scraper:
     runs-on: ubuntu-latest
@@ -21,3 +24,11 @@ jobs:
 
       - name: Run scraper
         run: python scraper/main.py
+
+      - name: Commit jobs.json
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/jobs.json
+          git commit -m "Update jobs.json" || echo "No changes to commit"
+          git push
