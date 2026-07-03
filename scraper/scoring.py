@@ -21,6 +21,8 @@ def score_job(job):
         "developer",
         "it",
         "gestor",
+        "formador",
+        "eletricista",
         "manager",
         "analista",
         "financeiro",
