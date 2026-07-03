@@ -6,6 +6,7 @@ from parsers.vodacom_mz import parse_vodacom_mz
 from parsers.bci import parse_bci
 from parsers.millennium_bim import parse_millennium_bim
 from parsers.movitel import parse_movitel
+from parsers.contact_mz import parse_contact_mz
 
 
 PARSERS = {
@@ -16,5 +17,6 @@ PARSERS = {
     "vodacom_mz": parse_vodacom_mz,
     "bci": parse_bci,
     "millennium_bim": parse_millennium_bim,
-    "movitel": parse_movitel
+    "movitel": parse_movitel,
+     "contact_mz": parse_contact_mz
 }
