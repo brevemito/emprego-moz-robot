@@ -121,7 +121,7 @@ if __name__ == "__main__":
     print("========================\n")
 
     # 5. inserir na base de dados
-    for job in jobs[:20]:
+    for job in jobs:
         inserted = insert_job(job)
 
         if inserted:
