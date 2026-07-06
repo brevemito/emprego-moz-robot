@@ -1,3 +1,0 @@
-git add .gitignore
-git commit -m "remove invalid db and ignore sqlite files"
-git push
