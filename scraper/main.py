@@ -3,6 +3,7 @@
 import re
 import sys
 import requests
+from requests.exceptions import ConnectionError, Timeout
 
 from parsers import PARSERS
 from sources import SOURCES
@@ -37,6 +38,17 @@ def is_real_job(job):
     if len(title) < 12:
         return False
 
+    # ========================
+    # TAREFA 1: Rejeitar artefactos de template não renderizado
+    # ========================
+    # Vue.js, Angular, e outras frameworks deixam {{ }}, v-, ng- quando não renderizam
+    if "{{" in title or "}}" in title:
+        return False
+    if title.startswith("v-") or " v-" in title:
+        return False
+    if "ng-" in title:
+        return False
+
     bad_patterns = [
         "cookie",
         "política",
@@ -63,6 +75,15 @@ def is_real_job(job):
 # =========================
 def fetch_jobs():
     jobs = []
+
+    # ========================
+    # TAREFA 5: Rastreamento de falhas por categoria
+    # ========================
+    failed_sources = {
+        "no_parser": [],
+        "network_error": [],
+        "zero_results": []
+    }
 
     for source in SOURCES:
 
@@ -91,12 +112,46 @@ def fetch_jobs():
             if parser:
                 parsed_jobs = parser(response.text, source["url"])
                 jobs.extend(parsed_jobs)
-                print(f"  → {len(parsed_jobs)} vagas recolhidas de {source['name']}")
+                
+                if len(parsed_jobs) == 0:
+                    print(f"  ⚠️ Nenhuma vaga extraída de {source['name']}")
+                    failed_sources["zero_results"].append(source['name'])
+                else:
+                    print(f"  ✅ {len(parsed_jobs)} vagas recolhidas de {source['name']}")
             else:
                 print(f"  ⚠️ Sem parser definido para {source['name']}")
+                failed_sources["no_parser"].append(source['name'])
 
+        except (ConnectionError, Timeout) as e:
+            print(f"  ❌ Erro de rede em {source['name']}: {type(e).__name__}")
+            failed_sources["network_error"].append(source['name'])
         except Exception as e:
-            print(f"  ❌ Erro em {source['name']}: {e}")
+            print(f"  ❌ Erro inesperado em {source['name']}: {e}")
+
+    # ========================
+    # Relatório de falhas (Tarefa 5)
+    # ========================
+    if any(failed_sources.values()):
+        print("\n" + "=" * 60)
+        print("RESUMO DE FALHAS")
+        print("=" * 60)
+        
+        if failed_sources["no_parser"]:
+            print(f"\n⚠️ Sem parser definido ({len(failed_sources['no_parser'])}):")
+            for source_name in failed_sources["no_parser"]:
+                print(f"   - {source_name}")
+        
+        if failed_sources["network_error"]:
+            print(f"\n❌ Erro de rede ({len(failed_sources['network_error'])}):")
+            for source_name in failed_sources["network_error"]:
+                print(f"   - {source_name}")
+        
+        if failed_sources["zero_results"]:
+            print(f"\n⚠️ Sem vagas extraídas ({len(failed_sources['zero_results'])}):")
+            for source_name in failed_sources["zero_results"]:
+                print(f"   - {source_name}")
+        
+        print("=" * 60)
 
     return jobs
 
@@ -125,7 +180,7 @@ if __name__ == "__main__":
         print("  - Parsers em scraper/parsers/")
         sys.exit(1)
 
-    print(f"\n✅ Total de vagas recolhidas: {len(jobs)}")
+    print(f"\n✅ Total de vagas recolhidas (bruto): {len(jobs)}")
 
     cleaned_jobs = []
 
