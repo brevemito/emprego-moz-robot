@@ -6,10 +6,12 @@ def parse_movitel(html, source_url):
     soup = BeautifulSoup(html, "html.parser")
 
     jobs = []
+    seen_urls = set()  # Tarefa 4: Deduplicação dentro da página
 
     for a in soup.find_all("a"):
 
-        title = a.get_text(strip=True)
+        # Tarefa 2: Separador de espaço na extração
+        title = a.get_text(separator=" ", strip=True)
 
         if not title:
             continue
@@ -44,6 +46,12 @@ def parse_movitel(html, source_url):
             link = urljoin(source_url, link)
         else:
             link = source_url
+
+        # Tarefa 4: Normalizar URL e verificar duplicação
+        normalized_url = link.split("?")[0]
+        if normalized_url in seen_urls:
+            continue
+        seen_urls.add(normalized_url)
 
         jobs.append({
             "title": title,
