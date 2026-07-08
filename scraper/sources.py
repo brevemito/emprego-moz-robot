@@ -95,11 +95,6 @@ SOURCES = [
         "url": "https://www.crowe.com/mz/en-gb/careers"
     },
 
-    {
-        "name": "contact_mz",
-        "url": "https://www.contact.co.mz"
-    },
-
     # =========================
     # ORGANIZAÇÕES INTERNACIONAIS
     # =========================
