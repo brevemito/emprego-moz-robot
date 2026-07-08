@@ -33,7 +33,7 @@ SOURCES = [
 
     {
         "name": "enh",
-        "url": "https://www.enh.co.mz/carreira/"
+        "url": "https://precrutamento.enh.co.mz/vagas"
     },
 
     # BANCOS
