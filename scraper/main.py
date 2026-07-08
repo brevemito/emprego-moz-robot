@@ -1,6 +1,7 @@
 # Robô de recolha de empregos - Moçambique
 
 import re
+import sys
 import requests
 
 from parsers import PARSERS
@@ -90,11 +91,12 @@ def fetch_jobs():
             if parser:
                 parsed_jobs = parser(response.text, source["url"])
                 jobs.extend(parsed_jobs)
+                print(f"  → {len(parsed_jobs)} vagas recolhidas de {source['name']}")
             else:
-                print(f"Sem parser definido para {source['name']}")
+                print(f"  ⚠️ Sem parser definido para {source['name']}")
 
         except Exception as e:
-            print(f"Erro em {source['name']}: {e}")
+            print(f"  ❌ Erro em {source['name']}: {e}")
 
     return jobs
 
@@ -109,6 +111,21 @@ if __name__ == "__main__":
 
     # Recolher vagas
     jobs = fetch_jobs()
+
+    # ========================
+    # VERIFICAÇÃO CRÍTICA: falha se nenhuma vaga foi recolhida
+    # ========================
+    if len(jobs) == 0:
+        print("\n" + "=" * 50)
+        print("❌ ERRO CRÍTICO: Nenhuma vaga foi recolhida!")
+        print("=" * 50)
+        print("\nVerificar:")
+        print("  - Conectividade de rede")
+        print("  - Status das fontes (bloqueios, mudanças de URL)")
+        print("  - Parsers em scraper/parsers/")
+        sys.exit(1)
+
+    print(f"\n✅ Total de vagas recolhidas: {len(jobs)}")
 
     cleaned_jobs = []
 
@@ -157,4 +174,4 @@ if __name__ == "__main__":
     print("\nExportando JSON...")
     export_jobs_to_json()
 
-    print("Concluído.")
+    print("✅ Concluído com sucesso.")
