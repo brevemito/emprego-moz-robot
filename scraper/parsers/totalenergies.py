@@ -19,7 +19,7 @@ def parse_totalenergies(html, source_url):
 
         title_lower = title.lower()
 
-        # filtros de lixo
+        # Filtro de navegação e lixo - EXPANDIDO
         lixo = [
             "cookie",
             "privacy",
@@ -28,10 +28,49 @@ def parse_totalenergies(html, source_url):
             "register",
             "share",
             "follow",
-            "read more"
+            "read more",
+            "pular para",
+            "skip to",
+            "home",
+            "início",
+            "contacto",
+            "contact",
+            "sobre nós",
+            "about",
+            "política",
+            "privacidade",
+            "faq",
+            "sugestões",
+            "reclamações",
+            "preçário",
+            "compromisso",
+            "acessibilidade",
+            "condições",
+            "termos de utilização",
+            "cookie policy",
+            "código de conduta",
+            "relatório",
+            "estrutura",
+            "accionista",
+            "áreas de negócio",
+            "contas",
+            "mercados",
+            "sustentabilidade",
+            "responsabilidade social",
+            "grupo",
+            "careers",
+            "trabalho",
+            "emprego",
+            "português",
+            "english",
+            "bindings",
+            "corporate",
+            "video:",
+            "nossa"
         ]
 
-        if len(title) < 15:
+        # Comprimento mínimo aumentado para 20 caracteres
+        if len(title) < 20:
             continue
 
         if any(x in title_lower for x in lixo):
