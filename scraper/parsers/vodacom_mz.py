@@ -19,7 +19,7 @@ def parse_vodacom_mz(html, source_url):
 
         title_lower = title.lower()
 
-        # filtros de lixo corporativo
+        # Filtro de navegação e lixo - EXPANDIDO
         lixo = [
             "cookie",
             "privacy",
@@ -29,10 +29,37 @@ def parse_vodacom_mz(html, source_url):
             "sign in",
             "share",
             "follow",
-            "search"
+            "search",
+            "pular para",
+            "skip to",
+            "home",
+            "início",
+            "contacto",
+            "contact",
+            "about",
+            "sobre",
+            "where",
+            "duty",
+            "station",
+            "organization",
+            "closing",
+            "soon",
+            "português",
+            "english",
+            "map",
+            "mapa",
+            "site",
+            "careers",
+            "find out",
+            "opens a new",
+            "asia-pac",
+            "middle east",
+            "group careers",
+            "vodafone group"
         ]
 
-        if len(title) < 10:
+        # Comprimento mínimo aumentado para 20 caracteres
+        if len(title) < 20:
             continue
 
         if any(x in title_lower for x in lixo):
