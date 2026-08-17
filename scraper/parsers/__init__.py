@@ -8,6 +8,9 @@ from parsers.millennium_bim import parse_millennium_bim
 from parsers.movitel import parse_movitel
 from parsers.contact_mz import parse_contact_mz
 from parsers.enh import parse_enh
+from parsers.agl_transport import parse_agl_transport
+from parsers.un_mozambique import parse_un_mozambique
+from parsers.absa import parse_absa
 
 
 PARSERS = {
@@ -19,6 +22,9 @@ PARSERS = {
     "bci": parse_bci,
     "millennium_bim": parse_millennium_bim,
     "movitel": parse_movitel,
-     "contact_mz": parse_contact_mz,
-    "enh": parse_enh
+    "contact_mz": parse_contact_mz,
+    "enh": parse_enh,
+    "agl_transport": parse_agl_transport,
+    "un_mozambique": parse_un_mozambique,
+    "absa": parse_absa
 }
