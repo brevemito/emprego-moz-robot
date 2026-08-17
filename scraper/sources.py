@@ -36,7 +36,10 @@ SOURCES = [
         "url": "https://precrutamento.enh.co.mz/vagas"
     },
 
+    # =========================
     # BANCOS
+    # =========================
+
     {
         "name": "bci",
         "url": "https://www.bci.co.mz/recrutamento/"
@@ -57,7 +60,17 @@ SOURCES = [
         "url": "https://www.mozabanco.co.mz/en/institutional/careers"
     },
 
+    {
+        "name": "absa",
+        # O parser faz o pedido POST à API Workday da Absa.
+        # Este URL serve como URL inicial da fonte.
+        "url": "https://absa.wd3.myworkdayjobs.com/ABSAcareersite"
+    },
+
+    # =========================
     # TELECOMUNICAÇÕES
+    # =========================
+
     {
         "name": "vodacom_mz",
         "url": "https://careers.vodafone.com/mozambique/"
@@ -73,7 +86,10 @@ SOURCES = [
         "url": "https://www.movitel.co.mz/"
     },
 
+    # =========================
     # INDÚSTRIA / FMCG
+    # =========================
+
     {
         "name": "heineken_mz",
         "url": "https://careers.theheinekencompany.com/Mozambique/"
@@ -89,15 +105,34 @@ SOURCES = [
         "url": "https://mozparks.co.mz/careers/"
     },
 
+    # =========================
     # CONSULTORIA / SERVIÇOS
+    # =========================
+
     {
         "name": "crowe_mz",
         "url": "https://www.crowe.com/mz/en-gb/careers"
     },
 
     # =========================
+    # LOGÍSTICA / TRANSPORTES
+    # =========================
+
+    {
+        "name": "agl_transport",
+        # RSS da AGL filtrado para Moçambique.
+        # Rss_JobCountry=159 corresponde a Moçambique.
+        "url": "https://acareerbyagl.talent-soft.com/handlers/offerRss.ashx?LCID=1036&Rss_JobCountry=159"
+    },
+
+    # =========================
     # ORGANIZAÇÕES INTERNACIONAIS
     # =========================
+
+    {
+        "name": "un_mozambique",
+        "url": "https://mozambique.un.org/pt/jobs"
+    },
 
     {
         "name": "reliefweb",
