@@ -66,7 +66,11 @@ def parse_totalenergies(html, source_url):
             "bindings",
             "corporate",
             "video:",
-            "nossa"
+            "nossa",
+            "nosso",
+            "nossos",
+            "página inicial",
+            "negócio principal"
         ]
 
         # Comprimento mínimo aumentado para 20 caracteres

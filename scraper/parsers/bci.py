@@ -69,7 +69,9 @@ def parse_bci(html, source_url):
             "escolher um",
             "aderir",
             "comprar um",
-            "reactivar"
+            "reactivar",
+            "onde estamos",
+            "contas à ordem"
         ]
 
         # Comprimento mínimo aumentado para 20 caracteres
