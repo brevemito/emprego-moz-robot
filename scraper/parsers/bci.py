@@ -18,6 +18,7 @@ def parse_bci(html, source_url):
 
         title_lower = title.lower()
 
+        # Filtro de navegação e lixo - EXPANDIDO
         lixo = [
             "cookie",
             "privacy",
@@ -28,10 +29,41 @@ def parse_bci(html, source_url):
             "home",
             "contacto",
             "sobre nós",
-            "search"
+            "search",
+            "pular para",
+            "skip to",
+            "where",
+            "onde",
+            "acesso",
+            "conta",
+            "financiamento",
+            "seguro",
+            "cartão",
+            "ebanking",
+            "imóvel",
+            "actualização",
+            "dados",
+            "condições",
+            "utilização",
+            "sugestões",
+            "reclamações",
+            "carteira",
+            "preçário",
+            "responsabilidade",
+            "código de conduta",
+            "relatório",
+            "estrutura",
+            "accionista",
+            "negócio",
+            "sustentabilidade",
+            "português",
+            "english",
+            "moçambique",
+            "careers"
         ]
 
-        if len(title) < 10:
+        # Comprimento mínimo aumentado para 20 caracteres
+        if len(title) < 20:
             continue
 
         if any(x in title_lower for x in lixo):
