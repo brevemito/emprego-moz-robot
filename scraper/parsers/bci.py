@@ -59,7 +59,17 @@ def parse_bci(html, source_url):
             "português",
             "english",
             "moçambique",
-            "careers"
+            "careers",
+            "institucional",
+            "serviços",
+            "financeiros",
+            "bancário",
+            "particulares",
+            "pedir um",
+            "escolher um",
+            "aderir",
+            "comprar um",
+            "reactivar"
         ]
 
         # Comprimento mínimo aumentado para 20 caracteres
