@@ -1,55 +1,56 @@
-from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+import json
+
+# A página pública reliefweb.int/jobs é renderizada em JavaScript (React) -
+# um GET simples devolve uma shell HTML vazia, por isso esta fonte
+# produzia sempre 0 resultados. O ReliefWeb disponibiliza, no entanto,
+# uma API pública em JSON (sem necessidade de chave de API para uso
+# moderado) que devolve exactamente os mesmos dados de forma estruturada.
+# Ver: https://apidoc.reliefweb.int/
 
 
-def parse_reliefweb(html, source_url):
-    soup = BeautifulSoup(html, "html.parser")
-
+def parse_reliefweb(response_text, source_url):
     jobs = []
-    seen_urls = set()  # Tarefa 4: Deduplicação dentro da página
+    seen_urls = set()
 
-    # ReliefWeb usa links com estrutura relativamente limpa
-    for a in soup.find_all("a"):
+    try:
+        data = json.loads(response_text)
+    except (ValueError, TypeError):
+        return jobs
 
-        # Tarefa 2: Separador de espaço na extração
-        title = a.get_text(separator=" ", strip=True)
+    for item in data.get("data", []):
 
-        if not title or len(title) < 10:
+        fields = item.get("fields", {})
+
+        title = (fields.get("title") or "").strip()
+
+        if not title:
             continue
 
-        title_lower = title.lower()
+        link = fields.get("url_alias") or fields.get("url") or source_url
 
-        lixo = [
-            "home",
-            "about",
-            "contact",
-            "terms",
-            "privacy",
-            "login",
-            "subscribe",
-            "rss"
-        ]
-
-        if any(x in title_lower for x in lixo):
-            continue
-
-        link = a.get("href")
-
-        if link:
-            link = urljoin(source_url, link)
-        else:
-            link = source_url
-
-        # Tarefa 4: Normalizar URL e verificar duplicação
         normalized_url = link.split("?")[0]
         if normalized_url in seen_urls:
             continue
         seen_urls.add(normalized_url)
 
+        company = "ReliefWeb"
+        sources = fields.get("source") or []
+        if sources and isinstance(sources, list):
+            first_source_name = sources[0].get("name")
+            if first_source_name:
+                company = first_source_name
+
+        countries = fields.get("country") or []
+        location = "Moçambique"
+        if countries and isinstance(countries, list):
+            country_names = [c.get("name") for c in countries if c.get("name")]
+            if country_names:
+                location = ", ".join(country_names)
+
         jobs.append({
             "title": title,
-            "company": "ReliefWeb",
-            "location": "Moçambique",
+            "company": company,
+            "location": location,
             "description": title,
             "url": link,
             "source": "reliefweb"
