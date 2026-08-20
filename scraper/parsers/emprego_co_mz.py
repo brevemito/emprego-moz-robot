@@ -1,47 +1,43 @@
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
+import job_validator as jv
+
+# ESTRUTURA CONFIRMADA: no emprego.co.mz, cada vaga individual tem uma
+# página de detalhe em /vaga/<slug>/ (ex.: https://www.emprego.co.mz/vaga/
+# tecnico-de-manutencao-de-dados-e-insercao-de-informacao-de-cliente-m-f-2/).
+# Qualquer outro link (menu, footer, páginas institucionais, FAQ, perfil de
+# candidato, etc.) NÃO segue este padrão, por isso exigir "/vaga/" no URL é
+# uma evidência estrutural muito mais forte do que qualquer lista de
+# palavras a filtrar.
+JOB_DETAIL_URL_HINT = "/vaga/"
+
 
 def parse_emprego_co_mz(html, source_url):
     soup = BeautifulSoup(html, "html.parser")
 
     jobs = []
-    seen_urls = set()  # Tarefa 4: Deduplicação dentro da página
+    seen_urls = set()
 
     for a in soup.find_all("a"):
 
-        # Tarefa 2: Separador de espaço na extração
         title = a.get_text(separator=" ", strip=True)
 
-        if not title or len(title) < 20:
+        if not title:
             continue
 
-        # tenta capturar link real da vaga
         link = a.get("href")
 
         if link:
             link = urljoin(source_url, link)
         else:
-            link = source_url
+            continue  # sem link não há como confirmar que é uma vaga
 
-        title_lower = title.lower()
-
-        lixo = [
-            "cookie",
-            "política",
-            "privacidade",
-            "login",
-            "register",
-            "sobre nós",
-            "contacto",
-            "faq",
-            "subscribe"
-        ]
-
-        if any(x in title_lower for x in lixo):
+        # Evidência estrutural: só continuamos se o URL for mesmo uma
+        # página de detalhe de vaga.
+        if JOB_DETAIL_URL_HINT not in link:
             continue
 
-        # Tarefa 4: Normalizar URL e verificar duplicação
         normalized_url = link.split("?")[0]
         if normalized_url in seen_urls:
             continue
@@ -56,6 +52,15 @@ def parse_emprego_co_mz(html, source_url):
             "source": "emprego_co_mz"
         }
 
+        # Validação estrutural centralizada (JobValidator): mesmo com o
+        # URL a bater certo, confirmamos que o título tem evidência de
+        # ser mesmo um cargo, para apanhar casos raros de links de
+        # partilha/redes sociais que por acaso reutilizem o padrão de URL.
+        result = jv.classify(job["title"], job["description"], job["url"])
+        if not result["is_valid"]:
+            continue
+
+        job["validity_score"] = result["validity_score"]
         jobs.append(job)
 
     return jobs
