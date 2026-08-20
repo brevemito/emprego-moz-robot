@@ -7,76 +7,103 @@ from urllib.parse import urljoin
 # API interna do Workday (endpoint "CXS"), que exige um pedido POST com um
 # corpo JSON. Por isso este parser ignora o "html" recebido de main.py
 # (resultado do GET inicial) e faz o seu próprio pedido POST à API.
+#
+# MELHORIA: a versão anterior usava "searchText": "Mozambique", que depende
+# do algoritmo de relevância textual do Workday e pode não devolver vagas
+# cujo título não mencione "Mozambique" explicitamente, mesmo que a
+# localização seja Moçambique. Passámos a pesquisar sem texto (todas as
+# vagas abertas) e a paginar por várias páginas, filtrando sempre pelo
+# campo estruturado "locationsText" - mais lento, mas muito mais completo.
 
 API_URL = "https://absa.wd3.myworkdayjobs.com/wday/cxs/absa/ABSAcareersite/jobs"
 CAREERS_BASE = "https://absa.wd3.myworkdayjobs.com/ABSAcareersite"
 
+PAGE_SIZE = 20
+MAX_PAGES = 10  # cobre até 200 vagas abertas, suficiente para o volume da Absa
+
+
+def _fetch_page(offset):
+    payload = {
+        "appliedFacets": {},
+        "limit": PAGE_SIZE,
+        "offset": offset,
+        "searchText": ""
+    }
+
+    response = requests.post(
+        API_URL,
+        json=payload,
+        timeout=15,
+        headers={
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": (
+                "Mozilla/5.0 "
+                "(Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 "
+                "(KHTML, like Gecko) "
+                "Chrome/138.0 Safari/537.36"
+            )
+        }
+    )
+    response.raise_for_status()
+    return response.json()
+
 
 def parse_absa(html, source_url):
     jobs = []
-    seen_urls = set()  # Deduplicação dentro da resposta
+    seen_urls = set()
 
-    payload = {
-        "appliedFacets": {},
-        "limit": 20,
-        "offset": 0,
-        "searchText": "Mozambique"
-    }
+    total_available = None
 
-    try:
-        response = requests.post(
-            API_URL,
-            json=payload,
-            timeout=15,
-            headers={
-                "Content-Type": "application/json",
-                "Accept": "application/json",
-                "User-Agent": (
-                    "Mozilla/5.0 "
-                    "(Windows NT 10.0; Win64; x64) "
-                    "AppleWebKit/537.36 "
-                    "(KHTML, like Gecko) "
-                    "Chrome/138.0 Safari/537.36"
-                )
-            }
-        )
-        response.raise_for_status()
-        data = response.json()
-    except (requests.exceptions.RequestException, ValueError):
-        return jobs
+    for page in range(MAX_PAGES):
+        offset = page * PAGE_SIZE
 
-    postings = data.get("jobPostings", [])
+        try:
+            data = _fetch_page(offset)
+        except (requests.exceptions.RequestException, ValueError):
+            break
 
-    for posting in postings:
+        if total_available is None:
+            total_available = data.get("total", 0)
 
-        title = (posting.get("title") or "").strip()
+        postings = data.get("jobPostings", [])
 
-        if not title or len(title) < 10:
-            continue
+        if not postings:
+            break
 
-        location = (posting.get("locationsText") or "Moçambique").strip()
+        for posting in postings:
 
-        # Filtro de segurança extra: a pesquisa já foi feita por "Mozambique",
-        # mas confirmamos que o texto de localização também o refere, para
-        # evitar vagas de outros países que só correspondam no título.
-        if "mozambique" not in location.lower() and "moçambique" not in location.lower():
-            continue
+            title = (posting.get("title") or "").strip()
 
-        external_path = posting.get("externalPath") or ""
-        link = urljoin(CAREERS_BASE + "/", external_path.lstrip("/")) if external_path else source_url
+            if not title:
+                continue
 
-        normalized_url = link.split("?")[0]
-        if normalized_url in seen_urls:
-            continue
-        seen_urls.add(normalized_url)
+            location = (posting.get("locationsText") or "").strip()
 
-        jobs.append({
-            "title": title,
-            "company": "Absa",
-            "location": location,
-            "description": title,
-            "url": link,
-            "source": "absa"
-        })
+            if "mozambique" not in location.lower() and "moçambique" not in location.lower():
+                continue
+
+            external_path = posting.get("externalPath") or ""
+            link = urljoin(CAREERS_BASE + "/", external_path.lstrip("/")) if external_path else source_url
+
+            normalized_url = link.split("?")[0]
+            if normalized_url in seen_urls:
+                continue
+            seen_urls.add(normalized_url)
+
+            jobs.append({
+                "title": title,
+                "company": "Absa",
+                "location": location or "Moçambique",
+                "description": title,
+                "url": link,
+                "source": "absa"
+            })
+
+        # Já percorremos todas as vagas disponíveis - não vale a pena
+        # continuar a paginar.
+        if total_available is not None and offset + PAGE_SIZE >= total_available:
+            break
 
     return jobs
