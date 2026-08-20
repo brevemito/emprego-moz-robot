@@ -1,90 +1,62 @@
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
+import job_validator as jv
+
+# INVESTIGAÇÃO (fonte a devolver 0 resultados):
+#
+# O portal de carreiras da Vodafone/Vodacom (careers.vodafone.com e
+# jobs.vodafone.com) corre sobre a plataforma Eightfold ("PCSX"), uma
+# Single Page Application em React. Confirmámos directamente que um GET
+# simples a estas páginas devolve apenas uma "shell" HTML com
+# configuração de UI em JSON (temas, textos, formulários) - NENHUMA
+# vaga vem no HTML inicial; as vagas só chegam depois via chamadas
+# JavaScript à API interna da Eightfold.
+#
+# A Eightfold não disponibiliza uma API pública gratuita para consulta
+# de vagas (requer token OAuth pago, ou um browser headless tipo
+# Playwright/Selenium, fora do âmbito deste scraper baseado em
+# requests + BeautifulSoup). Para não arriscar inventar um endpoint não
+# documentado nem confirmado, mantemos aqui a extracção estrutural
+# best-effort (sem blacklists manuais, delegando no JobValidator), mas
+# é esperado que esta fonte continue a devolver 0 resultados até se
+# adicionar suporte a renderização JavaScript ao projecto.
+
 
 def parse_vodacom_mz(html, source_url):
     soup = BeautifulSoup(html, "html.parser")
 
     jobs = []
-    seen_urls = set()  # Tarefa 4: Deduplicação dentro da página
+    seen_urls = set()
 
-    # Workday / portais corporativos usam links + títulos estruturados
-    for a in soup.find_all("a"):
+    for a in soup.find_all("a", href=True):
 
-        # Tarefa 2: Separador de espaço na extração
         title = a.get_text(separator=" ", strip=True)
 
         if not title:
             continue
 
-        title_lower = title.lower()
+        link = urljoin(source_url, a["href"])
 
-        # Filtro de navegação e lixo - EXPANDIDO
-        lixo = [
-            "cookie",
-            "privacy",
-            "terms",
-            "login",
-            "register",
-            "sign in",
-            "share",
-            "follow",
-            "search",
-            "pular para",
-            "skip to",
-            "home",
-            "início",
-            "contacto",
-            "contact",
-            "about",
-            "sobre",
-            "where",
-            "duty",
-            "station",
-            "organization",
-            "closing",
-            "soon",
-            "português",
-            "english",
-            "map",
-            "mapa",
-            "site",
-            "careers",
-            "find out",
-            "opens a new",
-            "asia-pac",
-            "middle east",
-            "group careers",
-            "vodafone group"
-        ]
-
-        # Comprimento mínimo aumentado para 20 caracteres
-        if len(title) < 20:
-            continue
-
-        if any(x in title_lower for x in lixo):
-            continue
-
-        link = a.get("href")
-
-        if link:
-            link = urljoin(source_url, link)
-        else:
-            link = source_url
-
-        # Tarefa 4: Normalizar URL e verificar duplicação
         normalized_url = link.split("?")[0]
         if normalized_url in seen_urls:
             continue
         seen_urls.add(normalized_url)
 
-        jobs.append({
+        job = {
             "title": title,
             "company": "Vodacom Moçambique",
             "location": "Moçambique",
             "description": title,
             "url": link,
             "source": "vodacom_mz"
-        })
+        }
+
+        result = jv.classify(job["title"], job["description"], job["url"])
+        if not result["is_valid"]:
+            continue
+
+        job["validity_score"] = result["validity_score"]
+        jobs.append(job)
 
     return jobs
