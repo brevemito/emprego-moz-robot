@@ -1,35 +1,28 @@
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
+import job_validator as jv
+
+# ESTRUTURA CONFIRMADA: no unjobs.org, cada vaga individual tem uma página
+# de detalhe em /vacancies/<id> (ex.: https://unjobs.org/vacancies/
+# 1771597297607). Os chips de filtro do menu lateral ("Duty Stations",
+# "Organizations", "Closing Soon", etc.) e os links para páginas de
+# organizações NÃO seguem este padrão, por isso exigir "/vacancies/" no
+# URL elimina-os estruturalmente.
+JOB_DETAIL_URL_HINT = "/vacancies/"
+
 
 def parse_unjobs(html, source_url):
     soup = BeautifulSoup(html, "html.parser")
 
     jobs = []
-    seen_urls = set()  # Tarefa 4: Deduplicação dentro da página
+    seen_urls = set()
 
-    # UNJobs normalmente usa links diretos para vagas
     for a in soup.find_all("a"):
 
-        # Tarefa 2: Separador de espaço na extração
         title = a.get_text(separator=" ", strip=True)
 
         if not title or len(title) < 10:
-            continue
-
-        title_lower = title.lower()
-
-        lixo = [
-            "home",
-            "about",
-            "contact",
-            "privacy",
-            "terms",
-            "login",
-            "register"
-        ]
-
-        if any(x in title_lower for x in lixo):
             continue
 
         link = a.get("href")
@@ -37,21 +30,30 @@ def parse_unjobs(html, source_url):
         if link:
             link = urljoin(source_url, link)
         else:
-            link = source_url
+            continue
 
-        # Tarefa 4: Normalizar URL e verificar duplicação
+        if JOB_DETAIL_URL_HINT not in link:
+            continue
+
         normalized_url = link.split("?")[0]
         if normalized_url in seen_urls:
             continue
         seen_urls.add(normalized_url)
 
-        jobs.append({
+        job = {
             "title": title,
             "company": "UN Jobs",
             "location": "Moçambique",
             "description": title,
             "url": link,
             "source": "unjobs"
-        })
+        }
+
+        result = jv.classify(job["title"], job["description"], job["url"])
+        if not result["is_valid"]:
+            continue
+
+        job["validity_score"] = result["validity_score"]
+        jobs.append(job)
 
     return jobs
