@@ -23,7 +23,10 @@ SOURCES = [
     # ENERGIA / OIL & GAS
     {
         "name": "totalenergies",
-        "url": "https://jobs.totalenergies.com/pt_BR/careers/Home"
+        # Substituída a homepage (SPA, 0 resultados) pela página de
+        # resultados de pesquisa, que é renderizada no servidor.
+        # jobRecordsPerPage alto para tentar capturar tudo numa só página.
+        "url": "https://jobs.totalenergies.com/en_US/careers/SearchJobs/Mozambique/?listFilterMode=1&jobRecordsPerPage=100"
     },
 
     {
@@ -73,7 +76,10 @@ SOURCES = [
 
     {
         "name": "vodacom_mz",
-        "url": "https://careers.vodafone.com/mozambique/"
+        # NOTA: continua a devolver 0 resultados - confirmámos que é uma
+        # SPA (Eightfold/PCSX) sem HTML de vagas no GET inicial. Ver
+        # comentário detalhado em parsers/vodacom_mz.py.
+        "url": "https://jobs.vodafone.com/careers?domain=vodafone.com&location=Mozambique"
     },
 
     {
@@ -136,7 +142,9 @@ SOURCES = [
 
     {
         "name": "reliefweb",
-        "url": "https://reliefweb.int/jobs?country=MOZ"
+        # A página pública é renderizada em JS (0 resultados via GET simples).
+        # Passámos a usar a API pública em JSON, filtrada por Moçambique.
+        "url": "https://api.reliefweb.int/v2/jobs?appname=brevemito-emprego-moz-robot&filter[field]=country.iso3&filter[value]=MOZ&fields[include][]=title&fields[include][]=url&fields[include][]=url_alias&fields[include][]=source&fields[include][]=country&sort[]=date.created:desc&limit=30"
     },
 
     {
