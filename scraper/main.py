@@ -104,8 +104,16 @@ def fetch_jobs():
         # Isto NÃO resolve bloqueios de IP feitos de propósito pelo site
         # (nesse caso, ambas as tentativas falham da mesma forma) - só
         # ajuda em casos de lentidão/instabilidade pontual.
+        #
+        # IMPORTANTE: aqui só se faz o pedido GET e só se apanha
+        # ConnectionError/Timeout (erros que fazem sentido repetir). A
+        # verificação de códigos de erro HTTP (raise_for_status - 403,
+        # 404, 500, etc.) é feita mais abaixo, dentro do try/except
+        # genérico, para nunca deixar escapar uma excepção não apanhada
+        # que rebente o programa inteiro (foi isto que aconteceu com o
+        # 403 do ReliefWeb).
         response = None
-        last_error = None
+        last_connection_error = None
 
         for attempt in range(2):
             try:
@@ -122,19 +130,24 @@ def fetch_jobs():
                         )
                     }
                 )
-                response.raise_for_status()
-                last_error = None
+                last_connection_error = None
                 break
             except (ConnectionError, Timeout) as e:
-                last_error = e
+                last_connection_error = e
                 if attempt == 0:
                     print(f"  ⏳ 1ª tentativa falhou ({type(e).__name__}), a tentar de novo...")
                     time.sleep(3)
                 continue
 
         try:
-            if last_error is not None:
-                raise last_error
+            if last_connection_error is not None:
+                raise last_connection_error
+
+            # Verifica códigos de erro HTTP (403, 404, 500, etc.) aqui
+            # dentro, para HTTPError ser apanhado pelo "except Exception"
+            # abaixo, tal como qualquer outro erro inesperado desta fonte,
+            # em vez de rebentar toda a execução do scraper.
+            response.raise_for_status()
 
             parser = PARSERS.get(name)
 
