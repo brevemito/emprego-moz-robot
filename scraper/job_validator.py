@@ -55,7 +55,7 @@ JOB_ROLE_KEYWORDS = [
     "engenheiro", "engenheira", "assistente", "coordenador", "coordenadora",
     "director", "diretor", "directora", "diretora", "analista", "consultor",
     "consultora", "motorista", "estagiário", "estagiario", "estagiária",
-    "estagiaria", "chefe", "supervisor", "supervisora", "agente", "oficial",
+    "estagiaria", "estágio", "estagio", "chefe", "supervisor", "supervisora", "agente", "oficial",
     "contabilista", "auditor", "auditora", "secretário", "secretario",
     "secretária", "secretaria", "recepcionista", "enfermeiro", "enfermeira",
     "professor", "professora", "formador", "formadora", "electricista",
@@ -96,8 +96,14 @@ JOB_ROLE_KEYWORDS = [
 # (ex.: "chefe") "escondam" correspondências mais longas ao construir a
 # regex; na prática usamos \b por palavra, por isso a ordem não é
 # estritamente necessária, mas mantém-se por clareza.
+#
+# IMPORTANTE: o sufixo opcional (?:es|s)? permite apanhar plurais, tanto
+# em português ("gestor" -> "gestores", "sinaleiro" -> "sinaleiros") como
+# em inglês ("manager" -> "managers", "driver" -> "drivers"). Sem isto,
+# QUALQUER vaga anunciada no plural (muito comum: "Motoristas",
+# "Estagiários", "Warehouses Coordinator") era incorrectamente rejeitada.
 _JOB_ROLE_REGEX = re.compile(
-    r"\b(" + "|".join(re.escape(k) for k in sorted(JOB_ROLE_KEYWORDS, key=len, reverse=True)) + r")\b",
+    r"\b(?:" + "|".join(re.escape(k) for k in sorted(JOB_ROLE_KEYWORDS, key=len, reverse=True)) + r")(?:es|s)?\b",
     re.IGNORECASE
 )
 
