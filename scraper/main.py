@@ -98,23 +98,43 @@ def fetch_jobs():
 
         print(f"\nA recolher de: {name}")
 
+        # Duas tentativas: a primeira falha por lentidão de rede é comum
+        # em CI (GitHub Actions), sobretudo para sites moçambicanos mais
+        # lentos a responder a partir de datacenters fora de África.
+        # Isto NÃO resolve bloqueios de IP feitos de propósito pelo site
+        # (nesse caso, ambas as tentativas falham da mesma forma) - só
+        # ajuda em casos de lentidão/instabilidade pontual.
+        response = None
+        last_error = None
+
+        for attempt in range(2):
+            try:
+                response = requests.get(
+                    source["url"],
+                    timeout=25,
+                    headers={
+                        "User-Agent": (
+                            "Mozilla/5.0 "
+                            "(Windows NT 10.0; Win64; x64) "
+                            "AppleWebKit/537.36 "
+                            "(KHTML, like Gecko) "
+                            "Chrome/138.0 Safari/537.36"
+                        )
+                    }
+                )
+                response.raise_for_status()
+                last_error = None
+                break
+            except (ConnectionError, Timeout) as e:
+                last_error = e
+                if attempt == 0:
+                    print(f"  ⏳ 1ª tentativa falhou ({type(e).__name__}), a tentar de novo...")
+                    time.sleep(3)
+                continue
+
         try:
-
-            response = requests.get(
-                source["url"],
-                timeout=15,
-                headers={
-                    "User-Agent": (
-                        "Mozilla/5.0 "
-                        "(Windows NT 10.0; Win64; x64) "
-                        "AppleWebKit/537.36 "
-                        "(KHTML, like Gecko) "
-                        "Chrome/138.0 Safari/537.36"
-                    )
-                }
-            )
-
-            response.raise_for_status()
+            if last_error is not None:
+                raise last_error
 
             parser = PARSERS.get(name)
 
