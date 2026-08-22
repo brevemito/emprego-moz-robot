@@ -68,7 +68,15 @@ def parse_mozambique_lng(html, source_url):
 
         job = {
             "title": title,
-            "company": "Mozambique LNG (TotalEnergies)",
+            # NOTA: usamos o mesmo nome de empresa que totalenergies.py
+            # ("TotalEnergies"), de propósito. O filtro de projecto no URL
+            # desta fonte nem sempre restringe fiavelmente os resultados
+            # (por vezes devolve exactamente a mesma lista de vagas que a
+            # fonte "totalenergies"). Como a deduplicação da base de dados
+            # usa título+empresa+URL, manter o mesmo nome de empresa
+            # garante que vagas idênticas ficam correctamente marcadas
+            # como "Duplicado" em vez de inseridas em duplicado.
+            "company": "TotalEnergies",
             "location": "Moçambique",
             "description": container.get_text(" ", strip=True)[:400],
             "url": link,
