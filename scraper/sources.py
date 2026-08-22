@@ -31,7 +31,10 @@ SOURCES = [
 
     {
         "name": "mozambique_lng",
-        "url": "https://www.mozambiquelng.co.mz/opportunities/working-with-us/"
+        # A página institucional não lista vagas próprias - tem um link
+        # directo para o portal de vagas da TotalEnergies (operadora do
+        # projecto), já filtrado por este projecto específico.
+        "url": "https://jobs.totalenergies.com/en_US/careers/SearchJobs/?3834=%5B41601%5D&3834_format=3639&listFilterMode=1&jobRecordsPerPage=50"
     },
 
     {
@@ -60,7 +63,9 @@ SOURCES = [
 
     {
         "name": "moza_banco",
-        "url": "https://www.mozabanco.co.mz/en/institutional/careers"
+        # Subpágina dedicada a vagas activas, em vez da página genérica
+        # de careers.
+        "url": "https://www.mozabanco.co.mz/en/institutional/careers/vacancies"
     },
 
     {
@@ -84,7 +89,16 @@ SOURCES = [
 
     {
         "name": "tmcel",
-        "url": "https://www.tmcel.co.mz/"
+        # INVESTIGAÇÃO: o domínio anterior (tmcel.co.mz) está errado/morto
+        # (por isso o ConnectTimeout constante). O domínio real é
+        # tmcel.mz, mas tanto o site institucional (www.tmcel.mz) como o
+        # portal de recrutamento dedicado (recrutamento.tmcel.mz)
+        # BLOQUEIAM explicitamente scraping via robots.txt. Respeitamos
+        # essa política e não construímos parser para esta fonte -
+        # mantém-se sem parser (SEM PARSER no relatório) até haver uma
+        # via de acesso autorizada (ex.: API pública, se vierem a
+        # disponibilizar uma).
+        "url": "https://www.tmcel.mz/"
     },
 
     {
@@ -98,12 +112,17 @@ SOURCES = [
 
     {
         "name": "heineken_mz",
-        "url": "https://careers.theheinekencompany.com/Mozambique/"
+        # Listagem filtrada pela "operating company" de Moçambique
+        # (Cervejas de Moçambique), renderizada no servidor.
+        "url": "https://careers.theheinekencompany.com/Portugues/job-listing?operatings_company%5B0%5D=5099"
     },
 
     {
         "name": "cim",
-        "url": "https://www.cim.co.mz/careers"
+        # "CIM" = Cimentos de Moçambique. O domínio anterior (cim.co.mz)
+        # não corresponde à empresa e não tem vagas próprias - a CIM
+        # publica vagas via emprego.co.mz (página de empregador).
+        "url": "https://www.emprego.co.mz/empregador/cimentos-de-mocambique/"
     },
 
     {
