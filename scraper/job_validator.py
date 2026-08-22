@@ -60,7 +60,7 @@ JOB_ROLE_KEYWORDS = [
     "secretária", "secretaria", "recepcionista", "enfermeiro", "enfermeira",
     "professor", "professora", "formador", "formadora", "electricista",
     "eletricista", "mecânico", "mecanico", "soldador", "pedreiro",
-    "carpinteiro", "cozinheiro", "cozinheira", "segurança", "seguranca",
+    "carpinteiro", "cozinheiro", "cozinheira",
     "guarda", "vendedor", "vendedora", "caixa", "operador", "operadora",
     "especialista", "representante", "administrador", "administradora",
     "jurista", "advogado", "advogada", "médico", "medico", "médica",
@@ -88,8 +88,8 @@ JOB_ROLE_KEYWORDS = [
     "developer", "programmer", "recruiter", "instructor", "salesperson",
     "controller", "chemist", "biologist", "geologist", "paramedic",
     "firefighter", "attendant", "storekeeper", "foreman", "planner",
-    "advisor", "adviser", "lead", "head of", "vice president", "ceo",
-    "cfo", "coo", "consultancy",
+    "advisor", "adviser", "head of", "vice president",
+    "consultancy",
 ]
 
 # Ordenar por comprimento decrescente evita que substrings mais curtas
