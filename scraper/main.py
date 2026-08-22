@@ -167,7 +167,7 @@ def fetch_jobs():
                     source_stats[name]["status"] = "zero_results"
                     failed_sources["zero_results"].append(name)
                 else:
-                    print(f"  ✅ {len(parsed_jobs)} candidatos extraídos de {name}")
+                    print(f"  ✅ {len(parsed_jobs)} itens extraídos de {name}")
             else:
                 print(f"  ⚠️ Sem parser definido para {name}")
                 source_stats[name]["status"] = "no_parser"
@@ -200,7 +200,7 @@ def fetch_jobs():
                 print(f"   - {source_name}")
 
         if failed_sources["zero_results"]:
-            print(f"\n⚠️ Sem candidatos extraídos ({len(failed_sources['zero_results'])}):")
+            print(f"\n⚠️ Sem itens extraídos ({len(failed_sources['zero_results'])}):")
             for source_name in failed_sources["zero_results"]:
                 print(f"   - {source_name}")
 
@@ -237,7 +237,7 @@ REASON_LABELS = {
 
 def print_source_report(source_stats):
     """
-    Mostra uma tabela com o desempenho de cada fonte: quantos candidatos
+    Mostra uma tabela com o desempenho de cada fonte: quantos itens
     brutos foram encontrados, quantos são vagas válidas, quantos foram
     rejeitados por categoria estrutural (navegação, filtros, páginas
     institucionais, concursos, etc.), quantos são novos na base de dados
@@ -389,15 +389,15 @@ if __name__ == "__main__":
     # Inicializar a base de dados
     initialize_database()
 
-    # Recolher candidatos a vaga (ainda não validados)
+    # Recolher itens (ainda não validados como vagas)
     jobs, source_stats = fetch_jobs()
 
     # ========================
-    # VERIFICAÇÃO CRÍTICA: falha se nenhum candidato foi recolhido
+    # VERIFICAÇÃO CRÍTICA: falha se nenhum item foi recolhido
     # ========================
     if len(jobs) == 0:
         print("\n" + "=" * 50)
-        print("❌ ERRO CRÍTICO: Nenhum candidato foi recolhido!")
+        print("❌ ERRO CRÍTICO: Nenhum item foi recolhido!")
         print("=" * 50)
         print("\nVerificar:")
         print("  - Conectividade de rede")
@@ -405,7 +405,7 @@ if __name__ == "__main__":
         print("  - Parsers em scraper/parsers/")
         sys.exit(1)
 
-    print(f"\n✅ Total de candidatos recolhidos (bruto): {len(jobs)}")
+    print(f"\n✅ Total de itens recolhidos (bruto): {len(jobs)}")
 
     cleaned_jobs = []
     rejected_items = []  # Requisito 14: guardar motivo de rejeição
@@ -484,7 +484,7 @@ if __name__ == "__main__":
     print("\n" + "=" * 40)
     print("RESUMO GERAL DA EXECUÇÃO")
     print("=" * 40)
-    print(f"  Candidatos brutos recolhidos : {sum(s.get('raw', 0) for s in source_stats.values())}")
+    print(f"  Itens brutos recolhidos      : {sum(s.get('raw', 0) for s in source_stats.values())}")
     print(f"  Vagas válidas (após filtro)  : {len(jobs)}")
     print(f"  Rejeitados no total          : {len(rejected_items)}")
     print(f"  Novas vagas guardadas        : {inserted}")
