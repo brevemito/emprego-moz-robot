@@ -13,6 +13,7 @@ from scoring import score_job
 from database import initialize_database, insert_job
 from export_json import export_jobs_to_json
 import job_validator
+from text_cleanup import smart_title_case, improve_location
 
 
 # =========================
@@ -435,6 +436,15 @@ if __name__ == "__main__":
 
         # JOB_VALIDITY_SCORE (estrutural) fica guardado para transparência
         job["validity_score"] = result["validity_score"]
+
+        # Limpeza de apresentação (só a itens já confirmados como vagas
+        # reais, para não influenciar a decisão de validade acima):
+        # títulos em MAIÚSCULAS ficam em Title Case (preservando siglas
+        # como M/F, HSE, QHSE, TI), e a localização genérica "Moçambique"
+        # é substituída pela província/cidade mencionada no título ou
+        # descrição, quando encontrada.
+        job["title"] = smart_title_case(job["title"])
+        job["location"] = improve_location(job.get("location"), job["title"], job.get("description"))
 
         # JOB_RELEVANCE_SCORE (scoring.py) só é calculado depois de
         # confirmada a validade estrutural do item.
