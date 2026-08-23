@@ -27,10 +27,10 @@ import re
 # Siglas/abreviaturas que devem manter-se exactamente como estão,
 # independentemente de estarem em maiúsculas no texto original.
 PRESERVE_AS_IS = {
-    "M/F", "F/M", "HSE", "HSSE", "QHSE", "TI", "IT", "HR", "RH", "CEO",
-    "CFO", "COO", "ONG", "NGO", "UN", "ONU", "UNICEF", "ESAR", "CST",
-    "PSA", "USD", "MZN", "PF4C", "OHCHR", "WFP", "UNDP", "UNHCR", "UNFPA",
-    "WHO", "OMS", "GV4G", "EWENE",
+    "M/F", "F/M", "HSE", "HSSE", "QHSE", "HST", "SST", "EPI", "TI", "IT",
+    "HR", "RH", "CEO", "CFO", "COO", "ONG", "NGO", "UN", "ONU", "UNICEF",
+    "ESAR", "CST", "PSA", "USD", "MZN", "PF4C", "OHCHR", "WFP", "UNDP",
+    "UNHCR", "UNFPA", "WHO", "OMS", "GV4G", "EWENE",
 }
 _PRESERVE_LOOKUP = {w.upper(): w for w in PRESERVE_AS_IS}
 
@@ -66,19 +66,19 @@ def _capitalize_word(word, is_first_word):
         return word
 
     # Conectores em minúsculas, excepto se for a primeira palavra do título.
-    # Verificado ANTES da heurística de "sigla curta desconhecida" abaixo,
-    # porque conectores como "DE", "DA", "E" também têm 1-2 letras e
-    # ficariam incorrectamente preservados em maiúsculas se a ordem fosse
-    # invertida.
     if not is_first_word and bare.lower() in _LOWERCASE_CONNECTORS:
         return word.replace(bare, bare.lower())
 
-    # Siglas curtas não listadas mas que pareçam mesmo siglas (todas
-    # maiúsculas, 2-6 letras, sem vogais repetidas óbvias de palavra
-    # normal) - mantemos como estavam para não arriscar "desfazer" uma
-    # sigla legítima que não previmos (ex.: nomes de projectos).
-    if bare.isupper() and 2 <= len(bare) <= 6 and bare.isalpha():
-        return word
+    # NOTA: já tivemos aqui uma heurística que preservava "siglas curtas
+    # desconhecidas" (todas maiúsculas, 2-6 letras). Removida de propósito:
+    # esta função só corre quando o título INTEIRO já está predominantemente
+    # em maiúsculas (>70%), por isso praticamente qualquer palavra comum
+    # também aparece toda em maiúsculas nesse contexto (ex.: "SENIOR",
+    # "CLAIMS") - a heurística não conseguia distinguir isso de uma sigla
+    # real, e produzia capitalização inconsistente (ex.: "SENIOR Contract
+    # & CLAIMS Engineer"). A única forma fiável de preservar uma sigla é
+    # via a lista explícita PRESERVE_AS_IS acima - qualquer sigla nova
+    # que apareça deve ser adicionada lá.
 
     # Caso geral: primeira letra maiúscula, resto minúsculas.
     if bare.isalpha() or "-" in bare:
