@@ -12,8 +12,8 @@
         "url": "https://unjobs.org/vacancies/1785880019514",
         "source": "unjobs",
         "score": 80,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_aa2ec8f5c553",
@@ -28,8 +28,8 @@
         "url": "https://unjobs.org/vacancies/1784942147969",
         "source": "unjobs",
         "score": 80,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_1c5098a8ec73",
@@ -44,8 +44,8 @@
         "url": "https://unjobs.org/vacancies/1784816032960",
         "source": "unjobs",
         "score": 80,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_fd3d75ab0db8",
@@ -60,8 +60,8 @@
         "url": "https://unjobs.org/vacancies/1787059013728",
         "source": "unjobs",
         "score": 80,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_20765d7eb201",
@@ -76,8 +76,8 @@
         "url": "https://unjobs.org/vacancies/1787153601679",
         "source": "unjobs",
         "score": 80,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_7b01fda04b75",
@@ -93,8 +93,8 @@
         "url": "https://unjobs.org/vacancies/1787263631149",
         "source": "unjobs",
         "score": 80,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_9845a23a9f84",
@@ -109,8 +109,24 @@
         "url": "https://unjobs.org/vacancies/1787263741164",
         "source": "unjobs",
         "score": 80,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
+    },
+    {
+        "job_id": "unjobs_e8070a005c4d",
+        "title": "Call for External Collaborator/ Affordable and Green Housing Consultant in Mozambique - Technical coordination and quality assurance support - ILO Geneva/ENTERPRISES/Systems Change Initiative Project, Mozambique",
+        "company": "UN Jobs",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": null,
+        "url": "https://unjobs.org/vacancies/1787602362104",
+        "source": "unjobs",
+        "score": 80,
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "totalenergies_9f946c067b7d",
@@ -125,8 +141,8 @@
         "url": "https://jobs.totalenergies.com/en_US/careers/JobDetail/Talent-Developer-Mozambique-M-F/82075",
         "source": "totalenergies",
         "score": 80,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "totalenergies_8c9679f1840b",
@@ -141,8 +157,8 @@
         "url": "https://jobs.totalenergies.com/en_US/careers/JobDetail/HSE-Contractor-Management-Advisor/83407",
         "source": "totalenergies",
         "score": 80,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "totalenergies_33d4e96a61e9",
@@ -157,24 +173,8 @@
         "url": "https://jobs.totalenergies.com/en_US/careers/JobDetail/ASSISTENTE-DE-CONTROLO-DE-CREDITO/83449",
         "source": "totalenergies",
         "score": 80,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
-    },
-    {
-        "job_id": "totalenergies_d1b70e7c1b8a",
-        "title": "Technical Manager Terminals",
-        "company": "TotalEnergies",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Gestão e Direcção",
-        "description": "Technical Manager Terminals 19-08-2026 Mozambique Regular position TotalEnergies Marketing Moçambique, SA Apply",
-        "url": "https://jobs.totalenergies.com/en_US/careers/JobDetail/Technical-Manager-Terminals/83446",
-        "source": "totalenergies",
-        "score": 70,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "totalenergies_726f33d2cec5",
@@ -189,24 +189,24 @@
         "url": "https://jobs.totalenergies.com/en_US/careers/JobDetail/Finance-Control-Manager-M-F/76496",
         "source": "totalenergies",
         "score": 70,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
-        "job_id": "unjobs_31fb08cd481e",
-        "title": "Motoristas de Txopela, Maputo, Mozambique",
-        "company": "UN Jobs",
-        "location": "Maputo",
+        "job_id": "totalenergies_d1b70e7c1b8a",
+        "title": "Technical Manager Terminals",
+        "company": "TotalEnergies",
+        "location": "Moçambique",
         "locations": [
-            "Maputo"
+            "Moçambique"
         ],
-        "category": "Logística e Transportes",
-        "description": null,
-        "url": "https://unjobs.org/vacancies/1786450317391",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "category": "Gestão e Direcção",
+        "description": "Technical Manager Terminals 19-08-2026 Mozambique Regular position TotalEnergies Marketing Moçambique, SA Apply",
+        "url": "https://jobs.totalenergies.com/en_US/careers/JobDetail/Technical-Manager-Terminals/83446",
+        "source": "totalenergies",
+        "score": 70,
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_64a7748c9229",
@@ -222,8 +222,8 @@
         "url": "https://unjobs.org/vacancies/1786264037710",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_9cc1d5c3cb1c",
@@ -238,8 +238,8 @@
         "url": "https://unjobs.org/vacancies/1770231122381",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_3d3bd5fb000d",
@@ -254,8 +254,8 @@
         "url": "https://unjobs.org/vacancies/1770230921835",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_5063138c9444",
@@ -270,8 +270,8 @@
         "url": "https://unjobs.org/vacancies/1786914145634",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_9d605606a1e3",
@@ -286,8 +286,8 @@
         "url": "https://unjobs.org/vacancies/1786914061627",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_49e212dbcf82",
@@ -302,8 +302,8 @@
         "url": "https://unjobs.org/vacancies/1785176314168",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_b4971b96efd6",
@@ -318,8 +318,8 @@
         "url": "https://unjobs.org/vacancies/1787159395698",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_39fa20620685",
@@ -335,8 +335,8 @@
         "url": "https://unjobs.org/vacancies/1787263437776",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_c19efa3a7b7f",
@@ -351,8 +351,8 @@
         "url": "https://unjobs.org/vacancies/1787263123312",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_227af139e0d7",
@@ -368,8 +368,8 @@
         "url": "https://unjobs.org/vacancies/1787263622334",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "unjobs_58d0ebef9d2a",
@@ -384,8 +384,8 @@
         "url": "https://unjobs.org/vacancies/1787475544698",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "un_mozambique_e535eab640fd",
@@ -400,8 +400,8 @@
         "url": "https://mozambique.un.org/pt/about/about-the-resident-coordinator-office",
         "source": "un_mozambique",
         "score": 50,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_038baa595889",
@@ -416,8 +416,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=9884&idOrigine=2442&LCID=1036&offerReference=2026-9884",
         "source": "agl_transport",
         "score": 50,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "emprego_co_mz_b88d7ca0cde9",
@@ -432,8 +432,8 @@
         "url": "https://www.emprego.co.mz/vaga/gestor-de-compras-tecnicas-lojas-e-aquisicoes/",
         "source": "emprego_co_mz",
         "score": 50,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "totalenergies_6773c6f57fb0",
@@ -448,8 +448,8 @@
         "url": "https://jobs.totalenergies.com/en_US/careers/JobDetail/HSSE-Officer-Mozambique-M-F/82215",
         "source": "totalenergies",
         "score": 45,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_8ce3c7b69915",
@@ -464,8 +464,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=9726&idOrigine=2442&LCID=1036&offerReference=2026-9726",
         "source": "agl_transport",
         "score": 40,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_b52b642b9aee",
@@ -480,8 +480,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=9746&idOrigine=2442&LCID=1036&offerReference=2026-9746",
         "source": "agl_transport",
         "score": 40,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_f83824c97062",
@@ -496,8 +496,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10110&idOrigine=2442&LCID=1036&offerReference=2026-10110",
         "source": "agl_transport",
         "score": 40,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_1e7be9a8d8fe",
@@ -512,8 +512,8 @@
         "url": "https://www.emprego.co.mz/vaga/analista-maritimo/",
         "source": "cim",
         "score": 40,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_cabdef7e87f5",
@@ -528,8 +528,8 @@
         "url": "https://www.emprego.co.mz/vaga/analista-comercial-11/",
         "source": "cim",
         "score": 40,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_358027b0b1b9",
@@ -544,8 +544,8 @@
         "url": "https://www.emprego.co.mz/vaga/engenehiro-de-processos/",
         "source": "cim",
         "score": 40,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_e2850b696781",
@@ -560,8 +560,8 @@
         "url": "https://www.emprego.co.mz/vaga/analista-de-compras-3/",
         "source": "cim",
         "score": 40,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "emprego_co_mz_a3a55c99a916",
@@ -576,8 +576,8 @@
         "url": "https://www.emprego.co.mz/vaga/site-document-controller-2/",
         "source": "emprego_co_mz",
         "score": 40,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "emprego_co_mz_91e54d27ba48",
@@ -592,8 +592,8 @@
         "url": "https://www.emprego.co.mz/vaga/gestor-de-turno-da-area-seca/",
         "source": "emprego_co_mz",
         "score": 40,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_9ade4d8c2600",
@@ -608,8 +608,8 @@
         "url": "https://www.emprego.co.mz/vaga/analista-de-ti-2/",
         "source": "cim",
         "score": 30,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "un_mozambique_9b8256f367fd",
@@ -624,8 +624,8 @@
         "url": "https://jobs.unicef.org/en-us/job/595103",
         "source": "un_mozambique",
         "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "un_mozambique_40ca96e79d67",
@@ -640,8 +640,8 @@
         "url": "https://jobs.unicef.org/en-us/job/595099",
         "source": "un_mozambique",
         "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "un_mozambique_56838b053bcf",
@@ -657,8 +657,8 @@
         "url": "https://jobs.unicef.org/en-us/job/595217",
         "source": "un_mozambique",
         "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_a7bd93c3ef93",
@@ -673,8 +673,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=9997&idOrigine=2442&LCID=1036&offerReference=2026-9997",
         "source": "agl_transport",
         "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_8c9968d491a6",
@@ -689,8 +689,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=9776&idOrigine=2442&LCID=1036&offerReference=2026-9776",
         "source": "agl_transport",
         "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_39aa3b07b8b7",
@@ -705,8 +705,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10007&idOrigine=2442&LCID=1036&offerReference=2026-10007",
         "source": "agl_transport",
         "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_93b0e10ae7a6",
@@ -721,8 +721,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10008&idOrigine=2442&LCID=1036&offerReference=2026-10008",
         "source": "agl_transport",
         "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_520ab5d5dda7",
@@ -737,8 +737,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10146&idOrigine=2442&LCID=1036&offerReference=2026-10146",
         "source": "agl_transport",
         "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_c7a0af6690ce",
@@ -753,8 +753,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10214&idOrigine=2442&LCID=1036&offerReference=2026-10214",
         "source": "agl_transport",
         "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "emprego_co_mz_c8d0239ad2fe",
@@ -769,24 +769,8 @@
         "url": "https://www.emprego.co.mz/vaga/tecnico-de-aprovisionamento-area-de-processamento-de-dados/",
         "source": "emprego_co_mz",
         "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
-    },
-    {
-        "job_id": "emprego_co_mz_9fc62b3f05c6",
-        "title": "Motorista e Assistente de Armazém",
-        "company": "Desconhecida",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Logística e Transportes",
-        "description": null,
-        "url": "https://www.emprego.co.mz/vaga/motorista-e-assistente-de-armazem/",
-        "source": "emprego_co_mz",
-        "score": 25,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_df096bb8ccd4",
@@ -801,8 +785,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=9901&idOrigine=2442&LCID=1036&offerReference=2026-9901",
         "source": "agl_transport",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_5a8d1ea7fb3c",
@@ -817,8 +801,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=9940&idOrigine=2442&LCID=1036&offerReference=2026-9940",
         "source": "agl_transport",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_0b6437c42544",
@@ -833,8 +817,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10230&idOrigine=2442&LCID=1036&offerReference=2026-10230",
         "source": "agl_transport",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_36964c444a27",
@@ -849,8 +833,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10240&idOrigine=2442&LCID=1036&offerReference=2026-10240",
         "source": "agl_transport",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_7366d2bf248b",
@@ -865,8 +849,8 @@
         "url": "https://www.emprego.co.mz/vaga/estagiario-compras/",
         "source": "cim",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_506b866083b5",
@@ -881,8 +865,8 @@
         "url": "https://www.emprego.co.mz/vaga/agente-de-navegacao/",
         "source": "cim",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_f697bec0c184",
@@ -897,8 +881,8 @@
         "url": "https://www.emprego.co.mz/vaga/supervisor-de-qualidade-3/",
         "source": "cim",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_9c4135e3871d",
@@ -913,8 +897,8 @@
         "url": "https://www.emprego.co.mz/vaga/tecnico-electrico-4/",
         "source": "cim",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_ff8e0a1f9f9e",
@@ -929,8 +913,8 @@
         "url": "https://www.emprego.co.mz/vaga/operador-de-ponte-rolante/",
         "source": "cim",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "cim_293ddfb7f6d2",
@@ -945,8 +929,8 @@
         "url": "https://www.emprego.co.mz/vaga/tecnico-mecanico-2/",
         "source": "cim",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "emprego_co_mz_1867ec80b0c1",
@@ -961,8 +945,8 @@
         "url": "https://www.emprego.co.mz/vaga/budget-controller-2/",
         "source": "emprego_co_mz",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "emprego_co_mz_380d91325a62",
@@ -977,8 +961,8 @@
         "url": "https://www.emprego.co.mz/vaga/cluster-coordinator-3/",
         "source": "emprego_co_mz",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "emprego_co_mz_83254e93d844",
@@ -993,8 +977,8 @@
         "url": "https://www.emprego.co.mz/vaga/oficial-de-protecao/",
         "source": "emprego_co_mz",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "emprego_co_mz_e922c0f8b182",
@@ -1009,8 +993,40 @@
         "url": "https://www.emprego.co.mz/vaga/oficial-de-financas-9/",
         "source": "emprego_co_mz",
         "score": 15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
+    },
+    {
+        "job_id": "emprego_co_mz_3b0d0b6a23d2",
+        "title": "Secretária Executiva",
+        "company": "Desconhecida",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Outros",
+        "description": null,
+        "url": "https://www.emprego.co.mz/vaga/secretaria-executiva-8/",
+        "source": "emprego_co_mz",
+        "score": 15,
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
+    },
+    {
+        "job_id": "emprego_co_mz_33fdce1460a7",
+        "title": "Motorista de Distribuição",
+        "company": "Desconhecida",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Logística e Transportes",
+        "description": null,
+        "url": "https://www.emprego.co.mz/vaga/motorista-de-distribuicao-2/",
+        "source": "emprego_co_mz",
+        "score": 15,
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_357a3e5d74f4",
@@ -1025,8 +1041,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10235&idOrigine=2442&LCID=1036&offerReference=2026-10235",
         "source": "agl_transport",
         "score": 5,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "agl_transport_ff2cc19122b6",
@@ -1041,8 +1057,8 @@
         "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10238&idOrigine=2442&LCID=1036&offerReference=2026-10238",
         "source": "agl_transport",
         "score": 5,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "emprego_co_mz_24cff95f6d1a",
@@ -1057,8 +1073,8 @@
         "url": "https://www.emprego.co.mz/vaga/safety-advisor/",
         "source": "emprego_co_mz",
         "score": 5,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "emprego_co_mz_edfda4bd20d0",
@@ -1073,8 +1089,8 @@
         "url": "https://www.emprego.co.mz/vaga/archive-clerk/",
         "source": "emprego_co_mz",
         "score": 5,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     },
     {
         "job_id": "totalenergies_278e570becd3",
@@ -1089,7 +1105,7 @@
         "url": "https://jobs.totalenergies.com/en_US/careers/JobDetail/Buyer-M-F/77108",
         "source": "totalenergies",
         "score": -15,
-        "scraped_at": "2026-08-23T13:54:04Z",
-        "created_at": "2026-08-23 13:54:04"
+        "scraped_at": "2026-08-25T12:32:20Z",
+        "created_at": "2026-08-25 12:32:20"
     }
 ]
