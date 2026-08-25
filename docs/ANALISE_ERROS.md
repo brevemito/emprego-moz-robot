@@ -1,5 +1,22 @@
 # Análise de Erros - emprego-moz-robot
 
+> ⚠️ **DOCUMENTO HISTÓRICO — DESACTUALIZADO**
+>
+> Este documento descreve a **primeira** correcção aplicada ao problema
+> de lixo capturado pelo scraper (aumentar o limiar de caracteres e
+> alargar uma lista de palavras a filtrar). Essa abordagem foi desde
+> então **totalmente substituída** por um validador estrutural
+> (`scraper/job_validator.py`), que exige evidência positiva de que um
+> item é uma vaga real (cargo reconhecível ou URL de página de detalhe
+> de vaga), em vez de depender de uma lista de palavras proibidas.
+>
+> A tabela "Status das Outras Fontes" no final também já não reflecte a
+> realidade actual (a maioria das fontes listadas como "Sem parser" já
+> tem parser implementado). Mantém-se este ficheiro apenas como registo
+> histórico do problema original e do raciocínio inicial - para o
+> estado actual do projecto, ver o código em `scraper/job_validator.py`
+> e o histórico de commits.
+
 ## Problema Identificado
 
 O scraper estava capturando **lixo (garbage)** em vez de vagas reais de emprego. Das 222 vagas inseridas, aproximadamente **95% eram inválidas**, incluindo:
