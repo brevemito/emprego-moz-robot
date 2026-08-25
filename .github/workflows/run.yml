@@ -2,6 +2,19 @@ name: Job Scraper Moçambique
 
 on:
   workflow_dispatch:
+  schedule:
+    # Corre todos os dias às 03:00 UTC (05:00 em Moçambique, UTC+2),
+    # para o site ter sempre vagas actualizadas logo de manhã.
+    # O agendamento do GitHub Actions é sempre em UTC - se quiser mudar
+    # a hora, subtraia 2 horas à hora desejada em Moçambique.
+    - cron: "0 3 * * *"
+
+# Evita que duas execuções corram ao mesmo tempo (ex.: se disparar
+# manualmente enquanto a execução agendada ainda está a decorrer),
+# o que poderia causar conflitos ao fazer commit do jobs.json.
+concurrency:
+  group: job-scraper
+  cancel-in-progress: false
 
 permissions:
   contents: write
