@@ -1,4 +1,5 @@
 import json
+from datetime import datetime, timezone
 from database import get_connection
 from job_category import categorize
 
@@ -13,6 +14,22 @@ def _to_iso8601(sqlite_timestamp):
     if not sqlite_timestamp:
         return None
     return sqlite_timestamp.replace(" ", "T") + "Z"
+
+
+def _days_since(sqlite_timestamp):
+    """
+    Calcula há quantos dias completos uma vaga foi vista pela primeira
+    vez (created_at), para o site poder mostrar por exemplo "Publicada
+    há 5 dias" sem ter de fazer essa conta no frontend.
+    """
+    if not sqlite_timestamp:
+        return None
+    try:
+        seen = datetime.strptime(sqlite_timestamp, "%Y-%m-%d %H:%M:%S").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+    delta = datetime.now(timezone.utc) - seen
+    return max(delta.days, 0)
 
 
 def export_jobs_to_json():
@@ -30,7 +47,8 @@ def export_jobs_to_json():
             url,
             source,
             score,
-            created_at
+            created_at,
+            last_seen_at
         FROM jobs
         ORDER BY score DESC, created_at DESC
     """)
@@ -72,6 +90,14 @@ def export_jobs_to_json():
             # Mantido por compatibilidade com integrações já existentes
             # que possam estar a ler o campo "created_at" directamente.
             "created_at": job.get("created_at"),
+            # Novos campos, só significativos desde que a base de dados
+            # passou a ser "semeada" com o histórico entre execuções
+            # (ver database.seed_from_previous_export): antes disso,
+            # first_seen_at e last_seen_at eram sempre iguais a
+            # scraped_at, porque cada execução começava do zero.
+            "first_seen_at": _to_iso8601(job.get("created_at")),
+            "last_seen_at": _to_iso8601(job.get("last_seen_at")),
+            "days_since_first_seen": _days_since(job.get("created_at")),
         })
 
     with open(
