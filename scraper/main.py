@@ -10,10 +10,33 @@ from requests.exceptions import ConnectionError, Timeout
 from parsers import PARSERS
 from sources import SOURCES
 from scoring import score_job
-from database import initialize_database, insert_job
+from database import initialize_database, insert_job, seed_from_previous_export, remove_stale_jobs
 from export_json import export_jobs_to_json
 import job_validator
 from text_cleanup import smart_title_case, improve_location
+
+# Quantos dias uma vaga pode ficar sem ser "reconfirmada" (voltar a
+# aparecer numa execução) antes de ser considerada expirada e removida.
+# Com o scraper a correr uma vez por dia, isto dá margem para dias em
+# que uma fonte falhe pontualmente sem perder vagas ainda válidas.
+STALE_JOB_CUTOFF_DAYS = 21
+
+
+# =========================
+# SEMENTEIRA (histórico entre execuções)
+# =========================
+def load_previous_jobs_json(path="data/jobs.json"):
+    """
+    Lê o jobs.json exportado na execução anterior, se existir. Devolve
+    uma lista vazia se o ficheiro não existir ou estiver corrompido -
+    nesse caso, a execução simplesmente começa sem histórico (como
+    acontecia antes desta funcionalidade existir), em vez de falhar.
+    """
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
 
 
 # =========================
@@ -390,6 +413,41 @@ if __name__ == "__main__":
     # Inicializar a base de dados
     initialize_database()
 
+    # ========================
+    # SEMENTEIRA: recuperar histórico da execução anterior
+    # ========================
+    # A base de dados é recriada do zero a cada execução (não há
+    # ficheiro persistente entre execuções no GitHub Actions), por isso
+    # usamos o próprio jobs.json da execução anterior (que ESSE fica
+    # commitado no repositório) para reconstituir o histórico: quando
+    # cada vaga foi vista pela primeira vez, e permitir deduplicação
+    # real entre dias, não só dentro da mesma execução.
+    #
+    # As vagas do histórico são revalidadas pelo JobValidator ACTUAL
+    # antes de serem semeadas (não simplesmente aceites como estavam) -
+    # se o validador entretanto ficou mais rigoroso, vagas antigas que
+    # já não passariam no filtro são descartadas aqui, em vez de
+    # persistirem para sempre só por já terem sido aceites no passado.
+    previous_jobs_raw = load_previous_jobs_json()
+    previous_jobs = []
+    discarded_from_history = 0
+
+    for job in previous_jobs_raw:
+        result = job_validator.classify(job.get("title"), job.get("description"), job.get("url"))
+        if result["is_valid"]:
+            previous_jobs.append(job)
+        else:
+            discarded_from_history += 1
+
+    if discarded_from_history:
+        print(f"📚 {discarded_from_history} vaga(s) do histórico já não passam no filtro actual e foram descartadas.")
+
+    seeded_count = seed_from_previous_export(previous_jobs)
+    if seeded_count:
+        print(f"📚 Histórico recuperado de data/jobs.json: {seeded_count} vaga(s) semeada(s).")
+    else:
+        print("📚 Sem histórico anterior (primeira execução ou jobs.json vazio/ausente).")
+
     # Recolher itens (ainda não validados como vagas)
     jobs, source_stats = fetch_jobs()
 
@@ -483,6 +541,20 @@ if __name__ == "__main__":
             print("🟡 Duplicado:", job["title"])
 
     # ========================
+    # EXPIRAÇÃO: remover vagas que desapareceram da fonte
+    # ========================
+    # Qualquer vaga (desta execução ou semeada de execuções anteriores)
+    # que não tenha sido "reconfirmada" (voltar a aparecer numa
+    # execução) há mais de STALE_JOB_CUTOFF_DAYS é considerada expirada
+    # (provavelmente já preenchida ou removida na fonte original) e é
+    # retirada do jobs.json final.
+    expired = remove_stale_jobs(cutoff_days=STALE_JOB_CUTOFF_DAYS)
+    if expired:
+        print(f"\n🗑️  {len(expired)} vaga(s) expirada(s) (não reconfirmadas há mais de {STALE_JOB_CUTOFF_DAYS} dias):")
+        for row in expired:
+            print(f"   - [{row['source']}] {row['title']} (vista pela última vez em {row['last_seen_at']})")
+
+    # ========================
     # RELATÓRIO FINAL
     # ========================
     print_source_report(source_stats)
@@ -498,7 +570,8 @@ if __name__ == "__main__":
     print(f"  Vagas válidas (após filtro)  : {len(jobs)}")
     print(f"  Rejeitados no total          : {len(rejected_items)}")
     print(f"  Novas vagas guardadas        : {inserted}")
-    print(f"  Já existiam (duplicadas)     : {duplicated}")
+    print(f"  Já existiam (duplicadas/reconfirmadas) : {duplicated}")
+    print(f"  Vagas expiradas e removidas  : {len(expired)}")
     print(f"  Tempo de execução            : {elapsed:.1f}s")
     print("=" * 40)
 
