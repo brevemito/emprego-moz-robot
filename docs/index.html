@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-MZ">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vagas Moçambique — emprego-moz-robot</title>
+<meta name="description" content="Vagas de emprego em Moçambique, recolhidas automaticamente de 21 fontes: portais de emprego, empresas, bancos e organizações internacionais.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">MZ</span>
+      <div class="brand-text">
+        <span class="brand-name">emprego-moz-robot</span>
+        <span class="brand-tagline">vagas recolhidas todos os dias, de 21 fontes</span>
+      </div>
+    </div>
+    <a class="brand-link" href="https://github.com/brevemito/emprego-moz-robot" target="_blank" rel="noopener">
+      Ver no GitHub
+    </a>
+  </div>
+</header>
+
+<section class="board" aria-label="Resumo">
+  <div class="wrap board-inner">
+    <div class="board-stat">
+      <span id="stat-count" class="board-number">—</span>
+      <span class="board-label">vagas activas</span>
+    </div>
+    <div class="board-divider" aria-hidden="true"></div>
+    <div class="board-meta">
+      <span id="stat-updated" class="board-updated">a carregar...</span>
+      <span class="board-sub">actualizado automaticamente todos os dias às 05:00</span>
+    </div>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <div class="controls" role="search">
+    <input
+      id="search-input"
+      type="search"
+      class="control control-search"
+      placeholder="Procurar por cargo, empresa ou palavra-chave..."
+      aria-label="Procurar vagas"
+    >
+
+    <select id="filter-category" class="control" aria-label="Filtrar por categoria">
+      <option value="">Todas as categorias</option>
+    </select>
+
+    <select id="filter-location" class="control" aria-label="Filtrar por localização">
+      <option value="">Todas as localizações</option>
+    </select>
+
+    <select id="sort-order" class="control" aria-label="Ordenar">
+      <option value="relevance">Mais relevantes</option>
+      <option value="recent">Mais recentes</option>
+    </select>
+  </div>
+
+  <p id="results-count" class="results-count" aria-live="polite"></p>
+
+  <div id="job-list" class="job-list" aria-live="polite">
+    <div class="state-message" id="loading-message">A carregar vagas...</div>
+  </div>
+
+  <div id="empty-state" class="state-message empty-state" hidden>
+    <strong>Nenhuma vaga corresponde a estes filtros.</strong>
+    <span>Experimente outra categoria, localização, ou limpe a pesquisa.</span>
+  </div>
+
+  <div id="error-state" class="state-message error-state" hidden>
+    <strong>Não foi possível carregar as vagas agora.</strong>
+    <span>Verifique a ligação à internet e tente recarregar a página.</span>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>
+      Dados recolhidos automaticamente por
+      <a href="https://github.com/brevemito/emprego-moz-robot" target="_blank" rel="noopener">emprego-moz-robot</a>.
+      Vagas também publicadas em <a href="https://brevemito.com" target="_blank" rel="noopener">brevemito.com</a>.
+    </p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
