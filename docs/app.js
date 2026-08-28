@@ -8,25 +8,27 @@
 const JOBS_URL =
   "https://raw.githubusercontent.com/brevemito/emprego-moz-robot/main/data/jobs.json";
 
-// Cores por categoria, para as etiquetas dos cartões. Mantidas em
-// sincronia (na medida do possível) com scraper/job_category.py.
-// Todas testadas para dar pelo menos 4.5:1 de contraste com o texto
-// creme (--cream) das etiquetas, conforme WCAG AA para texto normal.
+// Cores por categoria, para as etiquetas dos cartões. Inspiradas na
+// paleta viva usada em capulanas e nos murais de Malangatana (vermelhos,
+// ocres, índigos, verdes profundos). Mantidas em sincronia (na medida do
+// possível) com scraper/job_category.py. Todas testadas para dar pelo
+// menos 4.5:1 de contraste com o texto creme (--cream) das etiquetas,
+// conforme WCAG AA para texto normal.
 const CATEGORY_COLORS = {
-  "Estágios": "#1A7484",
-  "Saúde": "#B54B2B",
-  "Segurança e HSE": "#B33951",
-  "Tecnologia da Informação": "#3F6B4F",
-  "Financeiro e Contabilidade": "#6B4FA0",
-  "Recursos Humanos": "#8C6545",
-  "Comercial e Vendas": "#2D7968",
-  "Logística e Transportes": "#985E27",
-  "Engenharia": "#3A5A8C",
-  "Construção e Manutenção Técnica": "#7A6A2E",
-  "Hotelaria e Restauração": "#A0522D",
-  "Gestão e Direcção": "#7C3F58",
-  "Consultoria e Organizações Internacionais": "#2F6690",
-  "Outros": "#5B6470",
+  "Estágios": "#1B6B6B",
+  "Saúde": "#C1272D",
+  "Segurança e HSE": "#7A2635",
+  "Tecnologia da Informação": "#2F6B4A",
+  "Financeiro e Contabilidade": "#5B3A73",
+  "Recursos Humanos": "#8B4225",
+  "Comercial e Vendas": "#2D7050",
+  "Logística e Transportes": "#9A5D1A",
+  "Engenharia": "#1B4B6B",
+  "Construção e Manutenção Técnica": "#6B5B1F",
+  "Hotelaria e Restauração": "#A6431F",
+  "Gestão e Direcção": "#6B2545",
+  "Consultoria e Organizações Internacionais": "#1E3F5C",
+  "Outros": "#34383B",
 };
 
 let allJobs = [];
