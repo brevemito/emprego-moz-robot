@@ -8,7 +8,7 @@ As vagas recolhidas estão disponíveis, actualizadas automaticamente todos os d
 
 **https://brevemito.github.io/emprego-moz-robot/**
 
-A página permite filtrar por categoria e localização e ordenar por mais recentes ou mais relevantes. As mesmas vagas são também publicadas em [brevemito.com](https://brevemito.com).
+A página permite filtrar por categoria e localização e ordenar por mais recentes ou mais relevantes. As mesmas vagas são também publicadas em [brevemito.com](https://brevemito.com/emprego/).
 
 ## O que é
 
