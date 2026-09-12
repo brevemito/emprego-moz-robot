@@ -18,7 +18,149 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,600&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="styles.css">
+
+<style>
+  .bm-curso-ingles{
+    --ink:#1A1424;
+    --ink-soft:#241B31;
+    --paper:#F6EEDD;
+    --rust:#E0532A;
+    --marigold:#F4B324;
+    --teal:#0E8A82;
+    --magenta:#D91F63;
+    font-family:'Work Sans', Arial, sans-serif;
+    max-width:1140px;
+    margin:2.5rem auto;
+    padding:0 20px;
+    box-sizing:border-box;
+  }
+  .bm-curso-ingles *{ box-sizing:border-box; }
+
+  .bm-ci-stripe{
+    height:8px;
+    border-radius:8px 8px 0 0;
+    background:repeating-linear-gradient(100deg,
+      var(--rust) 0 22px,
+      var(--marigold) 22px 44px,
+      var(--teal) 44px 66px,
+      var(--magenta) 66px 88px);
+  }
+
+  .bm-ci-card{
+    display:grid;
+    grid-template-columns:minmax(220px,340px) 1fr;
+    gap:0;
+    background:var(--ink);
+    border-radius:0 0 18px 18px;
+    overflow:hidden;
+    box-shadow:0 18px 40px rgba(20,12,30,.28);
+  }
+
+  .bm-ci-media{
+    background:var(--ink-soft);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:22px;
+  }
+  .bm-ci-media img{
+    width:100%;
+    height:auto;
+    border-radius:12px;
+    display:block;
+  }
+
+  .bm-ci-body{
+    padding:32px 36px 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+
+  .bm-ci-eyebrow{
+    margin:0 0 10px;
+    color:var(--rust);
+    font-weight:700;
+    font-size:.8rem;
+    letter-spacing:.04em;
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+  .bm-ci-dot{
+    width:8px;
+    height:8px;
+    background:var(--rust);
+    display:inline-block;
+    transform:rotate(45deg);
+    flex:none;
+  }
+
+  .bm-ci-title{
+    font-family:'Fraunces', Georgia, serif;
+    color:var(--paper);
+    font-size:clamp(1.7rem, 3vw, 2.5rem);
+    line-height:1.15;
+    margin:0 0 14px;
+    font-weight:600;
+  }
+  .bm-ci-title em{
+    display:block;
+    color:var(--teal);
+    font-style:italic;
+    font-size:.72em;
+    margin-top:4px;
+  }
+
+  .bm-ci-desc{
+    color:#D8CFE6;
+    font-size:1.02rem;
+    line-height:1.6;
+    margin:0 0 22px;
+    max-width:46ch;
+  }
+
+  .bm-ci-cta{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background:var(--rust);
+    color:var(--paper);
+    text-decoration:none;
+    font-weight:700;
+    padding:14px 26px;
+    border-radius:999px;
+    font-size:1rem;
+    width:fit-content;
+    transition:transform .15s ease, background .2s ease;
+  }
+  .bm-ci-cta:hover{
+    background:#c94620;
+    transform:translateY(-1px);
+  }
+
+  .bm-ci-fine{
+    color:#9C90AE;
+    font-size:.8rem;
+    margin:14px 0 0;
+    max-width:46ch;
+  }
+
+  @media (max-width:720px){
+    .bm-ci-card{ grid-template-columns:1fr; }
+    .bm-ci-media{ padding:18px 18px 0; }
+    .bm-ci-body{ padding:22px 22px 28px; }
+    .bm-ci-cta{ width:100%; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .bm-ci-cta{ transition:none; }
+  }
+</style>
 </head>
 <body>
 
@@ -110,6 +252,22 @@
   </div>
 
 </main>
+
+<section class="bm-curso-ingles">
+  <div class="bm-ci-stripe" aria-hidden="true"></div>
+  <div class="bm-ci-card">
+    <div class="bm-ci-media">
+      <img src="https://brevemito.com/wp-content/uploads/2026/09/CURSO_INGLES_NIVEL_A.png" alt="Diploma in English, nível A1" loading="lazy">
+    </div>
+    <div class="bm-ci-body">
+      <p class="bm-ci-eyebrow"><span class="bm-ci-dot" aria-hidden="true"></span>Curso grátis · Alison</p>
+      <h2 class="bm-ci-title">Diploma em Inglês<br><em>Nível A1</em></h2>
+      <p class="bm-ci-desc">Aprende inglês do zero, ao teu ritmo, e recebe um certificado reconhecido para juntar ao teu currículo. Ideal para quem procura emprego e precisa de inglês básico.</p>
+      <a class="bm-ci-cta" href="https://alison.com/course/diploma-in-english-a1-level?utm_source=alison_user&amp;utm_medium=affiliate&amp;utm_campaign=29241096" target="_blank" rel="noopener sponsored">Começar curso grátis →</a>
+      <p class="bm-ci-fine">Curso 100% gratuito na Alison; o certificado final é opcional e pago.</p>
+    </div>
+  </div>
+</section>
 
 <div class="capulana-strip" aria-hidden="true"></div>
 
