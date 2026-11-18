@@ -1,0 +1,125 @@
+/* =========================================================================
+   Separadores "Vagas de emprego" / "Bolsas de estudo" e cartões de bolsas.
+   Complementa styles.css (usa as mesmas variáveis de cor da marca).
+   ========================================================================= */
+
+/* Garante que elementos com o atributo "hidden" ficam mesmo escondidos.
+   Sem isto, regras como ".state-message { display: flex }" sobrepõem-se
+   ao "hidden" e as mensagens de "sem resultados"/"erro" ficam visíveis. */
+[hidden] {
+  display: none !important;
+}
+
+/* ---------- separadores ---------- */
+
+.tabs {
+  display: flex;
+  gap: 6px;
+  margin: 28px 0 0;
+  border-bottom: 2px solid var(--border);
+}
+
+.tab {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  border-bottom: 4px solid transparent;
+  margin-bottom: -2px;
+  padding: 12px 18px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tab:hover {
+  color: var(--ink);
+}
+
+.tab[aria-selected="true"] {
+  color: var(--ink);
+  border-bottom-color: var(--gold);
+}
+
+.tab:focus-visible {
+  outline: 2px solid var(--capulana-indigo);
+  outline-offset: 2px;
+}
+
+.tab-count {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: var(--zinc);
+  color: var(--cream);
+  border-radius: 999px;
+  padding: 2px 9px;
+}
+
+.tab[aria-selected="true"] .tab-count {
+  background: var(--gold);
+  color: var(--ink);
+}
+
+@media (max-width: 560px) {
+  .tab {
+    flex: 1;
+    justify-content: center;
+    padding: 12px 8px;
+    font-size: 0.92rem;
+  }
+}
+
+/* ---------- cartões de bolsas ---------- */
+
+.bolsa-card {
+  border-left-color: var(--capulana-indigo);
+}
+
+.bolsa-card:hover {
+  border-left-color: var(--capulana-indigo);
+}
+
+/* Programas em destaque (data/bolsas_fixas.json) */
+.bolsa-card.is-featured,
+.bolsa-card.is-featured:hover {
+  border-left-color: var(--gold);
+  background: #FFFBEB;
+}
+
+.bolsa-featured {
+  --tag-color: var(--gold);
+  color: var(--ink);
+}
+
+.bolsa-summary {
+  margin: 8px 0 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+.bolsa-deadline {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+/* Prazo a menos de 15 dias */
+.bolsa-deadline.is-soon {
+  color: var(--capulana-red);
+}
+
+.bolsa-level {
+  --tag-color: var(--capulana-indigo);
+}
+
+.bolsas-note {
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  margin: 0 0 40px;
+}
