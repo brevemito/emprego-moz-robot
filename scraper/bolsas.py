@@ -24,6 +24,12 @@
 #     (só se removem as que expiraram) - uma falha de rede nunca apaga
 #     a lista publicada.
 #
+# Programas garantidos: data/bolsas_fixas.json tem programas escolhidos
+# à mão (ex.: GCUB-Mob, PEC-PG, PEC-G, Study in Saudi) que aparecem
+# SEMPRE no topo da lista, como "Destaque", mesmo quando não há edital
+# aberto. Edita-se directamente no GitHub; um erro de escrita nesse
+# ficheiro nunca impede a recolha automática.
+#
 # Correr localmente:   python scraper/bolsas.py
 # =========================================================================
 
@@ -39,6 +45,7 @@ import requests
 from bs4 import BeautifulSoup
 
 OUTPUT_PATH = Path("data/bolsas.json")
+FIXED_PATH = Path("data/bolsas_fixas.json")
 
 # Lista de bolsas abertas a candidatos africanos. O script lê a página 1,
 # 2, 3... até encontrar uma página vazia (ou chegar a MAX_PAGES).
@@ -422,10 +429,84 @@ def merge(previous, fresh, now, today, max_days_unseen=MAX_DAYS_UNSEEN):
     return final, removed
 
 
+# =========================================================================
+# PROGRAMAS GARANTIDOS (data/bolsas_fixas.json)
+# =========================================================================
+
+def load_fixed(path=FIXED_PATH):
+    """
+    Lê os programas escolhidos à mão. Se o ficheiro não existir ou tiver
+    um erro de escrita, mostra um aviso e continua sem eles (a recolha
+    automática não pára por causa disso).
+    """
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        return []
+    except json.JSONDecodeError as e:
+        print(f"⚠️ {path} tem um erro de escrita (linha {e.lineno}): {e.msg}. Programas fixos ignorados nesta execução.")
+        return []
+
+    items = data.get("programas", []) if isinstance(data, dict) else data
+    valid = []
+    for i, item in enumerate(items, 1):
+        if not isinstance(item, dict) or not item.get("title") or not item.get("url"):
+            print(f"⚠️ Programa fixo nº {i} ignorado: faltam 'title' ou 'url'.")
+            continue
+        valid.append(item)
+    return valid
+
+
+def build_fixed(items, now, today):
+    """
+    Prepara os programas fixos para exportação. Se "deadline" (AAAA-MM-DD)
+    ainda não passou, mostra a data e os dias que faltam. Se já passou ou
+    não existe, o programa CONTINUA na lista, com o texto de
+    "deadline_text" (ex.: "Próximo edital previsto para Março de 2027").
+    """
+    now_iso = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+    result = []
+    for item in items:
+        deadline = None
+        raw = item.get("deadline")
+        if raw:
+            try:
+                d = datetime.strptime(str(raw), "%Y-%m-%d").date()
+                if d >= today:
+                    deadline = d
+            except ValueError:
+                print(f"⚠️ Data inválida em '{item['title']}': {raw} (use AAAA-MM-DD).")
+
+        levels = item.get("levels") or []
+        if isinstance(levels, str):
+            levels = [levels]
+
+        result.append({
+            "id": "fixa_" + hashlib.sha1(item["url"].encode("utf-8")).hexdigest()[:12],
+            "title": item["title"],
+            "provider": item.get("provider"),
+            "country": item.get("country"),
+            "levels": levels,
+            "summary": item.get("summary"),
+            "deadline": deadline.isoformat() if deadline else None,
+            "days_left": (deadline - today).days if deadline else None,
+            "deadline_text": item.get("deadline_text") or "Próxima edição: a anunciar",
+            "deadline_status": "open" if deadline else "unknown",
+            "for_africans": True,
+            "featured": True,
+            "url": item["url"],
+            "source": "curadoria",
+            "first_seen_at": now_iso,
+            "last_seen_at": now_iso,
+        })
+    return result
+
+
 FIELD_ORDER = [
     "id", "title", "provider", "country", "levels", "summary",
     "deadline", "days_left", "deadline_text", "deadline_status",
-    "for_africans", "url", "source", "first_seen_at", "last_seen_at",
+    "for_africans", "featured", "url", "source", "first_seen_at", "last_seen_at",
 ]
 
 
@@ -448,8 +529,13 @@ def main():
     print("BOLSAS DE ESTUDO - recolha")
     print("=" * 60)
 
-    previous = load_previous()
+    # Os programas fixos são reconstruídos sempre a partir do seu próprio
+    # ficheiro, por isso não entram no histórico automático.
+    previous = [b for b in load_previous() if b.get("source") != "curadoria"]
     print(f"📚 Bolsas no ficheiro anterior: {len(previous)}")
+
+    fixed = build_fixed(load_fixed(), now, today)
+    print(f"⭐ Programas em destaque (data/bolsas_fixas.json): {len(fixed)}")
 
     fresh, ok_pages = fetch_all()
 
@@ -458,9 +544,14 @@ def main():
               "(só se retiram as bolsas com prazo já expirado).")
 
     final, removed = merge(previous, fresh, now, today)
+
+    # Destaques primeiro; uma bolsa automática com o mesmo link de um
+    # programa fixo não aparece duas vezes.
+    fixed_urls = {b["url"] for b in fixed}
+    final = fixed + [b for b in final if b["url"] not in fixed_urls]
     export(final, now)
 
-    novas = sum(1 for b in final if b["first_seen_at"] == b["last_seen_at"] == now.strftime("%Y-%m-%dT%H:%M:%SZ"))
+    novas = sum(1 for b in final if b.get("source") != "curadoria" and b["first_seen_at"] == b["last_seen_at"] == now.strftime("%Y-%m-%dT%H:%M:%SZ"))
     com_prazo = sum(1 for b in final if b["deadline"])
     print("\n" + "-" * 60)
     print(f"  Bolsas lidas nesta execução : {len(fresh)}")
