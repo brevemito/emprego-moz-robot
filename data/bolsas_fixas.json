@@ -1,0 +1,55 @@
+{
+  "_instrucoes": "Programas que aparecem SEMPRE no topo do separador Bolsas, como Destaque. Para acrescentar um programa, copie um bloco { ... }, cole-o a seguir a uma vírgula e altere os textos. \"deadline\" é a data limite no formato AAAA-MM-DD (deixe null se não houver edital aberto). Quando a data passa, o programa continua na lista e mostra o texto de \"deadline_text\". Níveis possíveis: Licenciatura, Mestrado, Doutoramento, MBA, Investigação, Curso curto / formação.",
+  "programas": [
+    {
+      "title": "PEC-PG — Mestrado e Doutoramento no Brasil (CAPES/CNPq)",
+      "provider": "Governo do Brasil (CAPES, CNPq e Ministério das Relações Exteriores)",
+      "country": "Brasil",
+      "levels": [
+        "Mestrado",
+        "Doutoramento"
+      ],
+      "summary": "Bolsa mensal para cidadãos de países com acordo com o Brasil, incluindo Moçambique, fazerem mestrado ou doutoramento em universidades brasileiras. Na edição 2027, o CNPq publica em Dezembro de 2026 a lista de universidades participantes e cada universidade faz a sua própria selecção.",
+      "deadline": null,
+      "deadline_text": "Edição 2027: lista de universidades em Dezembro de 2026; depois, a selecção é feita por cada universidade",
+      "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-de-estudantes-convenio-de-pos-graduacao-pec-pg"
+    },
+    {
+      "title": "Programa GCUB de Mobilidade Internacional (GCUB-Mob)",
+      "provider": "Grupo de Cooperação Internacional de Universidades Brasileiras (GCUB)",
+      "country": "Brasil",
+      "levels": [
+        "Mestrado",
+        "Doutoramento"
+      ],
+      "summary": "Vagas com bolsa mensal para estudantes internacionais fazerem mestrado (até 24 meses) ou doutoramento (até 48 meses) em universidades brasileiras associadas ao GCUB. Candidatura em português, inglês, espanhol ou francês.",
+      "deadline": null,
+      "deadline_text": "Edital 001/2026 (cursos a partir de 2027): confirme no site do GCUB se as inscrições ainda estão abertas",
+      "url": "https://www.gcub.org.br/"
+    },
+    {
+      "title": "PEC-G — Licenciatura gratuita no Brasil",
+      "provider": "Governo do Brasil (Ministério da Educação e Ministério das Relações Exteriores)",
+      "country": "Brasil",
+      "levels": [
+        "Licenciatura"
+      ],
+      "summary": "Vaga gratuita em cursos de licenciatura em universidades brasileiras, para estudantes de países com acordo com o Brasil, incluindo Moçambique. A inscrição faz-se na Embaixada do Brasil.",
+      "deadline": null,
+      "deadline_text": "Edital para ingresso em 2027 publicado a 31 Mar 2026: confirme na Embaixada do Brasil se ainda há inscrições",
+      "url": "https://www.gov.br/mre/pt-br/assuntos/cultura-e-educacao/temas-educacionais/programas-de-estudo-para-estrangeiros/pec-g/processo-seletivo"
+    },
+    {
+      "title": "Study in Saudi — Licenciatura em Contabilidade, Universidade Rei Saud (bolsa integral)",
+      "provider": "Universidade Rei Saud (King Saud University), Riade",
+      "country": "Arábia Saudita",
+      "levels": [
+        "Licenciatura"
+      ],
+      "summary": "Bolsa integral: propinas, subsídio mensal, residência universitária, seguro de saúde e bilhetes de avião. Curso de 4 anos e meio, em árabe e inglês. Requisitos: ensino secundário concluído há no máximo 5 anos, idade entre 17 e 25 anos e SAT de pelo menos 1010.",
+      "deadline": null,
+      "deadline_text": "Prazo não indicado; candidatura no portal Study in Saudi",
+      "url": "https://studyinsaudi.sa/ar/Programs/Details/3e10581e-8052-4c63-8ba9-5d063534c474"
+    }
+  ]
+}
