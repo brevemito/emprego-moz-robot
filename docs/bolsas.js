@@ -14,6 +14,11 @@
   var MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
   var SOON_DAYS = 14;
 
+  // Anúncio (template #tpl-chess-ad no index.html): aparece uma vez na
+  // lista, depois dos programas em destaque e das primeiras bolsas, para
+  // a pessoa ver primeiro o que veio procurar.
+  var AD_AFTER_REGULAR = 3;
+
   var allBolsas = [];
   var loaded = false;
   var loading = null;
@@ -38,6 +43,10 @@
     level: $("bolsa-level"),
     country: $("bolsa-country"),
     sort: $("bolsa-sort"),
+    statBolsas: $("stat-bolsas"),
+    soon: $("bolsa-soon"),
+    soonList: $("bolsa-soon-list"),
+    adTemplate: $("tpl-chess-ad"),
   };
 
   // Sem o HTML dos separadores (ex.: index.html antigo), não faz nada.
@@ -103,6 +112,8 @@
         loaded = true;
         el.loadingMsg.hidden = true;
         el.countBolsas.textContent = String(allBolsas.length);
+        if (el.statBolsas) el.statBolsas.textContent = String(allBolsas.length);
+        renderSoon();
         populateFilters();
         applyFilters();
       })
@@ -225,6 +236,13 @@
     var card = document.createElement("article");
     card.className = "job-card bolsa-card" + (b.featured ? " is-featured" : "");
 
+    // Dados usados pelo extras.js (guardar, partilhar, "Novo").
+    card.dataset.kind = "bolsa";
+    card.dataset.url = b.url || "";
+    card.dataset.title = b.title || "";
+    card.dataset.org = b.provider || "";
+    card.dataset.firstSeen = b.featured ? "" : (b.first_seen_at || "");
+
     var main = document.createElement("div");
     main.className = "job-main";
 
@@ -290,8 +308,61 @@
       " encontrada" + (items.length === 1 ? "" : "s");
 
     var frag = document.createDocumentFragment();
-    items.forEach(function (b) { frag.appendChild(buildCard(b)); });
+    var regular = 0;
+    var adPlaced = false;
+    items.forEach(function (b) {
+      frag.appendChild(buildCard(b));
+      if (!b.featured) regular += 1;
+      if (!adPlaced && regular === AD_AFTER_REGULAR) {
+        adPlaced = appendAd(frag);
+      }
+    });
+    // Listas curtas (ex.: depois de filtrar): o anúncio vai para o fim.
+    if (!adPlaced && items.length >= 2) appendAd(frag);
     el.list.appendChild(frag);
+  }
+
+  function appendAd(parent) {
+    if (!el.adTemplate || !el.adTemplate.content) return false;
+    var wrap = document.createElement("div");
+    wrap.className = "list-ad";
+    wrap.appendChild(el.adTemplate.content.cloneNode(true));
+    parent.appendChild(wrap);
+    return true;
+  }
+
+  // "Terminam em breve": até 3 bolsas com prazo nos próximos 14 dias,
+  // logo no topo do separador (cria urgência e dá razão para voltar).
+  function renderSoon() {
+    if (!el.soon || !el.soonList) return;
+    var soon = allBolsas
+      .filter(function (b) {
+        var d = daysLeft(b.deadline);
+        return !b.featured && d !== null && d >= 0 && d <= SOON_DAYS;
+      })
+      .sort(function (a, b) { return a.deadline.localeCompare(b.deadline); })
+      .slice(0, 3);
+
+    el.soonList.innerHTML = "";
+    soon.forEach(function (b) {
+      var li = document.createElement("li");
+      var a = document.createElement("a");
+      a.href = b.url;
+      a.target = "_blank";
+      a.rel = "noopener";
+      var t = document.createElement("span");
+      t.className = "soon-name";
+      t.textContent = b.title;
+      var d = daysLeft(b.deadline);
+      var c = document.createElement("span");
+      c.className = "soon-days";
+      c.textContent = d === 0 ? "termina hoje" : d === 1 ? "falta 1 dia" : "faltam " + d + " dias";
+      a.appendChild(t);
+      a.appendChild(c);
+      li.appendChild(a);
+      el.soonList.appendChild(li);
+    });
+    el.soon.hidden = soon.length === 0;
   }
 
   var timer;
