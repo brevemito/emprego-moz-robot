@@ -22,6 +22,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,600&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="bolsas.css">
 
 <style>
   .bm-curso-ingles{
@@ -353,6 +354,17 @@
 </div>
 
 <main class="wrap">
+  
+  <nav class="tabs" role="tablist" aria-label="Secções">
+    <button id="tab-vagas" class="tab" role="tab" aria-selected="true" aria-controls="panel-vagas">
+      Vagas de emprego <span id="tab-count-vagas" class="tab-count">—</span>
+    </button>
+    <button id="tab-bolsas" class="tab" role="tab" aria-selected="false" aria-controls="panel-bolsas" tabindex="-1">
+      Bolsas de estudo <span id="tab-count-bolsas" class="tab-count">—</span>
+    </button>
+  </nav>
+
+  <section id="panel-vagas" role="tabpanel" aria-labelledby="tab-vagas">
 
   <div class="controls" role="search">
     <input
@@ -392,7 +404,53 @@
     <strong>Não foi possível carregar as vagas agora.</strong>
     <span>Verifique a ligação à internet e tente recarregar a página.</span>
   </div>
+  </section>
 
+  <section id="panel-bolsas" role="tabpanel" aria-labelledby="tab-bolsas" hidden>
+
+    <div class="controls" role="search">
+      <input id="bolsa-search" type="search" class="control control-search"
+        placeholder="Procurar por bolsa, universidade ou país..." aria-label="Procurar bolsas">
+
+      <select id="bolsa-level" class="control" aria-label="Filtrar por nível de estudo">
+        <option value="">Todos os níveis</option>
+      </select>
+
+      <select id="bolsa-country" class="control" aria-label="Filtrar por país de estudo">
+        <option value="">Todos os países</option>
+      </select>
+
+      <select id="bolsa-sort" class="control" aria-label="Ordenar bolsas">
+        <option value="deadline">Prazo mais próximo</option>
+        <option value="recent">Mais recentes</option>
+      </select>
+    </div>
+
+    <p id="bolsa-results-count" class="results-count" aria-live="polite"></p>
+
+    <div id="bolsa-list" class="job-list" aria-live="polite">
+      <div class="state-message" id="bolsa-loading">A carregar bolsas...</div>
+    </div>
+
+    <div id="bolsa-empty" class="state-message empty-state" hidden>
+      <strong>Nenhuma bolsa corresponde a estes filtros.</strong>
+      <span>Experimente outro nível, país, ou limpe a pesquisa.</span>
+    </div>
+
+    <div id="bolsa-error" class="state-message error-state" hidden>
+      <strong>Não foi possível carregar as bolsas agora.</strong>
+      <span>Verifique a ligação à internet e tente recarregar a página.</span>
+    </div>
+
+    <p class="bolsas-note">
+      Bolsas internacionais a que candidatos moçambicanos podem concorrer, recolhidas
+      automaticamente do
+      <a href="https://www.scholars4dev.com" target="_blank" rel="noopener">Scholars4Dev</a>
+      e actualizadas todos os dias. Os prazos e requisitos podem mudar: confirme sempre
+      no site oficial da bolsa antes de se candidatar.
+    </p>
+
+  </section>
 </main>
 
 <section class="bm-curso-ingles">
@@ -520,5 +578,6 @@
 </script>
 
 <script src="app.js"></script>
+<script src="bolsas.js"></script>
 </body>
 </html>
