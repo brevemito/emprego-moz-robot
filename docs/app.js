@@ -158,6 +158,13 @@ function buildCard(job) {
   const card = document.createElement("article");
   card.className = "job-card";
 
+  // Dados usados pelo extras.js (guardar, partilhar, "Novo").
+  card.dataset.kind = "vaga";
+  card.dataset.url = job.url || "";
+  card.dataset.title = job.title || "";
+  card.dataset.org = job.company || "";
+  card.dataset.firstSeen = job.first_seen_at || job.scraped_at || "";
+
   const main = document.createElement("div");
   main.className = "job-main";
 
