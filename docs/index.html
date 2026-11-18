@@ -3,26 +3,42 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vagas Moçambique — Brevemito</title>
-<meta name="description" content="Vagas de emprego em Moçambique, recolhidas automaticamente de 21 fontes: portais de emprego, empresas, bancos e organizações internacionais. Um projecto Brevemi[...]
+<title>Vagas e Bolsas de Estudo em Moçambique — Brevemito</title>
+<meta name="description" content="Vagas de emprego em Moçambique e bolsas de estudo para moçambicanos, actualizadas todos os dias. Guarde as que lhe interessam e partilhe no WhatsApp. Um projecto Brevemito.">
+<meta name="theme-color" content="#34383B">
+<link rel="canonical" href="https://brevemito.github.io/emprego-moz-robot/">
 
-<meta property="og:title" content="Vagas Moçambique — Brevemito">
-<meta property="og:description" content="Vagas de emprego em Moçambique, actualizadas todos os dias.">
+<meta property="og:title" content="Vagas e Bolsas de Estudo em Moçambique — Brevemito">
+<meta property="og:description" content="Vagas de emprego e bolsas de estudo para moçambicanos, actualizadas todos os dias.">
 <meta property="og:image" content="https://mistyrose-ostrich-482714.hostingersite.com/wp-content/uploads/2026/06/cropped-cropped-brevemito-logo.png">
+<meta property="og:url" content="https://brevemito.github.io/emprego-moz-robot/">
+<meta property="og:site_name" content="Brevemito">
+<meta property="og:locale" content="pt_MZ">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 
 <link rel="icon" type="image/png" href="https://mistyrose-ostrich-482714.hostingersite.com/wp-content/uploads/2026/06/cropped-cropped-brevemito-logo.png">
+<link rel="apple-touch-icon" href="https://mistyrose-ostrich-482714.hostingersite.com/wp-content/uploads/2026/06/cropped-cropped-brevemito-logo.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,600&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&family=Fraunces:ital,wght@0,600;1,600&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="styles.css">
 <link rel="stylesheet" href="bolsas.css">
+<link rel="stylesheet" href="design.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Vagas e Bolsas de Estudo em Moçambique",
+  "url": "https://brevemito.github.io/emprego-moz-robot/",
+  "inLanguage": "pt-MZ",
+  "publisher": { "@type": "Organization", "name": "Brevemito", "url": "https://brevemito.com", "logo": "https://mistyrose-ostrich-482714.hostingersite.com/wp-content/uploads/2026/06/cropped-cropped-brevemito-logo.png" }
+}
+</script>
 
 <style>
   .bm-curso-ingles{
@@ -259,51 +275,73 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap">
-    <div class="brand">
-      <img
-        class="brand-logo"
-        src="https://mistyrose-ostrich-482714.hostingersite.com/wp-content/uploads/2026/06/cropped-cropped-brevemito-logo.png"
-        alt="Brevemito"
-        width="44" height="44"
-      >
-      <div class="brand-text">
-        <span class="brand-name">Vagas Moçambique</span>
-        <span class="brand-tagline">um projecto Brevemito · vagas de 21 fontes, todos os dias</span>
-      </div>
-    </div>
-    <a class="brand-link" href="https://github.com/brevemito/emprego-moz-robot" target="_blank" rel="noopener">
-      Ver no GitHub
+<a class="skip-link" href="#conteudo">Saltar para o conteúdo</a>
+
+<!-- ===================== CABEÇALHO ===================== -->
+<header class="site-header" id="topo">
+  <div class="wrap header-inner">
+    <a class="brand" href="https://brevemito.com" aria-label="Brevemito — página inicial">
+      <img class="brand-logo" src="https://mistyrose-ostrich-482714.hostingersite.com/wp-content/uploads/2026/06/cropped-cropped-brevemito-logo.png" alt="" width="44" height="44">
+      <span class="brand-text">
+        <span class="brand-name">Brevemito <span class="brand-sep">/</span> Oportunidades</span>
+        <span class="brand-tagline">Vagas e bolsas para moçambicanos</span>
+      </span>
     </a>
+
+    <nav class="site-nav" aria-label="Navegação principal">
+      <a href="#vagas" data-nav="vagas">Vagas</a>
+      <a href="#bolsas" data-nav="bolsas">Bolsas</a>
+      <a href="https://brevemito.com" target="_blank" rel="noopener">Blog</a>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="saved-toggle" id="saved-open" aria-haspopup="dialog" aria-controls="saved-drawer">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 3h12a1 1 0 0 1 1 1v17l-7-4-7 4V4a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <span class="saved-toggle-label">Guardadas</span>
+        <span class="saved-count" id="saved-count" hidden>0</span>
+      </button>
+      <button id="bm-header-donate-btn" aria-haspopup="dialog">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="#F4B324" aria-hidden="true">
+          <path d="M12 21s-7.5-4.6-10.2-9.3C.2 8.9 1.6 5 5.4 4.2c2.1-.4 4 .6 5.1 2.3C11.6 4.8 13.5 3.8 15.6 4.2 19.4 5 20.8 8.9 19.2 11.7 16.5 16.4 12 21 12 21z"/>
+        </svg>
+        <span class="donate-label">Apoiar</span>
+      </button>
+    </div>
   </div>
 </header>
 
 <div class="capulana-strip" aria-hidden="true"></div>
 
-<section class="board" aria-label="Resumo">
-  <div class="wrap board-inner">
-    <div class="board-stat">
-      <span id="stat-count" class="board-number">—</span>
-      <span class="board-label">vagas activas</span>
+<!-- ===================== DESTAQUE / RESUMO ===================== -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="hero-eyebrow"><span class="live-dot" aria-hidden="true"></span> Actualizado todos os dias às 05:00</p>
+      <h1 id="hero-title">O seu próximo passo começa aqui.</h1>
+      <p class="hero-lead">Vagas de emprego em Moçambique e bolsas de estudo abertas a moçambicanos, reunidas de dezenas de fontes oficiais num só lugar.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#vagas" data-nav="vagas">Ver vagas</a>
+        <a class="btn btn-ghost" href="#bolsas" data-nav="bolsas">Ver bolsas de estudo</a>
+      </div>
     </div>
-    <div class="board-divider" aria-hidden="true"></div>
-    <div class="board-meta">
-      <span id="stat-updated" class="board-updated">a carregar...</span>
-      <span class="board-sub">actualizado automaticamente todos os dias às 05:00</span>
-    </div>
+
+    <dl class="hero-stats" aria-label="Resumo">
+      <div class="hero-stat">
+        <dt>Vagas activas</dt>
+        <dd id="stat-count" class="stat-number">—</dd>
+      </div>
+      <div class="hero-stat">
+        <dt>Bolsas abertas</dt>
+        <dd id="stat-bolsas" class="stat-number">—</dd>
+      </div>
+      <div class="hero-stat hero-stat-accent">
+        <dt id="stat-new-label">Novas desde a sua última visita</dt>
+        <dd id="stat-new" class="stat-number">—</dd>
+      </div>
+      <p class="hero-updated" id="stat-updated">a carregar...</p>
+    </dl>
   </div>
 </section>
-
-<!-- ===== Botão de Apoio — Abaixo das vagas activas ===== -->
-<div class="wrap" style="text-align: center; margin-top: 1.5rem; margin-bottom: 2rem;">
-  <button id="bm-header-donate-btn" aria-haspopup="dialog">
-    <svg width="15" height="15" viewBox="0 0 24 24" fill="#F4B324" aria-hidden="true">
-      <path d="M12 21s-7.5-4.6-10.2-9.3C.2 8.9 1.6 5 5.4 4.2c2.1-.4 4 .6 5.1 2.3C11.6 4.8 13.5 3.8 15.6 4.2 19.4 5 20.8 8.9 19.2 11.7 16.5 16.4 12 21 12 21z"/>
-    </svg>
-    Apoiar o Blog
-  </button>
-</div>
 
 <div id="bm-donate-overlay" role="dialog" aria-modal="true" aria-labelledby="bm-donate-title">
   <div id="bm-donate-modal">
@@ -343,70 +381,64 @@
   </div>
 </div>
 
-<div class="wrap" style="margin-top: 2rem; margin-bottom: 2rem;">
-  <a href="https://whatsapp.com/channel/0029VbD9lut2Jl88G0igIL0O" target="_blank" rel="noopener" aria-label="Seguir o canal Brevemito no WhatsApp">
-    <img 
-      src="https://mistyrose-ostrich-482714.hostingersite.com/wp-content/uploads/2026/07/canal_brevemito.png"
-      alt="Siga o canal Brevemito no WhatsApp para receber artigos, vagas e actualizações"
-      style="width:100%; max-width:100%; height:auto; display:block; border:0; border-radius: 0.5rem;"
-    >
-  </a>
-</div>
+<!-- ===================== CONTEÚDO ===================== -->
+<main class="wrap" id="conteudo" tabindex="-1">
 
-<main class="wrap">
-  
   <nav class="tabs" role="tablist" aria-label="Secções">
     <button id="tab-vagas" class="tab" role="tab" aria-selected="true" aria-controls="panel-vagas">
-      Vagas de emprego <span id="tab-count-vagas" class="tab-count">—</span>
+      Vagas<span class="tab-long"> de emprego</span> <span id="tab-count-vagas" class="tab-count">—</span>
     </button>
     <button id="tab-bolsas" class="tab" role="tab" aria-selected="false" aria-controls="panel-bolsas" tabindex="-1">
-      Bolsas de estudo <span id="tab-count-bolsas" class="tab-count">—</span>
+      Bolsas<span class="tab-long"> de estudo</span> <span id="tab-count-bolsas" class="tab-count">—</span>
     </button>
   </nav>
 
   <section id="panel-vagas" role="tabpanel" aria-labelledby="tab-vagas">
 
-  <div class="controls" role="search">
-    <input
-      id="search-input"
-      type="search"
-      class="control control-search"
-      placeholder="Procurar por cargo, empresa ou palavra-chave..."
-      aria-label="Procurar vagas"
-    >
+    <div class="controls" role="search">
+      <input id="search-input" type="search" class="control control-search"
+        placeholder="Procurar por cargo, empresa ou palavra-chave..." aria-label="Procurar vagas">
 
-    <select id="filter-category" class="control" aria-label="Filtrar por categoria">
-      <option value="">Todas as categorias</option>
-    </select>
+      <select id="filter-category" class="control" aria-label="Filtrar por categoria">
+        <option value="">Todas as categorias</option>
+      </select>
 
-    <select id="filter-location" class="control" aria-label="Filtrar por localização">
-      <option value="">Todas as localizações</option>
-    </select>
+      <select id="filter-location" class="control" aria-label="Filtrar por localização">
+        <option value="">Todas as localizações</option>
+      </select>
 
-    <select id="sort-order" class="control" aria-label="Ordenar">
-      <option value="relevance">Mais relevantes</option>
-      <option value="recent">Mais recentes</option>
-    </select>
-  </div>
+      <select id="sort-order" class="control" aria-label="Ordenar">
+        <option value="relevance">Mais relevantes</option>
+        <option value="recent">Mais recentes</option>
+      </select>
+    </div>
 
-  <p id="results-count" class="results-count" aria-live="polite"></p>
+    <p id="results-count" class="results-count" aria-live="polite"></p>
 
-  <div id="job-list" class="job-list" aria-live="polite">
-    <div class="state-message" id="loading-message">A carregar vagas...</div>
-  </div>
+    <div id="job-list" class="job-list" aria-live="polite">
+      <div id="loading-message" class="skeleton-list" aria-label="A carregar vagas">
+        <div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>
+      </div>
+    </div>
 
-  <div id="empty-state" class="state-message empty-state" hidden>
-    <strong>Nenhuma vaga corresponde a estes filtros.</strong>
-    <span>Experimente outra categoria, localização, ou limpe a pesquisa.</span>
-  </div>
+    <div id="empty-state" class="state-message empty-state" hidden>
+      <strong>Nenhuma vaga corresponde a estes filtros.</strong>
+      <span>Experimente outra categoria, localização, ou limpe a pesquisa.</span>
+    </div>
 
-  <div id="error-state" class="state-message error-state" hidden>
-    <strong>Não foi possível carregar as vagas agora.</strong>
-    <span>Verifique a ligação à internet e tente recarregar a página.</span>
-  </div>
+    <div id="error-state" class="state-message error-state" hidden>
+      <strong>Não foi possível carregar as vagas agora.</strong>
+      <span>Verifique a ligação à internet e tente recarregar a página.</span>
+    </div>
+
   </section>
 
   <section id="panel-bolsas" role="tabpanel" aria-labelledby="tab-bolsas" hidden>
+
+    <div id="bolsa-soon" class="soon-strip" hidden>
+      <p class="soon-title"><span class="soon-icon" aria-hidden="true">⏳</span> Terminam em breve</p>
+      <ul id="bolsa-soon-list" class="soon-list"></ul>
+    </div>
 
     <div class="controls" role="search">
       <input id="bolsa-search" type="search" class="control control-search"
@@ -429,7 +461,9 @@
     <p id="bolsa-results-count" class="results-count" aria-live="polite"></p>
 
     <div id="bolsa-list" class="job-list" aria-live="polite">
-      <div class="state-message" id="bolsa-loading">A carregar bolsas...</div>
+      <div id="bolsa-loading" class="skeleton-list" aria-label="A carregar bolsas">
+        <div class="skeleton-card"></div><div class="skeleton-card"></div><div class="skeleton-card"></div>
+      </div>
     </div>
 
     <div id="bolsa-empty" class="state-message empty-state" hidden>
@@ -451,7 +485,341 @@
     </p>
 
   </section>
+
 </main>
+
+<!-- Anúncio Chess.com: o bolsas.js insere-o no meio da lista de bolsas -->
+<template id="tpl-chess-ad">
+<!-- ===================================================================
+     Banner publicitário (afiliado) — Chess.com Premium — v2
+     Bloco: HTML Personalizado (Gutenberg)
+     Inserir logo abaixo da lista de torneios, na página Xadrez
+=================================================================== -->
+<aside class="bm-chess-ad" aria-label="Publicidade: Chess.com Premium">
+
+  <style>
+    .bm-chess-ad {
+      --chess-verde: #81b64c;
+      --chess-verde-escuro: #5d8a34;
+      --chess-verde-claro: #a3d160;
+      --chess-preto: #1e1e1e;
+      --bm-vermelho: #c8000a;
+      --bm-ocre: #c8892b;
+      --bm-terracota: #b4552f;
+      --bm-verde-azulado: #2f7d6e;
+      --bm-cinza-medio: #6b6b6b;
+    }
+
+    /* ---------- Cartão ---------- */
+    .bm-chess-ad {
+      position: relative;
+      max-width: 900px;
+      margin: 2.5rem auto;
+      padding: 2.25rem 2.25rem 2rem;
+      background: var(--chess-preto);
+      border-radius: 14px;
+      overflow: hidden;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #ffffff;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Faixa fina com as cores do Brevemito, a assinar o conteúdo como do site */
+    .bm-chess-ad::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(
+        90deg,
+        var(--bm-vermelho) 0%,
+        var(--bm-ocre) 33%,
+        var(--bm-terracota) 66%,
+        var(--bm-verde-azulado) 100%
+      );
+    }
+
+    /* Textura de tabuleiro muito subtil no fundo, para reforçar o tema xadrez */
+    .bm-chess-ad::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(45deg, rgba(129,182,76,0.06) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(129,182,76,0.06) 25%, transparent 25%);
+      background-size: 48px 48px;
+      pointer-events: none;
+    }
+
+    .bm-chess-ad-tag {
+      position: absolute;
+      top: 14px;
+      right: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.62rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.45);
+      z-index: 2;
+    }
+
+    /* ---------- Cabeçalho com marca Chess.com ---------- */
+    .bm-chess-ad-brand {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      margin-bottom: 1.4rem;
+    }
+
+    .bm-chess-ad-logo {
+      flex: 0 0 auto;
+      width: 40px;
+      height: 40px;
+      border-radius: 8px;
+      background: var(--chess-verde);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .bm-chess-ad-logo svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .bm-chess-ad-wordmark {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.3rem;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+    }
+
+    .bm-chess-ad-wordmark span {
+      color: var(--chess-verde);
+    }
+
+    /* ---------- Corpo ---------- */
+    .bm-chess-ad-body {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .bm-chess-ad-content {
+      flex: 1 1 320px;
+      min-width: 0;
+    }
+
+    .bm-chess-ad-title {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.7rem;
+      line-height: 1.2;
+      font-weight: bold;
+    }
+
+    .bm-chess-ad-title .bm-chess-highlight {
+      color: var(--chess-verde-claro);
+    }
+
+    .bm-chess-ad-text {
+      margin: 0 0 1.25rem 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: rgba(255,255,255,0.75);
+      max-width: 46ch;
+    }
+
+    .bm-chess-ad-benefits {
+      list-style: none;
+      margin: 0 0 1.5rem 0;
+      padding: 0;
+      display: grid;
+      gap: 0.5rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 0.92rem;
+    }
+
+    .bm-chess-ad-benefits li {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      color: rgba(255,255,255,0.9);
+    }
+
+    .bm-chess-ad-benefits svg {
+      flex: 0 0 auto;
+      width: 18px;
+      height: 18px;
+      color: var(--chess-verde);
+    }
+
+    .bm-chess-ad-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      text-decoration: none;
+      color: var(--chess-preto);
+      background: var(--chess-verde);
+      padding: 0.85rem 1.7rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 0 var(--chess-verde-escuro);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+
+    .bm-chess-ad-button:hover,
+    .bm-chess-ad-button:focus {
+      background: var(--chess-verde-claro);
+      color: var(--chess-preto);
+      transform: translateY(2px);
+      box-shadow: 0 2px 0 var(--chess-verde-escuro);
+    }
+
+    .bm-chess-ad-button svg {
+      width: 18px;
+      height: 18px;
+    }
+
+    /* ---------- Selo/badge do cavalo grande, à direita ---------- */
+    .bm-chess-ad-badge {
+      flex: 0 0 auto;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 30%, var(--chess-verde-claro), var(--chess-verde) 60%, var(--chess-verde-escuro) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 18px rgba(129,182,76,0.35);
+    }
+
+    .bm-chess-ad-badge svg {
+      width: 76px;
+      height: 76px;
+    }
+
+    /* ---------- Responsivo ---------- */
+    @media (max-width: 620px) {
+      .bm-chess-ad {
+        padding: 2rem 1.4rem 1.75rem;
+      }
+
+      .bm-chess-ad-body {
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+
+      .bm-chess-ad-benefits li {
+        justify-content: center;
+      }
+
+      .bm-chess-ad-title {
+        font-size: 1.4rem;
+      }
+
+      .bm-chess-ad-badge {
+        width: 96px;
+        height: 96px;
+      }
+
+      .bm-chess-ad-badge svg {
+        width: 52px;
+        height: 52px;
+      }
+
+      .bm-chess-ad-button {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+
+  <span class="bm-chess-ad-tag">Publicidade</span>
+
+  <header class="bm-chess-ad-brand">
+    <span class="bm-chess-ad-logo" aria-hidden="true">
+      <svg viewBox="0 0 384 512" fill="#ffffff">
+        <path d="m19 272.47 40.63 18.06a32 32 0 0024.88.47l12.78-5.12a32 32 0 0018.76-20.5l9.22-30.65a24 24 0 0112.55-15.65L159.94 208v50.33a48 48 0 01-26.53 42.94l-57.22 28.65A80 80 0 0032 401.48V416h319.86V224c0-106-85.92-192-191.92-192H12A12 12 0 000 44a16.9 16.9 0 001.79 7.58L16 80l-9 9a24 24 0 00-7 17v137.21a32 32 0 0019 29.26zM52 128a20 20 0 11-20 20 20 20 0 0120-20zm316 320H16a16 16 0 00-16 16v32a16 16 0 0016 16h352a16 16 0 0016-16v-32a16 16 0 00-16-16z"/>
+      </svg>
+    </span>
+    <span class="bm-chess-ad-wordmark">chess<span>.com</span></span>
+  </header>
+
+  <div class="bm-chess-ad-body">
+
+    <div class="bm-chess-ad-content">
+      <h3 class="bm-chess-ad-title">
+        Seja Premium.<br>
+        <span class="bm-chess-highlight">Melhore no Xadrez.</span>
+      </h3>
+      <p class="bm-chess-ad-text">
+        Junte-se a milhões de jogadores em todo o mundo e leve o seu
+        xadrez a outro nível com as ferramentas oficiais do Chess.com.
+      </p>
+      <ul class="bm-chess-ad-benefits">
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+            <path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Puzzles diários ilimitados
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+            <path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Análise das suas partidas com IA
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+            <path d="M4 12l5 5L20 6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Lições guiadas para todos os níveis
+        </li>
+      </ul>
+      <a
+        class="bm-chess-ad-button"
+        href="https://www.chess.com/membership?ref_id=24845802"
+        target="_blank"
+        rel="sponsored noopener noreferrer"
+      >
+        Assinar Chess.com Premium
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+
+    <div class="bm-chess-ad-badge" aria-hidden="true">
+      <svg viewBox="0 0 384 512" fill="#1e1e1e">
+        <path d="m19 272.47 40.63 18.06a32 32 0 0024.88.47l12.78-5.12a32 32 0 0018.76-20.5l9.22-30.65a24 24 0 0112.55-15.65L159.94 208v50.33a48 48 0 01-26.53 42.94l-57.22 28.65A80 80 0 0032 401.48V416h319.86V224c0-106-85.92-192-191.92-192H12A12 12 0 000 44a16.9 16.9 0 001.79 7.58L16 80l-9 9a24 24 0 00-7 17v137.21a32 32 0 0019 29.26zM52 128a20 20 0 11-20 20 20 20 0 0120-20zm316 320H16a16 16 0 00-16 16v32a16 16 0 0016 16h352a16 16 0 0016-16v-32a16 16 0 00-16-16z"/>
+      </svg>
+    </div>
+
+  </div>
+
+</aside>
+</template>
+
+<!-- ===================== CANAL WHATSAPP ===================== -->
+<section class="wrap channel-banner" aria-label="Canal Brevemito no WhatsApp">
+  <a href="https://whatsapp.com/channel/0029VbD9lut2Jl88G0igIL0O" target="_blank" rel="noopener" aria-label="Seguir o canal Brevemito no WhatsApp">
+    <img
+      src="https://mistyrose-ostrich-482714.hostingersite.com/wp-content/uploads/2026/07/canal_brevemito.png"
+      alt="Siga o canal Brevemito no WhatsApp para receber artigos, vagas e actualizações"
+      loading="lazy"
+    >
+  </a>
+</section>
 
 <section class="bm-curso-ingles">
   <div class="bm-ci-stripe" aria-hidden="true"></div>
@@ -462,8 +830,8 @@
     <div class="bm-ci-body">
       <p class="bm-ci-eyebrow"><span class="bm-ci-dot" aria-hidden="true"></span>Curso grátis · Alison</p>
       <h2 class="bm-ci-title">Diploma em Inglês<br><em>Nível A1</em></h2>
-      <p class="bm-ci-desc">Aprende inglês do zero, ao teu ritmo, e recebe um certificado reconhecido para juntar ao teu currículo. Ideal para quem procura emprego e precisa de inglês básico.[...]
-      <a class="bm-ci-cta" href="https://alison.com/course/diploma-in-english-a1-level?utm_source=alison_user&amp;utm_medium=affiliate&amp;utm_campaign=29241096" target="_blank" rel="noopener spo[...]
+      <p class="bm-ci-desc">Aprende inglês do zero, ao teu ritmo, e recebe um certificado reconhecido para juntar ao teu currículo. Ideal para quem procura emprego e precisa de inglês básico.</p>
+      <a class="bm-ci-cta" href="https://alison.com/course/diploma-in-english-a1-level?utm_source=alison_user&amp;utm_medium=affiliate&amp;utm_campaign=29241096" target="_blank" rel="noopener sponsored">Começar o curso grátis</a>
       <p class="bm-ci-fine">Curso 100% gratuito na Alison; o certificado final é opcional e pago.</p>
     </div>
   </div>
@@ -471,20 +839,55 @@
 
 <div class="capulana-strip" aria-hidden="true"></div>
 
+<!-- ===================== RODAPÉ ===================== -->
 <footer class="site-footer">
-  <div class="wrap footer-inner">
-    <img
-      class="footer-logo"
-      src="https://mistyrose-ostrich-482714.hostingersite.com/wp-content/uploads/2026/06/cropped-cropped-brevemito-logo.png"
-      alt="" width="28" height="28"
-    >
-    <p>
-      Dados recolhidos automaticamente por
-      <a href="https://github.com/brevemito/emprego-moz-robot" target="_blank" rel="noopener">emprego-moz-robot</a>.
-      Vagas também publicadas em <a href="https://brevemito.com" target="_blank" rel="noopener">brevemito.com</a>.
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <img class="footer-logo" src="https://mistyrose-ostrich-482714.hostingersite.com/wp-content/uploads/2026/06/cropped-cropped-brevemito-logo.png" alt="" width="40" height="40" loading="lazy">
+      <div>
+        <p class="footer-name">Brevemito</p>
+        <p class="footer-text">Oportunidades de emprego e estudo para moçambicanos, reunidas e actualizadas todos os dias.</p>
+      </div>
+    </div>
+    <nav class="footer-links" aria-label="Ligações do rodapé">
+      <a href="https://brevemito.com" target="_blank" rel="noopener">brevemito.com</a>
+      <a href="#vagas" data-nav="vagas">Vagas de emprego</a>
+      <a href="#bolsas" data-nav="bolsas">Bolsas de estudo</a>
+      <a href="https://whatsapp.com/channel/0029VbD9lut2Jl88G0igIL0O" target="_blank" rel="noopener">Canal no WhatsApp</a>
+    </nav>
+    <p class="footer-note">
+      As oportunidades são recolhidas automaticamente de fontes públicas. Confirme sempre os detalhes
+      e prazos no site oficial antes de se candidatar. Nunca pague para se candidatar a uma vaga.
     </p>
+    <p class="footer-copy">© <span id="footer-year">2026</span> Brevemito</p>
   </div>
 </footer>
+
+<!-- ===================== ELEMENTOS FLUTUANTES ===================== -->
+<aside id="saved-drawer" class="drawer" role="dialog" aria-modal="true" aria-labelledby="saved-title" hidden>
+  <div class="drawer-backdrop" data-close></div>
+  <div class="drawer-panel">
+    <div class="drawer-head">
+      <h2 id="saved-title">Guardadas</h2>
+      <button type="button" class="icon-btn" data-close aria-label="Fechar">&times;</button>
+    </div>
+    <p class="drawer-hint">Ficam guardadas neste telemóvel ou computador. Volte quando quiser para se candidatar.</p>
+    <ul id="saved-list" class="saved-list"></ul>
+    <p id="saved-empty" class="drawer-empty">Ainda não guardou nada. Toque em <strong>Guardar</strong> numa vaga ou bolsa.</p>
+  </div>
+</aside>
+
+<div id="channel-bar" class="channel-bar" role="complementary" aria-label="Canal WhatsApp" hidden>
+  <p><strong>Não perca nenhuma oportunidade.</strong> Receba as novas vagas e bolsas no canal Brevemito do WhatsApp.</p>
+  <a class="btn btn-whatsapp" href="https://whatsapp.com/channel/0029VbD9lut2Jl88G0igIL0O" target="_blank" rel="noopener">Seguir o canal</a>
+  <button type="button" class="icon-btn" id="channel-bar-close" aria-label="Fechar">&times;</button>
+</div>
+
+<button type="button" id="back-to-top" class="back-to-top" aria-label="Voltar ao topo" hidden>
+  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
 
 <script src="https://www.paypal.com/sdk/js?client-id=BAAVpiX_QOE5vmw1jBdRskSs1GB4A5DPKNmg0Bu5pdKBxNnFlNgmZn6WMRhxRna8njb1ycnFMIR83LU4Dc&currency=USD&components=buttons"></script>
 <script>
@@ -579,5 +982,6 @@
 
 <script src="app.js"></script>
 <script src="bolsas.js"></script>
+<script src="extras.js"></script>
 </body>
 </html>
