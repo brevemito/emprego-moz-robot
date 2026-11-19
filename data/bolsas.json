@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T11:07:38Z",
+  "updated_at": "2026-11-19T22:25:07Z",
   "total": 88,
   "bolsas": [
     {
@@ -20,8 +20,8 @@
       "featured": true,
       "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-de-estudantes-convenio-de-pos-graduacao-pec-pg",
       "source": "curadoria",
-      "first_seen_at": "2026-11-19T11:07:38Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "first_seen_at": "2026-11-19T22:25:07Z",
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "fixa_b7d497edd298",
@@ -41,8 +41,8 @@
       "featured": true,
       "url": "https://www.gcub.org.br/",
       "source": "curadoria",
-      "first_seen_at": "2026-11-19T11:07:38Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "first_seen_at": "2026-11-19T22:25:07Z",
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "fixa_188e62dfa259",
@@ -61,8 +61,8 @@
       "featured": true,
       "url": "https://www.gov.br/mre/pt-br/assuntos/cultura-e-educacao/temas-educacionais/programas-de-estudo-para-estrangeiros/pec-g/processo-seletivo",
       "source": "curadoria",
-      "first_seen_at": "2026-11-19T11:07:38Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "first_seen_at": "2026-11-19T22:25:07Z",
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "fixa_ca2f4219db5b",
@@ -81,8 +81,8 @@
       "featured": true,
       "url": "https://studyinsaudi.sa/ar/Programs/Details/3e10581e-8052-4c63-8ba9-5d063534c474",
       "source": "curadoria",
-      "first_seen_at": "2026-11-19T11:07:38Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "first_seen_at": "2026-11-19T22:25:07Z",
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_90aef472359a",
@@ -103,7 +103,7 @@
       "url": "https://www.scholars4dev.com/emile-boutmy-scholarships-for-non-eu-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_64a1726bf104",
@@ -123,7 +123,7 @@
       "url": "https://www.scholars4dev.com/eth-zurich-excellence-masters-scholarship-program/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_920ede17beab",
@@ -143,7 +143,7 @@
       "url": "https://www.scholars4dev.com/eric-bleumink-scholarships-for-developing-countries-at-university-of-groningen/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_e5ba40b9eea7",
@@ -163,7 +163,7 @@
       "url": "https://www.scholars4dev.com/tu-delft-excellence-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_76db9066e636",
@@ -183,7 +183,7 @@
       "url": "https://www.scholars4dev.com/leiden-university-excellence-scholarship-for-non-eu-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_39a9b4bd0f15",
@@ -205,7 +205,7 @@
       "url": "https://www.scholars4dev.com/quota-scholarships-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_c09559e9a03a",
@@ -225,7 +225,7 @@
       "url": "https://www.scholars4dev.com/singapore-international-graduate-award/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_578872a57a1a",
@@ -245,7 +245,7 @@
       "url": "https://www.scholars4dev.com/vu-university-amsterdam-fellowship-programme-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_a5ccb9a112c9",
@@ -265,7 +265,7 @@
       "url": "https://www.scholars4dev.com/ilot-scholarships-at-university-of-british-columbia/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_cf5152b8a49b",
@@ -285,7 +285,7 @@
       "url": "https://www.scholars4dev.com/kyoto-university-international-undergraduate-program/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_23582cace6ce",
@@ -305,7 +305,7 @@
       "url": "https://www.scholars4dev.com/insead-syngenta-mba-scholarships-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_2fe068d153dc",
@@ -325,7 +325,7 @@
       "url": "https://www.scholars4dev.com/commonwealth-shared-scholarship-scheme-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_d1698652d248",
@@ -346,7 +346,7 @@
       "url": "https://www.scholars4dev.com/gates-scholarships-for-international-students-at-university-of-cambridge/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_f50d94f714de",
@@ -366,7 +366,7 @@
       "url": "https://www.scholars4dev.com/scholarships-for-high-potential-international-students-at-maastricht-university/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_f9c04c83919f",
@@ -386,7 +386,7 @@
       "url": "https://www.scholars4dev.com/warwick-chancellors-international-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_37b503b18e57",
@@ -407,7 +407,7 @@
       "url": "https://www.scholars4dev.com/la-trobe-vice-chancellor-scholarship-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_705ec34f53d6",
@@ -428,7 +428,7 @@
       "url": "https://www.scholars4dev.com/international-scholarships-at-university-of-sydney/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_060f11551c7d",
@@ -449,7 +449,7 @@
       "url": "https://www.scholars4dev.com/clarendon-scholarships-at-university-of-oxford/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_17a6666ab50f",
@@ -469,7 +469,7 @@
       "url": "https://www.scholars4dev.com/idb-scholarships-for-muslims/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_5eac2e48d0d8",
@@ -490,7 +490,7 @@
       "url": "https://www.scholars4dev.com/ocis-scholarships-for-muslims/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_565a90f30717",
@@ -510,7 +510,7 @@
       "url": "https://www.scholars4dev.com/weidenfeld-scholarships-at-university-of-oxford/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_ccf670b837ad",
@@ -532,7 +532,7 @@
       "url": "https://www.scholars4dev.com/swiss-government-scholarships-for-foreign-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_92499532116b",
@@ -552,7 +552,7 @@
       "url": "https://www.scholars4dev.com/mba-scholarships-for-developing-countries-at-wharton-business-school/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_2d5ac17042db",
@@ -573,7 +573,7 @@
       "url": "https://www.scholars4dev.com/eiffel-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_c0b7dbc8ab67",
@@ -594,7 +594,7 @@
       "url": "https://www.scholars4dev.com/oxford-perishing-square-graduate-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_b88c4e5975b7",
@@ -616,7 +616,7 @@
       "url": "https://www.scholars4dev.com/free-online-education-at-university-of-the-people/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_f2967562091d",
@@ -636,7 +636,7 @@
       "url": "https://www.scholars4dev.com/skoll-international-mba-scholarships-on-social-entrepreneurship/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_0d6fa5c6cc43",
@@ -656,7 +656,7 @@
       "url": "https://www.scholars4dev.com/american-university-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_adc0a7c4253e",
@@ -676,7 +676,7 @@
       "url": "https://www.scholars4dev.com/chalmers-ipoet-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_fc10420583a4",
@@ -696,7 +696,7 @@
       "url": "https://www.scholars4dev.com/danish-state-tuition-fee-waivers-and-scholarships-at-roskilde-university/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_cc7a2c28e4e0",
@@ -716,7 +716,7 @@
       "url": "https://www.scholars4dev.com/kth-tuition-fee-waivers-for-non-eu-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_65c694c9b9e1",
@@ -737,7 +737,7 @@
       "url": "https://www.scholars4dev.com/lund-university-scholarships-sweden/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_3a6cd9abe9be",
@@ -757,7 +757,7 @@
       "url": "https://www.scholars4dev.com/the-university-of-gothenburg-study-scholarship/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_ab9513d076ca",
@@ -777,7 +777,7 @@
       "url": "https://www.scholars4dev.com/the-uppsala-university-ipk-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_096f51c0ccf4",
@@ -797,7 +797,7 @@
       "url": "https://www.scholars4dev.com/scholarships-in-italy-for-international-students-at-bocconi-univiersity/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_8e77546266b3",
@@ -817,7 +817,7 @@
       "url": "https://www.scholars4dev.com/international-undergraduate-scholarships-at-york-university/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_37b1ebe866ad",
@@ -839,7 +839,7 @@
       "url": "https://www.scholars4dev.com/chinese-government-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_b807c1fdcf3b",
@@ -859,7 +859,7 @@
       "url": "https://www.scholars4dev.com/erasmus-mundus-scholarships-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_da95d9c470bf",
@@ -879,7 +879,7 @@
       "url": "https://www.scholars4dev.com/radboud-university-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_25983d11e8e6",
@@ -901,7 +901,7 @@
       "url": "https://www.scholars4dev.com/turkish-government-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_21b80c1ce5db",
@@ -922,7 +922,7 @@
       "url": "https://www.scholars4dev.com/icsp-tuition-scholarships-at-university-of-oregon-usa/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_08960b42edab",
@@ -942,7 +942,7 @@
       "url": "https://www.scholars4dev.com/edinburgh-global-research-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_a07d5645242f",
@@ -962,7 +962,7 @@
       "url": "https://www.scholars4dev.com/science-scholarships-for-international-students-at-ku-leuven/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_d2591b1db1f6",
@@ -982,7 +982,7 @@
       "url": "https://www.scholars4dev.com/japan-world-bank-graduate-scholarships-for-development-related-studies/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_58bed4e227e0",
@@ -1002,7 +1002,7 @@
       "url": "https://www.scholars4dev.com/university-of-geneva-excellence-masters-fellowships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_4a9e6792a10f",
@@ -1023,7 +1023,7 @@
       "url": "https://www.scholars4dev.com/vlir-uos-masters-scholarships-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_b0a2161bdbe0",
@@ -1044,7 +1044,7 @@
       "url": "https://www.scholars4dev.com/heinrich-boll-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_15bcef5126be",
@@ -1064,7 +1064,7 @@
       "url": "https://www.scholars4dev.com/university-of-otago-international-research-masters-scholarship/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_ade59162cd41",
@@ -1085,7 +1085,7 @@
       "url": "https://www.scholars4dev.com/wmf-scholarships-for-developing-country-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_f09321e81477",
@@ -1106,7 +1106,7 @@
       "url": "https://www.scholars4dev.com/international-ambassador-scholarships-university-west-london/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_ca62962a8afd",
@@ -1127,7 +1127,7 @@
       "url": "https://www.scholars4dev.com/international-postgraduate-scholarships-at-bristol-university/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_2df7cb8f3ef7",
@@ -1149,7 +1149,7 @@
       "url": "https://www.scholars4dev.com/new-zealand-development-scholarships-for-africans-asians-latin-americans-and-pacific-islanders/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_1e9a581932f4",
@@ -1169,7 +1169,7 @@
       "url": "https://www.scholars4dev.com/universite-paris-saclay-international-masters-scholarships-2/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_e8401ff0505b",
@@ -1189,7 +1189,7 @@
       "url": "https://www.scholars4dev.com/one-world-citizen-talent-scholarship/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_c69bdfba866d",
@@ -1209,7 +1209,7 @@
       "url": "https://www.scholars4dev.com/masters-scholarships-for-non-eu-students-at-university-of-twente/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_cfb8860b7b62",
@@ -1231,7 +1231,7 @@
       "url": "https://www.scholars4dev.com/australia-awards-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_0158d460ca37",
@@ -1253,7 +1253,7 @@
       "url": "https://www.scholars4dev.com/taiwan-government-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_f40425195709",
@@ -1273,7 +1273,7 @@
       "url": "https://www.scholars4dev.com/canon-collins-postgraduate-scholarships-for-africans/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_d6bb386b3f4c",
@@ -1293,7 +1293,7 @@
       "url": "https://www.scholars4dev.com/imd-future-leaders-mba-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_88b2777ed4e2",
@@ -1313,7 +1313,7 @@
       "url": "https://www.scholars4dev.com/jim-ellert-mba-scholarships-for-africans-southeast-asians-and-centraleastern-europeans/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_3b86d941d5fb",
@@ -1334,7 +1334,7 @@
       "url": "https://www.scholars4dev.com/university-of-adelaide-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_6b8d34fc59ef",
@@ -1354,7 +1354,7 @@
       "url": "https://www.scholars4dev.com/african-leadership-in-business-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_46e471907118",
@@ -1375,7 +1375,7 @@
       "url": "https://www.scholars4dev.com/international-postgraduate-scholarships-at-australian-universities/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_d5b880b11b2e",
@@ -1395,7 +1395,7 @@
       "url": "https://www.scholars4dev.com/cambridge-international-scholarship-scheme-ciss/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_980f032334b4",
@@ -1416,7 +1416,7 @@
       "url": "https://www.scholars4dev.com/danish-international-scholarship-scheme-for-non-eu-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_2f93757e0f3c",
@@ -1436,7 +1436,7 @@
       "url": "https://www.scholars4dev.com/cimo-international-research-fellowships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_14dfca5c7b94",
@@ -1457,7 +1457,7 @@
       "url": "https://www.scholars4dev.com/usa-fulbright-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_4be5f2310693",
@@ -1477,7 +1477,7 @@
       "url": "https://www.scholars4dev.com/mba-scholarships-for-developing-countries-at-hec/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_d38577a2f25d",
@@ -1497,7 +1497,7 @@
       "url": "https://www.scholars4dev.com/hubert-humphrey-fellowships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_2b6b9a8b46e9",
@@ -1517,7 +1517,7 @@
       "url": "https://www.scholars4dev.com/international-undergraduate-scholarships-at-humber-college-canada/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_523cfa341621",
@@ -1537,7 +1537,7 @@
       "url": "https://www.scholars4dev.com/japan-foundation-united-nations-university-scholarships-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_c9df323e892a",
@@ -1558,7 +1558,7 @@
       "url": "https://www.scholars4dev.com/japanese-government-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_469c2f5bb0e6",
@@ -1578,7 +1578,7 @@
       "url": "https://www.scholars4dev.com/japanese-government-scholarships-for-international-undergraduate-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_cd274d33db75",
@@ -1598,7 +1598,7 @@
       "url": "https://www.scholars4dev.com/kofi-annan-mba-scholarships-for-developing-country-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_db135c285bb9",
@@ -1619,7 +1619,7 @@
       "url": "https://www.scholars4dev.com/macquarie-university-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_65bb88205ac0",
@@ -1640,7 +1640,7 @@
       "url": "https://www.scholars4dev.com/mastercard-foundation-scholarship-program-for-africans/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_9b4e1184bd26",
@@ -1660,7 +1660,7 @@
       "url": "https://www.scholars4dev.com/mo-ibrahim-foundation-mba-scholarships-for-sub-saharan-africans-at-london-business-school/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_6f2c0cc16b22",
@@ -1680,7 +1680,7 @@
       "url": "https://www.scholars4dev.com/nestle-mba-scholarships-for-women-from-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_a4d46b694174",
@@ -1700,7 +1700,7 @@
       "url": "https://www.scholars4dev.com/developing-solutions-master-scholarships-at-university-of-nottingham/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_3a7e0a8d210a",
@@ -1721,7 +1721,7 @@
       "url": "https://www.scholars4dev.com/rotary-international-ambassadorial-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_fbfde47a3b00",
@@ -1742,7 +1742,7 @@
       "url": "https://www.scholars4dev.com/tohoku-university-international-excellence-scholarship/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_539c9df93782",
@@ -1763,7 +1763,7 @@
       "url": "https://www.scholars4dev.com/masters-phd-scholarships-for-international-students-at-canada-manitoba-university/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_6f6826e50f79",
@@ -1784,7 +1784,7 @@
       "url": "https://www.scholars4dev.com/university-of-melbourne-research-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     },
     {
       "id": "bolsa_e1456817e43d",
@@ -1804,7 +1804,7 @@
       "url": "https://www.scholars4dev.com/scholarships-for-developing-countries-at-university-of-westminster/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-19T11:07:38Z"
+      "last_seen_at": "2026-11-19T22:25:07Z"
     }
   ]
 }
