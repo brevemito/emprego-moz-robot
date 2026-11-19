@@ -11,9 +11,12 @@ SOURCES = [
         "url": "https://www.emprego.co.mz"
     },
 
-    {
+        {
         "name": "contact_mz",
-        "url": "https://www.contact.co.mz"
+        # A página inicial deixou de listar vagas (dava 0 resultados).
+        # Lista oficial de ofertas da CONTACT (agência licenciada pelo
+        # INEP, com muitas vagas de nível médio e de entrada).
+        "url": "https://www.contact.co.mz/pt/recrutamento/ofertas-de-emprego"
     },
 
     # =========================
@@ -36,7 +39,38 @@ SOURCES = [
         # projecto), já filtrado por este projecto específico.
         "url": "https://jobs.totalenergies.com/en_US/careers/SearchJobs/?3834=%5B41601%5D&3834_format=3639&listFilterMode=1&jobRecordsPerPage=50"
     },
+    {
+        "name": "exxonmobil",
+        # Portal Oracle HCM da ExxonMobil (projecto Rovuma LNG). O URL é a
+        # API pública em JSON que a própria página de vagas usa; o parser
+        # pagina e fica só com as vagas em Moçambique.
+        "url": "https://fa-exmi-saasfaprod1.fa.ocs.oraclecloud.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_1,limit=25,offset=0,sortBy=POSTING_DATES_DESC"
+    },
 
+    {
+        "name": "eni",
+        # Portal Oracle HCM da Eni (Coral Sul FLNG), mesma API da
+        # ExxonMobil. Não foi possível testar a partir do ambiente de
+        # desenvolvimento (o servidor recusou a ligação); se falhar no
+        # GitHub Actions aparece como erro no relatório, sem afectar as
+        # outras fontes.
+        "url": "https://jobs.eni.com/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=CX_1004,limit=25,offset=0,sortBy=POSTING_DATES_DESC"
+    },
+
+    # SERVIÇOS PETROLÍFEROS
+    {
+        "name": "slb",
+        # Página da lista de vagas: o parser lê dela a chave pública de
+        # pesquisa e pesquisa as vagas com país = Mozambique.
+        "url": "https://careers.slb.com/job-listing"
+    },
+
+    {
+        "name": "halliburton",
+        # Página da região "Europe & Sub-Saharan Africa", onde ficam as
+        # vagas de Moçambique (o parser filtra pelo código MZ).
+        "url": "https://jobs.halliburton.com/go/Europe-&-Sub-Saharan-Africa-%28ESSA%29/8411900/"
+    },
     {
         "name": "enh",
         "url": "https://precrutamento.enh.co.mz/vagas"
