@@ -1,7 +1,7 @@
 import json
+import re
+import unicodedata
 from datetime import datetime, timezone
-from database import get_connection
-from job_category import categorize
 
 
 def _to_iso8601(sqlite_timestamp):
@@ -31,7 +31,97 @@ def _days_since(sqlite_timestamp):
     delta = datetime.now(timezone.utc) - seen
     return max(delta.days, 0)
 
+# =========================
+# DEDUPLICAÇÃO ENTRE FONTES
+# =========================
+# A mesma vaga aparece muitas vezes em mais do que uma fonte (ex.: uma
+# vaga da CONTACT está no site da CONTACT e também no emprego.co.mz). A
+# base de dados só junta cópias com o mesmo título+empresa+URL, por isso
+# aqui juntamos as cópias da mesma vaga vindas de fontes diferentes e
+# fica a da fonte mais próxima do empregador (link mais "oficial"),
+# mantendo a data em que a vaga foi vista pela primeira vez.
+# Número menor = fonte preferida. Fontes não listadas valem 50.
+SOURCE_PRIORITY = {
+    "contact_mz": 10,
+    "emprego_co_mz": 80,
+    "reliefweb": 85,
+    "unjobs": 90,
+}
 
+
+def _plain(text):
+    text = unicodedata.normalize("NFKD", (text or "").lower())
+    return "".join(c for c in text if not unicodedata.combining(c))
+
+
+GENERIC_WORDS = {"", "desconhecida", "mocambique", "mozambique"}
+
+
+def _norm_title(title):
+    t = _plain(title)
+    t = re.sub(r"\((m/f|f/m|m/f/d|h/m)\)", " ", t)
+    t = re.sub(r"[-–—]?\s*\(?\d+\)?\s*vagas?\b", " ", t)
+    return re.sub(r"[^a-z0-9]+", " ", t).strip()
+
+
+def _first_word(text):
+    words = re.sub(r"[^a-z0-9 ]+", " ", _plain(text)).split()
+    return words[0] if words else ""
+
+
+def _compatible(a, b):
+    """Mesma empresa e mesmo local - ou um dos dois é genérico/desconhecido."""
+    for field in ("company", "location"):
+        x, y = _first_word(a.get(field)), _first_word(b.get(field))
+        if x not in GENERIC_WORDS and y not in GENERIC_WORDS and x != y:
+            return False
+    return True
+
+
+def _better(a, b):
+    """Escolhe a cópia a manter: fonte mais oficial; depois a mais completa."""
+    pa = SOURCE_PRIORITY.get(a.get("source"), 50)
+    pb = SOURCE_PRIORITY.get(b.get("source"), 50)
+    if pa != pb:
+        return a if pa < pb else b
+    known_a = _first_word(a.get("company")) not in GENERIC_WORDS
+    known_b = _first_word(b.get("company")) not in GENERIC_WORDS
+    if known_a != known_b:
+        return a if known_a else b
+    return a if (a.get("last_seen_at") or "") >= (b.get("last_seen_at") or "") else b
+
+
+def dedupe_across_sources(jobs):
+    """
+    Junta cópias da mesma vaga: o mesmo link, ou o mesmo título com
+    empresa e local compatíveis. Vagas iguais em locais diferentes (ex.:
+    "Digitador de dados" em 7 cidades) continuam separadas.
+    Devolve (vagas_sem_repetidas, numero_de_repetidas_juntadas).
+    """
+    kept = []
+    by_url = {}
+    by_title = {}
+    for job in jobs:
+        url = (job.get("url") or "").rstrip("/")
+        match = by_url.get(url) if url else None
+        if match is None:
+            for cand in by_title.get(_norm_title(job.get("title")), []):
+                if _compatible(cand, job):
+                    match = cand
+                    break
+        if match is None:
+            kept.append(job)
+            if url:
+                by_url[url] = job
+            by_title.setdefault(_norm_title(job.get("title")), []).append(job)
+            continue
+        winner = _better(match, job)
+        oldest = min(filter(None, [match.get("created_at"), job.get("created_at")]), default=None)
+        if winner is job:
+            match.clear()
+            match.update(job)
+        match["created_at"] = oldest
+    return kept, len(jobs) - len(kept)
 def export_jobs_to_json():
 
     conn = get_connection()
