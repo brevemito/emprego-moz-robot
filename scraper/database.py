@@ -109,10 +109,16 @@ def initialize_database():
 
 def generate_job_id(job: Dict) -> str:
 
+        # O URL entra no cálculo: sem ele, vagas com o mesmo título e a
+    # mesma empresa em cidades diferentes (ex.: 7 vagas de "Digitador de
+    # Dados" da CONTACT, uma por distrito) geravam o mesmo job_id e só a
+    # primeira era guardada. As vagas que já existem mantêm o seu job_id
+    # (vem do histórico em data/jobs.json).
     base = (
         (job.get("source") or "") +
         (job.get("title") or "") +
-        (job.get("company") or "")
+        (job.get("company") or "") +
+        (job.get("url") or "")
     )
 
     short = hashlib.sha1(base.encode()).hexdigest()[:12]
