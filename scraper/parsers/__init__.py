@@ -18,6 +18,9 @@ from parsers.heineken_mz import parse_heineken_mz
 from parsers.cim import parse_cim
 from parsers.mozparks import parse_mozparks
 from parsers.crowe_mz import parse_crowe_mz
+from parsers.slb import parse_slb
+from parsers.halliburton import parse_halliburton
+from parsers.oracle_hcm import parse_exxonmobil, parse_eni
 
 
 PARSERS = {
@@ -40,7 +43,11 @@ PARSERS = {
     "heineken_mz": parse_heineken_mz,
     "cim": parse_cim,
     "mozparks": parse_mozparks,
-    "crowe_mz": parse_crowe_mz
+    "crowe_mz": parse_crowe_mz,
+    "slb": parse_slb,
+    "halliburton": parse_halliburton,
+    "exxonmobil": parse_exxonmobil,
+    "eni": parse_eni
     # NOTA: "tmcel" fica deliberadamente sem parser - ver comentário em
     # sources.py (robots.txt bloqueia scraping nos domínios reais).
 }
