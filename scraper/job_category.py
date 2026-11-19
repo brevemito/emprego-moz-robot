@@ -18,6 +18,25 @@ import re
 
 
 CATEGORY_KEYWORDS = {
+    
+    # Professores, formadores e educadores: um dos perfis mais procurados
+    # pelo público do site (recém-formados, técnicos médios).
+    "Educação e Formação": [
+        "professor", "professora", "docente", "formador", "formadora",
+        "educador", "educadora", "explicador", "explicadora", "instrutor",
+        "instrutora", "tutor", "tutora", "teacher", "trainer", "lecturer",
+        "instructor", "assistente de educação", "ensino",
+    ],
+
+    # Electricistas e técnicos de electricidade/energia (inclui energia
+    # solar), separados da construção para serem fáceis de encontrar.
+    "Electricidade e Energia": [
+        "electricista", "eletricista", "electrician", "electrotécnico",
+        "eletrotécnico", "electrotecnia", "electricidade", "eletricidade",
+        "técnico eléctrico", "técnico elétrico", "electrical", "eléctrico",
+        "instalações eléctricas", "energia solar", "painéis solares",
+        "solar", "electromecânico", "eletromecânico", "instrumentação",
+    ],
 
     "Estágios": [
         "estágio", "estagio", "estagiário", "estagiario", "estagiária",
@@ -75,8 +94,8 @@ CATEGORY_KEYWORDS = {
 
     "Construção e Manutenção Técnica": [
         "pedreiro", "carpinteiro", "soldador", "mason", "carpenter",
-        "welder", "electricista", "eletricista", "electrician",
-        "mecânico", "mecanico", "mechanic", "técnico eléctrico",
+        "welder", "canalizador", "serralheiro", "pintor",
+        "mecânico", "mecanico", "mechanic", "artesão", "artesao", "artisan",
         "técnico mecânico", "operador de ponte rolante", "estaleiro",
     ],
 
@@ -108,6 +127,8 @@ CATEGORY_KEYWORDS = {
 # títulos que encaixam melhor numa área mais específica.
 CATEGORY_PRIORITY = [
     "Estágios",
+    "Educação e Formação",
+    "Electricidade e Energia",
     "Saúde",
     "Segurança e HSE",
     "Tecnologia da Informação",
