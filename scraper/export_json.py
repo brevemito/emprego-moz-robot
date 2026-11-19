@@ -143,7 +143,9 @@ def export_jobs_to_json():
         ORDER BY score DESC, created_at DESC
     """)
 
-    rows = cursor.fetchall()
+    rows, merged = dedupe_across_sources([dict(r) for r in cursor.fetchall()])
+    if merged:
+        print(f"🔁 {merged} vaga(s) repetida(s) noutra fonte foram juntadas (fica o link mais oficial).")
 
     jobs = []
 
