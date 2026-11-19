@@ -10,7 +10,28 @@ import job_validator as jv
 # candidato, etc.) NÃO segue este padrão, por isso exigir "/vaga/" no URL é
 # uma evidência estrutural muito mais forte do que qualquer lista de
 # palavras a filtrar.
+#
+# A página inicial mostra só as vagas activas, cada uma num cartão
+# <li class="grid-list-el"> com: título (h3), resumo (h4), empresa
+# (a.company) e local (span.location). Lemos esses campos do cartão
+# para cada vaga ter empresa e local reais (antes ficava tudo como
+# "Moçambique" e "Desconhecida").
 JOB_DETAIL_URL_HINT = "/vaga/"
+
+# Vagas publicadas no emprego.co.mz mas para trabalhar fora do país
+# (ex.: recrutamento para Portugal). O público do site procura trabalho
+# em Moçambique, por isso ficam de fora.
+FOREIGN_LOCATIONS = ("portugal", "angola", "brasil", "south africa", "áfrica do sul", "dubai", "qatar")
+
+
+def _text(node, selector):
+    found = node.select_one(selector) if node else None
+    return found.get_text(" ", strip=True) if found else ""
+
+
+def _card_of(a):
+    """Cartão da vaga (li da grelha da página inicial ou da listagem)."""
+    return a.find_parent("li")
 
 
 def parse_emprego_co_mz(html, source_url):
@@ -43,11 +64,27 @@ def parse_emprego_co_mz(html, source_url):
             continue
         seen_urls.add(normalized_url)
 
+        card = _card_of(a)
+        summary = _text(card, "h4")
+        company = _text(card, "a.company") or _text(card, "a.companylink")
+        location = _text(card, "span.location a") or _text(card, "span.location")
+
+        # Cartões das listagens de pesquisa/categoria trazem "Expirado"
+        # no fim; a página inicial só tem vagas activas, mas fica a
+        # protecção para o caso de o URL da fonte mudar.
+        card_text = card.get_text(" ", strip=True) if card else ""
+        if card_text.endswith("Expirado"):
+            continue
+
+        where = f"{location} {summary}".lower()
+        if any(f in where for f in FOREIGN_LOCATIONS) and "moçambique" not in where:
+            continue
+
         job = {
             "title": title,
-            "company": "",
-            "location": "Moçambique",
-            "description": title,
+            "company": company,
+            "location": location or "Moçambique",
+            "description": summary or title,
             "url": link,
             "source": "emprego_co_mz"
         }
