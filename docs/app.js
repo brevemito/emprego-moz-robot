@@ -16,6 +16,8 @@ const JOBS_URL =
 // conforme WCAG AA para texto normal.
 const CATEGORY_COLORS = {
   "Estágios": "#1B6B6B",
+   "Educação e Formação": "#2E5E8C",
+  "Electricidade e Energia": "#8A5A00",
   "Saúde": "#C1272D",
   "Segurança e HSE": "#7A2635",
   "Tecnologia da Informação": "#2F6B4A",
