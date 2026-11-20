@@ -2,6 +2,8 @@ import json
 import re
 import unicodedata
 from datetime import datetime, timezone
+from database import get_connection
+from job_category import categorize
 
 
 def _to_iso8601(sqlite_timestamp):
@@ -30,6 +32,7 @@ def _days_since(sqlite_timestamp):
         return None
     delta = datetime.now(timezone.utc) - seen
     return max(delta.days, 0)
+
 
 # =========================
 # DEDUPLICAÇÃO ENTRE FONTES
@@ -122,6 +125,8 @@ def dedupe_across_sources(jobs):
             match.update(job)
         match["created_at"] = oldest
     return kept, len(jobs) - len(kept)
+
+
 def export_jobs_to_json():
 
     conn = get_connection()
