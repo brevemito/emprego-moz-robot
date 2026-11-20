@@ -1,3 +1,5 @@
+import re
+
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
@@ -18,10 +20,77 @@ import job_validator as jv
 # "Moçambique" e "Desconhecida").
 JOB_DETAIL_URL_HINT = "/vaga/"
 
-# Vagas publicadas no emprego.co.mz mas para trabalhar fora do país
-# (ex.: recrutamento para Portugal). O público do site procura trabalho
-# em Moçambique, por isso ficam de fora.
-FOREIGN_LOCATIONS = ("portugal", "angola", "brasil", "south africa", "áfrica do sul", "dubai", "qatar")
+# Vagas publicadas no emprego.co.mz para trabalhar fora do país (ex.:
+# recrutamento em Moçambique para obras em Portugal). Como são anunciadas
+# num portal moçambicano, destinam-se a candidatos moçambicanos e têm
+# valor para o público do site: ficam na lista, mas com o país indicado
+# no local e um aviso na descrição, para ninguém as confundir com vagas
+# em Moçambique.
+FOREIGN_COUNTRIES = {
+    "portugal": "Portugal",
+    "angola": "Angola",
+    "brasil": "Brasil",
+    "south africa": "África do Sul",
+    "áfrica do sul": "África do Sul",
+    "africa do sul": "África do Sul",
+    "eswatini": "Eswatini",
+    "malawi": "Malawi",
+    "zimbabwe": "Zimbabwe",
+    "zâmbia": "Zâmbia",
+    "tanzânia": "Tanzânia",
+    "dubai": "Emirados Árabes Unidos",
+    "emirados": "Emirados Árabes Unidos",
+    "qatar": "Qatar",
+    "catar": "Qatar",
+    "arábia saudita": "Arábia Saudita",
+    "omã": "Omã",
+    "reino unido": "Reino Unido",
+    "alemanha": "Alemanha",
+    "canadá": "Canadá",
+}
+
+
+# Cidades estrangeiras frequentes nos anúncios, para quando o país não
+# vem escrito (ex.: local "Lisboa").
+FOREIGN_CITIES = {
+    "lisboa": "Portugal",
+    "luanda": "Angola",
+    "joanesburgo": "África do Sul",
+    "johannesburg": "África do Sul",
+    "pretória": "África do Sul",
+    "cidade do cabo": "África do Sul",
+    "cape town": "África do Sul",
+    "nelspruit": "África do Sul",
+    "mbombela": "África do Sul",
+    "doha": "Qatar",
+}
+
+
+def _has_word(word, text):
+    """Palavra inteira (evita, por ex., "omã" dentro de outra palavra)."""
+    return re.search(r"(?<![\w])" + re.escape(word) + r"(?![\w])", text) is not None
+
+
+def _foreign_country(location, summary):
+    """Devolve o país estrangeiro da vaga, ou None se for em Moçambique."""
+    loc = (location or "").lower()
+    text = f"{loc} {(summary or '').lower()}"
+    for key, name in FOREIGN_COUNTRIES.items():
+        if _has_word(key, loc):
+            return name
+    for city, name in FOREIGN_CITIES.items():
+        if _has_word(city, loc):
+            return name
+    # Resumo do tipo "...vaga de X em Lisboa, Portugal." sem nenhuma
+    # menção a Moçambique como local de trabalho.
+    if "moçambique" not in text and "mozambique" not in text:
+        for key, name in FOREIGN_COUNTRIES.items():
+            if _has_word(key, text):
+                return name
+        for city, name in FOREIGN_CITIES.items():
+            if _has_word(city, text):
+                return name
+    return None
 
 
 def _text(node, selector):
@@ -76,15 +145,18 @@ def parse_emprego_co_mz(html, source_url):
         if card_text.endswith("Expirado"):
             continue
 
-        where = f"{location} {summary}".lower()
-        if any(f in where for f in FOREIGN_LOCATIONS) and "moçambique" not in where:
-            continue
+        description = summary or title
+        country = _foreign_country(location, summary)
+        if country:
+            place = location if location and country.lower() not in location.lower() else ""
+            location = f"{place + ', ' if place else ''}{country} (no estrangeiro)"
+            description = f"Vaga no estrangeiro ({country}), anunciada em Moçambique. {description}"
 
         job = {
             "title": title,
             "company": company,
             "location": location or "Moçambique",
-            "description": summary or title,
+            "description": description,
             "url": link,
             "source": "emprego_co_mz"
         }
