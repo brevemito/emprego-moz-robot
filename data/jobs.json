@@ -1,6 +1,6 @@
 [
     {
-        "job_id": "unjobs_5f647a6fd8e1",
+        "job_id": "unjobs_748346d9245e",
         "title": "Programme Policy Officer - Humanitarian-Development Integration, Maputo",
         "company": "UN Jobs",
         "location": "Maputo",
@@ -8,15 +8,15 @@
             "Maputo"
         ],
         "category": "Consultoria e Organizações Internacionais",
-        "description": "",
-        "url": "https://unjobs.org/vacancies/1795096916613",
+        "description": null,
+        "url": "https://unjobs.org/vacancies/1795264055970",
         "source": "unjobs",
         "score": 80,
         "scraped_at": "2026-11-20T01:50:22Z",
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-20T01:50:22Z",
-        "days_since_first_seen": 1
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
     },
     {
         "job_id": "unjobs_5a4e92210c38",
@@ -35,45 +35,7 @@
         "scraped_at": "2026-11-19T11:07:37Z",
         "created_at": "2026-11-19 11:07:37",
         "first_seen_at": "2026-11-19T11:07:37Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "unjobs_8b4c37cf7dda",
-        "title": "Finance Manager, Remote, Malawi, Mozambique, Kenya, Rwanda, Uganda",
-        "company": "UN Jobs",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Financeiro e Contabilidade",
-        "description": null,
-        "url": "https://unjobs.org/vacancies/1794919401078",
-        "source": "unjobs",
-        "score": 80,
-        "scraped_at": "2026-11-18T11:06:41Z",
-        "created_at": "2026-11-18 11:06:41",
-        "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 2
-    },
-    {
-        "job_id": "unjobs_4c2c37b2659e",
-        "title": "Child Protection Programme Specialist - Children in Street Situations (CiSS), Maputo",
-        "company": "UN Jobs",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "Child Protection Programme Specialist – Children in Street Situations (CiSS), Maputo",
-        "url": "https://unjobs.org/vacancies/1794988902527",
-        "source": "unjobs",
-        "score": 80,
-        "scraped_at": "2026-11-18T11:06:41Z",
-        "created_at": "2026-11-18 11:06:41",
-        "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 2
     },
     {
@@ -92,8 +54,46 @@
         "scraped_at": "2026-11-18T11:06:41Z",
         "created_at": "2026-11-18 11:06:41",
         "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 2
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 3
+    },
+    {
+        "job_id": "unjobs_4c2c37b2659e",
+        "title": "Child Protection Programme Specialist - Children in Street Situations (CiSS), Maputo",
+        "company": "UN Jobs",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "Child Protection Programme Specialist – Children in Street Situations (CiSS), Maputo",
+        "url": "https://unjobs.org/vacancies/1794988902527",
+        "source": "unjobs",
+        "score": 80,
+        "scraped_at": "2026-11-18T11:06:41Z",
+        "created_at": "2026-11-18 11:06:41",
+        "first_seen_at": "2026-11-18T11:06:41Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 3
+    },
+    {
+        "job_id": "unjobs_8b4c37cf7dda",
+        "title": "Finance Manager, Remote, Malawi, Mozambique, Kenya, Rwanda, Uganda",
+        "company": "UN Jobs",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Financeiro e Contabilidade",
+        "description": null,
+        "url": "https://unjobs.org/vacancies/1794919401078",
+        "source": "unjobs",
+        "score": 80,
+        "scraped_at": "2026-11-18T11:06:41Z",
+        "created_at": "2026-11-18 11:06:41",
+        "first_seen_at": "2026-11-18T11:06:41Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 3
     },
     {
         "job_id": "unjobs_8026ab303b57",
@@ -111,8 +111,8 @@
         "scraped_at": "2026-11-17T11:28:40Z",
         "created_at": "2026-11-17 11:28:40",
         "first_seen_at": "2026-11-17T11:28:40Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 3
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 4
     },
     {
         "job_id": "unjobs_fe6fdfa0659a",
@@ -131,7 +131,7 @@
         "created_at": "2026-11-14 09:48:45",
         "first_seen_at": "2026-11-14T09:48:45Z",
         "last_seen_at": "2026-11-14T09:48:45Z",
-        "days_since_first_seen": 7
+        "days_since_first_seen": 8
     },
     {
         "job_id": "unjobs_5cc4bcd897b1",
@@ -150,26 +150,7 @@
         "created_at": "2026-11-10 10:45:56",
         "first_seen_at": "2026-11-10T10:45:56Z",
         "last_seen_at": "2026-11-10T10:45:56Z",
-        "days_since_first_seen": 10
-    },
-    {
-        "job_id": "unjobs_794cfe66cbfd",
-        "title": "Procurement Specialist (m/f/d) for the GPE Grant Agency, Maputo",
-        "company": "UN Jobs",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": null,
-        "url": "https://unjobs.org/vacancies/1793941291140",
-        "source": "unjobs",
-        "score": 80,
-        "scraped_at": "2026-11-06T10:23:05Z",
-        "created_at": "2026-11-06 10:23:05",
-        "first_seen_at": "2026-11-06T10:23:05Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 15
+        "days_since_first_seen": 11
     },
     {
         "job_id": "unjobs_7bc9501728c2",
@@ -187,8 +168,27 @@
         "scraped_at": "2026-11-06T10:23:05Z",
         "created_at": "2026-11-06 10:23:05",
         "first_seen_at": "2026-11-06T10:23:05Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 15
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 16
+    },
+    {
+        "job_id": "unjobs_794cfe66cbfd",
+        "title": "Procurement Specialist (m/f/d) for the GPE Grant Agency, Maputo",
+        "company": "UN Jobs",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": null,
+        "url": "https://unjobs.org/vacancies/1793941291140",
+        "source": "unjobs",
+        "score": 80,
+        "scraped_at": "2026-11-06T10:23:05Z",
+        "created_at": "2026-11-06 10:23:05",
+        "first_seen_at": "2026-11-06T10:23:05Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 16
     },
     {
         "job_id": "unjobs_f3db1b709453",
@@ -207,26 +207,7 @@
         "created_at": "2026-11-04 10:27:28",
         "first_seen_at": "2026-11-04T10:27:28Z",
         "last_seen_at": "2026-11-04T10:27:28Z",
-        "days_since_first_seen": 17
-    },
-    {
-        "job_id": "unjobs_16ed11676711",
-        "title": "Senior Project Manager, Maputo, Mozambique",
-        "company": "UN Jobs",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Gestão e Direcção",
-        "description": "",
-        "url": "https://unjobs.org/vacancies/1793419281732",
-        "source": "unjobs",
-        "score": 80,
-        "scraped_at": "2026-11-01T10:04:06Z",
-        "created_at": "2026-11-01 10:04:06",
-        "first_seen_at": "2026-11-01T10:04:06Z",
-        "last_seen_at": "2026-11-01T10:04:06Z",
-        "days_since_first_seen": 20
+        "days_since_first_seen": 18
     },
     {
         "job_id": "unjobs_bafdeb431aa9",
@@ -244,8 +225,8 @@
         "scraped_at": "2026-11-18T11:06:41Z",
         "created_at": "2026-11-18 11:06:41",
         "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 2
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 3
     },
     {
         "job_id": "unjobs_0374ca80d0e0",
@@ -264,7 +245,7 @@
         "created_at": "2026-11-04 10:27:28",
         "first_seen_at": "2026-11-04T10:27:28Z",
         "last_seen_at": "2026-11-04T10:27:28Z",
-        "days_since_first_seen": 17
+        "days_since_first_seen": 18
     },
     {
         "job_id": "unjobs_9235ef2cdae8",
@@ -283,7 +264,7 @@
         "created_at": "2026-11-11 10:18:13",
         "first_seen_at": "2026-11-11T10:18:13Z",
         "last_seen_at": "2026-11-11T10:18:13Z",
-        "days_since_first_seen": 10
+        "days_since_first_seen": 11
     },
     {
         "job_id": "unjobs_924cbb3c2e21",
@@ -302,7 +283,27 @@
         "created_at": "2026-11-06 10:23:05",
         "first_seen_at": "2026-11-06T10:23:05Z",
         "last_seen_at": "2026-11-06T10:23:05Z",
-        "days_since_first_seen": 15
+        "days_since_first_seen": 16
+    },
+    {
+        "job_id": "unjobs_18c7577c71d8",
+        "title": "Coordenador - Educação em Emergências - ECHO REACH ( Cabo Delgado ), Pemba, Mozambique",
+        "company": "UN Jobs",
+        "location": "Cabo Delgado, Pemba",
+        "locations": [
+            "Cabo Delgado",
+            "Pemba"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": null,
+        "url": "https://unjobs.org/vacancies/1795323683695",
+        "source": "unjobs",
+        "score": 55,
+        "scraped_at": "2026-11-22T10:42:35Z",
+        "created_at": "2026-11-22 10:42:35",
+        "first_seen_at": "2026-11-22T10:42:35Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 0
     },
     {
         "job_id": "unjobs_57407ddb15f8",
@@ -320,8 +321,46 @@
         "scraped_at": "2026-11-20T01:50:22Z",
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "unjobs_9977ad8a91c7",
+        "title": "Project Management Support Specialist",
+        "company": "UN Jobs",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": null,
+        "url": "https://unjobs.org/vacancies/1795003290232",
+        "source": "unjobs",
+        "score": 55,
+        "scraped_at": "2026-11-19T11:07:37Z",
+        "created_at": "2026-11-19 11:07:37",
+        "first_seen_at": "2026-11-19T11:07:37Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "unjobs_9b8dfb5467df",
+        "title": "TECHNICAL DIRECTOR, Central Level Support, Maputo",
+        "company": "UN Jobs",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Gestão e Direcção",
+        "description": null,
+        "url": "https://unjobs.org/vacancies/1795064502119",
+        "source": "unjobs",
+        "score": 55,
+        "scraped_at": "2026-11-19T11:07:37Z",
+        "created_at": "2026-11-19 11:07:37",
+        "first_seen_at": "2026-11-19T11:07:37Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
     },
     {
         "job_id": "unjobs_77e60ee7253e",
@@ -340,64 +379,7 @@
         "scraped_at": "2026-11-19T11:07:37Z",
         "created_at": "2026-11-19 11:07:37",
         "first_seen_at": "2026-11-19T11:07:37Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "unjobs_9b8dfb5467df",
-        "title": "TECHNICAL DIRECTOR, Central Level Support, Maputo",
-        "company": "UN Jobs",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Gestão e Direcção",
-        "description": null,
-        "url": "https://unjobs.org/vacancies/1795064502119",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-11-19T11:07:37Z",
-        "created_at": "2026-11-19 11:07:37",
-        "first_seen_at": "2026-11-19T11:07:37Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "unjobs_9977ad8a91c7",
-        "title": "Project Management Support Specialist",
-        "company": "UN Jobs",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": null,
-        "url": "https://unjobs.org/vacancies/1795003290232",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-11-19T11:07:37Z",
-        "created_at": "2026-11-19 11:07:37",
-        "first_seen_at": "2026-11-19T11:07:37Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "unjobs_0c41f324f985",
-        "title": "SSA-Health Emergency Officer, Pemba, Mozambique",
-        "company": "UN Jobs",
-        "location": "Pemba",
-        "locations": [
-            "Pemba"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": null,
-        "url": "https://unjobs.org/vacancies/1794978095398",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-11-18T11:06:41Z",
-        "created_at": "2026-11-18 11:06:41",
-        "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 2
     },
     {
@@ -416,12 +398,12 @@
         "scraped_at": "2026-11-18T11:06:41Z",
         "created_at": "2026-11-18 11:06:41",
         "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 2
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 3
     },
     {
-        "job_id": "unjobs_f39f1333ad4f",
-        "title": "RRM Partnership and Grants Coordinator, Pemba, Mozambique",
+        "job_id": "unjobs_0c41f324f985",
+        "title": "SSA-Health Emergency Officer, Pemba, Mozambique",
         "company": "UN Jobs",
         "location": "Pemba",
         "locations": [
@@ -429,32 +411,13 @@
         ],
         "category": "Consultoria e Organizações Internacionais",
         "description": null,
-        "url": "https://unjobs.org/vacancies/1794848467873",
+        "url": "https://unjobs.org/vacancies/1794978095398",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-11-17T11:28:40Z",
-        "created_at": "2026-11-17 11:28:40",
-        "first_seen_at": "2026-11-17T11:28:40Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 3
-    },
-    {
-        "job_id": "unjobs_4cee6918a394",
-        "title": "Child Protection Coordinator, Maputo, Mozambique",
-        "company": "UN Jobs",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "",
-        "url": "https://unjobs.org/vacancies/1794843094293",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-11-17T11:28:40Z",
-        "created_at": "2026-11-17 11:28:40",
-        "first_seen_at": "2026-11-17T11:28:40Z",
-        "last_seen_at": "2026-11-17T11:28:40Z",
+        "scraped_at": "2026-11-18T11:06:41Z",
+        "created_at": "2026-11-18 11:06:41",
+        "first_seen_at": "2026-11-18T11:06:41Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 3
     },
     {
@@ -473,8 +436,84 @@
         "scraped_at": "2026-11-17T11:28:40Z",
         "created_at": "2026-11-17 11:28:40",
         "first_seen_at": "2026-11-17T11:28:40Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 3
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 4
+    },
+    {
+        "job_id": "unjobs_4cee6918a394",
+        "title": "Child Protection Coordinator, Maputo, Mozambique",
+        "company": "UN Jobs",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "",
+        "url": "https://unjobs.org/vacancies/1794843094293",
+        "source": "unjobs",
+        "score": 55,
+        "scraped_at": "2026-11-17T11:28:40Z",
+        "created_at": "2026-11-17 11:28:40",
+        "first_seen_at": "2026-11-17T11:28:40Z",
+        "last_seen_at": "2026-11-17T11:28:40Z",
+        "days_since_first_seen": 4
+    },
+    {
+        "job_id": "unjobs_f39f1333ad4f",
+        "title": "RRM Partnership and Grants Coordinator, Pemba, Mozambique",
+        "company": "UN Jobs",
+        "location": "Pemba",
+        "locations": [
+            "Pemba"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": null,
+        "url": "https://unjobs.org/vacancies/1794848467873",
+        "source": "unjobs",
+        "score": 55,
+        "scraped_at": "2026-11-17T11:28:40Z",
+        "created_at": "2026-11-17 11:28:40",
+        "first_seen_at": "2026-11-17T11:28:40Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 4
+    },
+    {
+        "job_id": "unjobs_990ec338d5a2",
+        "title": "Operations Officer, Pemba, Mozambique",
+        "company": "UN Jobs",
+        "location": "Pemba",
+        "locations": [
+            "Pemba"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "Operations Officer, Pemba,  Mozambique",
+        "url": "https://unjobs.org/vacancies/1794589244039",
+        "source": "unjobs",
+        "score": 55,
+        "scraped_at": "2026-11-14T09:48:45Z",
+        "created_at": "2026-11-14 09:48:45",
+        "first_seen_at": "2026-11-14T09:48:45Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 8
+    },
+    {
+        "job_id": "unjobs_4ba2690dca27",
+        "title": "Individual Consultants for the development of the WASH Emergency Response Roster for Deployment to Various Locations, Mozambique",
+        "company": "UN Jobs",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": null,
+        "url": "https://unjobs.org/vacancies/1794502854786",
+        "source": "unjobs",
+        "score": 55,
+        "scraped_at": "2026-11-14T09:48:45Z",
+        "created_at": "2026-11-14 09:48:45",
+        "first_seen_at": "2026-11-14T09:48:45Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 8
     },
     {
         "job_id": "unjobs_25cd47e08607",
@@ -494,45 +533,7 @@
         "created_at": "2026-11-14 09:48:45",
         "first_seen_at": "2026-11-14T09:48:45Z",
         "last_seen_at": "2026-11-14T09:48:45Z",
-        "days_since_first_seen": 7
-    },
-    {
-        "job_id": "unjobs_4ba2690dca27",
-        "title": "Individual Consultants for the development of the WASH Emergency Response Roster for Deployment to Various Locations, Mozambique",
-        "company": "UN Jobs",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": null,
-        "url": "https://unjobs.org/vacancies/1794502854786",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-11-14T09:48:45Z",
-        "created_at": "2026-11-14 09:48:45",
-        "first_seen_at": "2026-11-14T09:48:45Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 7
-    },
-    {
-        "job_id": "unjobs_990ec338d5a2",
-        "title": "Operations Officer, Pemba, Mozambique",
-        "company": "UN Jobs",
-        "location": "Pemba",
-        "locations": [
-            "Pemba"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "Operations Officer, Pemba,  Mozambique",
-        "url": "https://unjobs.org/vacancies/1794589244039",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-11-14T09:48:45Z",
-        "created_at": "2026-11-14 09:48:45",
-        "first_seen_at": "2026-11-14T09:48:45Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 7
+        "days_since_first_seen": 8
     },
     {
         "job_id": "unjobs_eaa94a2f8987",
@@ -551,7 +552,7 @@
         "created_at": "2026-11-12 10:38:17",
         "first_seen_at": "2026-11-12T10:38:17Z",
         "last_seen_at": "2026-11-12T10:38:17Z",
-        "days_since_first_seen": 9
+        "days_since_first_seen": 10
     },
     {
         "job_id": "unjobs_865e443e0d06",
@@ -570,26 +571,7 @@
         "created_at": "2026-11-08 09:52:10",
         "first_seen_at": "2026-11-08T09:52:10Z",
         "last_seen_at": "2026-11-08T09:52:10Z",
-        "days_since_first_seen": 13
-    },
-    {
-        "job_id": "unjobs_d1a596c3371a",
-        "title": "Senior Officer, WASH, Maputo, Mozambique",
-        "company": "UN Jobs",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "",
-        "url": "https://unjobs.org/vacancies/1793930016950",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-11-06T10:23:05Z",
-        "created_at": "2026-11-06 10:23:05",
-        "first_seen_at": "2026-11-06T10:23:05Z",
-        "last_seen_at": "2026-11-06T10:23:05Z",
-        "days_since_first_seen": 15
+        "days_since_first_seen": 14
     },
     {
         "job_id": "unjobs_7a738621e1f9",
@@ -608,7 +590,45 @@
         "created_at": "2026-11-06 10:23:05",
         "first_seen_at": "2026-11-06T10:23:05Z",
         "last_seen_at": "2026-11-06T10:23:05Z",
-        "days_since_first_seen": 15
+        "days_since_first_seen": 16
+    },
+    {
+        "job_id": "unjobs_d1a596c3371a",
+        "title": "Senior Officer, WASH, Maputo, Mozambique",
+        "company": "UN Jobs",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "",
+        "url": "https://unjobs.org/vacancies/1793930016950",
+        "source": "unjobs",
+        "score": 55,
+        "scraped_at": "2026-11-06T10:23:05Z",
+        "created_at": "2026-11-06 10:23:05",
+        "first_seen_at": "2026-11-06T10:23:05Z",
+        "last_seen_at": "2026-11-06T10:23:05Z",
+        "days_since_first_seen": 16
+    },
+    {
+        "job_id": "unjobs_1a04b108cbe5",
+        "title": "Oficial de Casos de VBG - Mocímboa da Praia, Mozambique",
+        "company": "UN Jobs",
+        "location": "Mocímboa da Praia",
+        "locations": [
+            "Mocímboa da Praia"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "",
+        "url": "https://unjobs.org/vacancies/1793657429201",
+        "source": "unjobs",
+        "score": 55,
+        "scraped_at": "2026-11-05T10:19:53Z",
+        "created_at": "2026-11-05 10:19:53",
+        "first_seen_at": "2026-11-05T10:19:53Z",
+        "last_seen_at": "2026-11-05T10:19:53Z",
+        "days_since_first_seen": 17
     },
     {
         "job_id": "unjobs_0ace9d864be8",
@@ -627,45 +647,6 @@
         "created_at": "2026-11-05 10:19:53",
         "first_seen_at": "2026-11-05T10:19:53Z",
         "last_seen_at": "2026-11-05T10:19:53Z",
-        "days_since_first_seen": 16
-    },
-    {
-        "job_id": "unjobs_1a04b108cbe5",
-        "title": "Oficial de Casos de VBG - Mocímboa da Praia, Mozambique",
-        "company": "UN Jobs",
-        "location": "Mocímboa da Praia",
-        "locations": [
-            "Mocímboa da Praia"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": null,
-        "url": "https://unjobs.org/vacancies/1793657429201",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-11-05T10:19:53Z",
-        "created_at": "2026-11-05 10:19:53",
-        "first_seen_at": "2026-11-05T10:19:53Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 16
-    },
-    {
-        "job_id": "unjobs_39b548dee5da",
-        "title": "Coordenador Provincial - Link (Gaza), Pemba, Mozambique",
-        "company": "UN Jobs",
-        "location": "Gaza, Pemba",
-        "locations": [
-            "Gaza",
-            "Pemba"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "",
-        "url": "https://unjobs.org/vacancies/1793768487867",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-11-04T10:27:28Z",
-        "created_at": "2026-11-04 10:27:28",
-        "first_seen_at": "2026-11-04T10:27:28Z",
-        "last_seen_at": "2026-11-04T10:27:28Z",
         "days_since_first_seen": 17
     },
     {
@@ -686,25 +667,26 @@
         "created_at": "2026-11-04 10:27:28",
         "first_seen_at": "2026-11-04T10:27:28Z",
         "last_seen_at": "2026-11-04T10:27:28Z",
-        "days_since_first_seen": 17
+        "days_since_first_seen": 18
     },
     {
-        "job_id": "unjobs_fd272068f022",
-        "title": "Marketing Officer, Maputo, Mozambique",
+        "job_id": "unjobs_39b548dee5da",
+        "title": "Coordenador Provincial - Link (Gaza), Pemba, Mozambique",
         "company": "UN Jobs",
-        "location": "Maputo",
+        "location": "Gaza, Pemba",
         "locations": [
-            "Maputo"
+            "Gaza",
+            "Pemba"
         ],
         "category": "Consultoria e Organizações Internacionais",
         "description": "",
-        "url": "https://unjobs.org/vacancies/1793622476117",
+        "url": "https://unjobs.org/vacancies/1793768487867",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-11-03T10:27:40Z",
-        "created_at": "2026-11-03 10:27:40",
-        "first_seen_at": "2026-11-03T10:27:40Z",
-        "last_seen_at": "2026-11-03T10:27:40Z",
+        "scraped_at": "2026-11-04T10:27:28Z",
+        "created_at": "2026-11-04 10:27:28",
+        "first_seen_at": "2026-11-04T10:27:28Z",
+        "last_seen_at": "2026-11-04T10:27:28Z",
         "days_since_first_seen": 18
     },
     {
@@ -724,48 +706,29 @@
         "created_at": "2026-11-03 10:27:40",
         "first_seen_at": "2026-11-03T10:27:40Z",
         "last_seen_at": "2026-11-03T10:27:40Z",
-        "days_since_first_seen": 18
+        "days_since_first_seen": 19
     },
     {
-        "job_id": "unjobs_8f8733bcf465",
-        "title": "Coordenador(a) de Proteção da Criança, Maputo, Mozambique",
+        "job_id": "unjobs_fd272068f022",
+        "title": "Marketing Officer, Maputo, Mozambique",
         "company": "UN Jobs",
         "location": "Maputo",
         "locations": [
             "Maputo"
         ],
         "category": "Consultoria e Organizações Internacionais",
-        "description": null,
-        "url": "https://unjobs.org/vacancies/1795096638010",
+        "description": "",
+        "url": "https://unjobs.org/vacancies/1793622476117",
         "source": "unjobs",
         "score": 55,
-        "scraped_at": "2026-10-30T09:36:13Z",
-        "created_at": "2026-10-30 09:36:13",
-        "first_seen_at": "2026-10-30T09:36:13Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 22
+        "scraped_at": "2026-11-03T10:27:40Z",
+        "created_at": "2026-11-03 10:27:40",
+        "first_seen_at": "2026-11-03T10:27:40Z",
+        "last_seen_at": "2026-11-03T10:27:40Z",
+        "days_since_first_seen": 19
     },
     {
-        "job_id": "unjobs_d2b99d6795d6",
-        "title": "Administration and Communications Intern, Maputo, Mozambique",
-        "company": "UN Jobs",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Estágios",
-        "description": null,
-        "url": "https://unjobs.org/vacancies/1795096721931",
-        "source": "unjobs",
-        "score": 55,
-        "scraped_at": "2026-10-30T09:36:13Z",
-        "created_at": "2026-10-30 09:36:13",
-        "first_seen_at": "2026-10-30T09:36:13Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 22
-    },
-    {
-        "job_id": "contact_mz_240a12519ab4",
+        "job_id": "contact_mz_caa559b899be",
         "title": "Digitador de Dados (M/F) - 1 Vaga",
         "company": "CONTACT",
         "location": "Mocubela, Zambézia",
@@ -775,17 +738,17 @@
         ],
         "category": "Outros",
         "description": "digitador de dados (m/f) - 1 vaga. Recrutamento CONTACT em Mocubela, Zambézia.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/7F62BDC014/digitador-de-dados-m-f-1-vaga",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/9C6A0762B0/digitador-de-dados-m-f-1-vaga",
         "source": "contact_mz",
         "score": 50,
         "scraped_at": "2026-11-20T01:50:22Z",
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
     },
     {
-        "job_id": "contact_mz_8d3e6235a665",
+        "job_id": "contact_mz_00810a80bafc",
         "title": "Digitador de Dados (M/F) - 1 Vaga",
         "company": "CONTACT",
         "location": "Mopeia, Zambézia",
@@ -795,17 +758,17 @@
         ],
         "category": "Outros",
         "description": "digitador de dados (m/f) - 1 vaga. Recrutamento CONTACT em Mopeia, Zambézia.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/2F42A6F475/digitador-de-dados-m-f-1-vaga",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/179704CA6E/digitador-de-dados-m-f-1-vaga",
         "source": "contact_mz",
         "score": 50,
         "scraped_at": "2026-11-20T01:50:22Z",
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
     },
     {
-        "job_id": "contact_mz_ecc74e30a1ad",
+        "job_id": "contact_mz_c49a94e5b21c",
         "title": "Digitador de Dados (M/F) - 1 Vaga",
         "company": "CONTACT",
         "location": "Namacurra, Zambézia",
@@ -815,14 +778,14 @@
         ],
         "category": "Outros",
         "description": "digitador de dados (m/f) - 1 vaga. Recrutamento CONTACT em Namacurra, Zambézia.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/4A4F040233/digitador-de-dados-m-f-1-vaga",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/AF1B3FB11A/digitador-de-dados-m-f-1-vaga",
         "source": "contact_mz",
         "score": 50,
         "scraped_at": "2026-11-20T01:50:22Z",
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
     },
     {
         "job_id": "contact_mz_d2e8e66cfce4",
@@ -841,166 +804,7 @@
         "scraped_at": "2026-11-21T10:39:11Z",
         "created_at": "2026-11-21 10:39:11",
         "first_seen_at": "2026-11-21T10:39:11Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
-    },
-    {
-        "job_id": "emprego_co_mz_89ed5faedb17",
-        "title": "Offshore Recruitment Specifications",
-        "company": "Heading Moçambique",
-        "location": "Angoche",
-        "locations": [
-            "Angoche"
-        ],
-        "category": "Outros",
-        "description": "Heading is hiring an Offshore Recruitment Specifications, in Angoche, Mozambique.",
-        "url": "https://www.emprego.co.mz/vaga/offshore-recruitment-specifications/",
-        "source": "emprego_co_mz",
-        "score": 50,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "contact_mz_0a9b3a1f821b",
-        "title": "Digitador de Dados (M/F) - 1 Vaga",
-        "company": "CONTACT",
-        "location": "Angoche, Nampula",
-        "locations": [
-            "Angoche",
-            "Nampula"
-        ],
-        "category": "Outros",
-        "description": "digitador de dados (m/f) - 1 vaga. Recrutamento CONTACT em Angoche, Nampula.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/0865DA8B25/digitador-de-dados-m-f-1-vaga",
-        "source": "contact_mz",
-        "score": 50,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "contact_mz_c511046c88cb",
-        "title": "Digitador de Dados (M/F) - 1 Vaga",
-        "company": "CONTACT",
-        "location": "Larde, Nampula",
-        "locations": [
-            "Larde",
-            "Nampula"
-        ],
-        "category": "Outros",
-        "description": "digitador de dados (m/f) - 1 vaga. Recrutamento CONTACT em Larde, Nampula.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/05334A52FB/digitador-de-dados-m-f-1-vaga",
-        "source": "contact_mz",
-        "score": 50,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "contact_mz_61a896d65729",
-        "title": "Digitador de Dados (M/F) - 1 Vaga",
-        "company": "CONTACT",
-        "location": "Pebane, Zambézia",
-        "locations": [
-            "Pebane",
-            "Zambézia"
-        ],
-        "category": "Outros",
-        "description": "digitador de dados (m/f) - 1 vaga. Recrutamento CONTACT em Pebane, Zambézia.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/286F0E1153/digitador-de-dados-m-f-1-vaga",
-        "source": "contact_mz",
-        "score": 50,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "contact_mz_6f3ae35d0b73",
-        "title": "Digitador de Dados (M/F) - 01 Vaga",
-        "company": "CONTACT",
-        "location": "Mocuba, Zambézia",
-        "locations": [
-            "Mocuba",
-            "Zambézia"
-        ],
-        "category": "Outros",
-        "description": "digitador de dados (m/f) - 01 vaga. Recrutamento CONTACT em Mocuba, Zambézia.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/89E75CFEE8/digitador-de-dados-m-f-01-vaga",
-        "source": "contact_mz",
-        "score": 50,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "contact_mz_3f40d02d1f6e",
-        "title": "Digitador de Dados (M/F) - 01 Vaga",
-        "company": "CONTACT",
-        "location": "Luabo, Zambézia",
-        "locations": [
-            "Luabo",
-            "Zambézia"
-        ],
-        "category": "Outros",
-        "description": "digitador de dados (m/f) - 01 vaga. Recrutamento CONTACT em Luabo, Zambézia.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/03774AA9ED/digitador-de-dados-m-f-01-vaga",
-        "source": "contact_mz",
-        "score": 50,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "contact_mz_a2660a9a8138",
-        "title": "Digitador de Dados (M/F) - 01 Vaga",
-        "company": "CONTACT",
-        "location": "Derre, Zambézia",
-        "locations": [
-            "Derre",
-            "Zambézia"
-        ],
-        "category": "Outros",
-        "description": "digitador de dados (m/f) - 01 vaga. Recrutamento CONTACT em Derre, Zambézia.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/2D4400FF44/digitador-de-dados-m-f-01-vaga",
-        "source": "contact_mz",
-        "score": 50,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "contact_mz_c14e0f9f6596",
-        "title": "Digitador de Dados (M/F) - 01 Vaga",
-        "company": "CONTACT",
-        "location": "Ile, Zambézia",
-        "locations": [
-            "Ile",
-            "Zambézia"
-        ],
-        "category": "Outros",
-        "description": "digitador de dados (m/f) - 01 vaga. Recrutamento CONTACT em Ile, Zambézia.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/D33736F828/digitador-de-dados-m-f-01-vaga",
-        "source": "contact_mz",
-        "score": 50,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 1
     },
     {
@@ -1020,8 +824,167 @@
         "scraped_at": "2026-11-20T01:50:22Z",
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "contact_mz_c14e0f9f6596",
+        "title": "Digitador de Dados (M/F) - 01 Vaga",
+        "company": "CONTACT",
+        "location": "Ile, Zambézia",
+        "locations": [
+            "Ile",
+            "Zambézia"
+        ],
+        "category": "Outros",
+        "description": "digitador de dados (m/f) - 01 vaga. Recrutamento CONTACT em Ile, Zambézia.",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/D33736F828/digitador-de-dados-m-f-01-vaga",
+        "source": "contact_mz",
+        "score": 50,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "contact_mz_a2660a9a8138",
+        "title": "Digitador de Dados (M/F) - 01 Vaga",
+        "company": "CONTACT",
+        "location": "Derre, Zambézia",
+        "locations": [
+            "Derre",
+            "Zambézia"
+        ],
+        "category": "Outros",
+        "description": "digitador de dados (m/f) - 01 vaga. Recrutamento CONTACT em Derre, Zambézia.",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/2D4400FF44/digitador-de-dados-m-f-01-vaga",
+        "source": "contact_mz",
+        "score": 50,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "contact_mz_3f40d02d1f6e",
+        "title": "Digitador de Dados (M/F) - 01 Vaga",
+        "company": "CONTACT",
+        "location": "Luabo, Zambézia",
+        "locations": [
+            "Luabo",
+            "Zambézia"
+        ],
+        "category": "Outros",
+        "description": "digitador de dados (m/f) - 01 vaga. Recrutamento CONTACT em Luabo, Zambézia.",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/03774AA9ED/digitador-de-dados-m-f-01-vaga",
+        "source": "contact_mz",
+        "score": 50,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "contact_mz_6f3ae35d0b73",
+        "title": "Digitador de Dados (M/F) - 01 Vaga",
+        "company": "CONTACT",
+        "location": "Mocuba, Zambézia",
+        "locations": [
+            "Mocuba",
+            "Zambézia"
+        ],
+        "category": "Outros",
+        "description": "digitador de dados (m/f) - 01 vaga. Recrutamento CONTACT em Mocuba, Zambézia.",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/89E75CFEE8/digitador-de-dados-m-f-01-vaga",
+        "source": "contact_mz",
+        "score": 50,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "contact_mz_61a896d65729",
+        "title": "Digitador de Dados (M/F) - 1 Vaga",
+        "company": "CONTACT",
+        "location": "Pebane, Zambézia",
+        "locations": [
+            "Pebane",
+            "Zambézia"
+        ],
+        "category": "Outros",
+        "description": "digitador de dados (m/f) - 1 vaga. Recrutamento CONTACT em Pebane, Zambézia.",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/286F0E1153/digitador-de-dados-m-f-1-vaga",
+        "source": "contact_mz",
+        "score": 50,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "contact_mz_c511046c88cb",
+        "title": "Digitador de Dados (M/F) - 1 Vaga",
+        "company": "CONTACT",
+        "location": "Larde, Nampula",
+        "locations": [
+            "Larde",
+            "Nampula"
+        ],
+        "category": "Outros",
+        "description": "digitador de dados (m/f) - 1 vaga. Recrutamento CONTACT em Larde, Nampula.",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/05334A52FB/digitador-de-dados-m-f-1-vaga",
+        "source": "contact_mz",
+        "score": 50,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "contact_mz_0a9b3a1f821b",
+        "title": "Digitador de Dados (M/F) - 1 Vaga",
+        "company": "CONTACT",
+        "location": "Angoche, Nampula",
+        "locations": [
+            "Angoche",
+            "Nampula"
+        ],
+        "category": "Outros",
+        "description": "digitador de dados (m/f) - 1 vaga. Recrutamento CONTACT em Angoche, Nampula.",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/0865DA8B25/digitador-de-dados-m-f-1-vaga",
+        "source": "contact_mz",
+        "score": 50,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "emprego_co_mz_89ed5faedb17",
+        "title": "Offshore Recruitment Specifications",
+        "company": "Heading Moçambique",
+        "location": "Angoche",
+        "locations": [
+            "Angoche"
+        ],
+        "category": "Outros",
+        "description": "Heading is hiring an Offshore Recruitment Specifications, in Angoche, Mozambique.",
+        "url": "https://www.emprego.co.mz/vaga/offshore-recruitment-specifications/",
+        "source": "emprego_co_mz",
+        "score": 50,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
     },
     {
         "job_id": "emprego_co_mz_7c7d466a8208",
@@ -1039,8 +1002,8 @@
         "scraped_at": "2026-11-18T11:06:41Z",
         "created_at": "2026-11-18 11:06:41",
         "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 2
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 3
     },
     {
         "job_id": "contact_mz_75f9452924de",
@@ -1059,8 +1022,27 @@
         "scraped_at": "2026-11-17T11:28:40Z",
         "created_at": "2026-11-17 11:28:40",
         "first_seen_at": "2026-11-17T11:28:40Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 3
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 4
+    },
+    {
+        "job_id": "emprego_co_mz_6012ab07b60d",
+        "title": "Regional Network Maintenance Manager",
+        "company": "Heading Moçambique",
+        "location": "Nampula",
+        "locations": [
+            "Nampula"
+        ],
+        "category": "Gestão e Direcção",
+        "description": "Heading is hiring a Regional Network Maintenance Manager, in Nampula, Mozambique.",
+        "url": "https://www.emprego.co.mz/vaga/regional-network-maintenance-manager/",
+        "source": "emprego_co_mz",
+        "score": 50,
+        "scraped_at": "2026-11-13T10:30:25Z",
+        "created_at": "2026-11-13 10:30:25",
+        "first_seen_at": "2026-11-13T10:30:25Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 9
     },
     {
         "job_id": "totalenergies_d1a3d664af04",
@@ -1079,26 +1061,26 @@
         "created_at": "2026-11-13 10:30:25",
         "first_seen_at": "2026-11-13T10:30:25Z",
         "last_seen_at": "2026-11-13T10:30:25Z",
-        "days_since_first_seen": 8
+        "days_since_first_seen": 9
     },
     {
-        "job_id": "emprego_co_mz_6012ab07b60d",
-        "title": "Regional Network Maintenance Manager",
+        "job_id": "emprego_co_mz_bce721345eb4",
+        "title": "Site Administrator Finance Accounting Payroll",
         "company": "Heading Moçambique",
-        "location": "Nampula",
+        "location": "Songo",
         "locations": [
-            "Nampula"
+            "Songo"
         ],
-        "category": "Gestão e Direcção",
-        "description": "Heading is hiring a Regional Network Maintenance Manager, in Nampula, Mozambique.",
-        "url": "https://www.emprego.co.mz/vaga/regional-network-maintenance-manager/",
+        "category": "Financeiro e Contabilidade",
+        "description": "Heading is hiring a Site Administrator Finance Accounting Payroll, in Songo, Mozambique.",
+        "url": "https://www.emprego.co.mz/vaga/site-administrator-finance-accounting-payroll/",
         "source": "emprego_co_mz",
         "score": 50,
-        "scraped_at": "2026-11-13T10:30:25Z",
-        "created_at": "2026-11-13 10:30:25",
-        "first_seen_at": "2026-11-13T10:30:25Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 8
+        "scraped_at": "2026-11-05T10:19:53Z",
+        "created_at": "2026-11-05 10:19:53",
+        "first_seen_at": "2026-11-05T10:19:53Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 17
     },
     {
         "job_id": "emprego_co_mz_22861bef5adf",
@@ -1117,45 +1099,7 @@
         "created_at": "2026-11-05 10:19:53",
         "first_seen_at": "2026-11-05T10:19:53Z",
         "last_seen_at": "2026-11-05T10:19:53Z",
-        "days_since_first_seen": 16
-    },
-    {
-        "job_id": "emprego_co_mz_bce721345eb4",
-        "title": "Site Administrator Finance Accounting Payroll",
-        "company": "Heading Moçambique",
-        "location": "Songo",
-        "locations": [
-            "Songo"
-        ],
-        "category": "Financeiro e Contabilidade",
-        "description": "Heading is hiring a Site Administrator Finance Accounting Payroll, in Songo, Mozambique.",
-        "url": "https://www.emprego.co.mz/vaga/site-administrator-finance-accounting-payroll/",
-        "source": "emprego_co_mz",
-        "score": 50,
-        "scraped_at": "2026-11-05T10:19:53Z",
-        "created_at": "2026-11-05 10:19:53",
-        "first_seen_at": "2026-11-05T10:19:53Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 16
-    },
-    {
-        "job_id": "emprego_co_mz_e1145c7d7012",
-        "title": "Strategic Content Coordination Assistant (Community Management Coordinator)",
-        "company": "Desconhecida",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "",
-        "url": "https://www.emprego.co.mz/vaga/strategic-content-coordination-assistant-community-management-coordinator-2/",
-        "source": "emprego_co_mz",
-        "score": 50,
-        "scraped_at": "2026-11-03T10:27:40Z",
-        "created_at": "2026-11-03 10:27:40",
-        "first_seen_at": "2026-11-03T10:27:40Z",
-        "last_seen_at": "2026-11-03T10:27:40Z",
-        "days_since_first_seen": 18
+        "days_since_first_seen": 17
     },
     {
         "job_id": "emprego_co_mz_2adcb46d922e",
@@ -1174,7 +1118,26 @@
         "created_at": "2026-11-03 10:27:40",
         "first_seen_at": "2026-11-03T10:27:40Z",
         "last_seen_at": "2026-11-03T10:27:40Z",
-        "days_since_first_seen": 18
+        "days_since_first_seen": 19
+    },
+    {
+        "job_id": "emprego_co_mz_e1145c7d7012",
+        "title": "Strategic Content Coordination Assistant (Community Management Coordinator)",
+        "company": "Desconhecida",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "",
+        "url": "https://www.emprego.co.mz/vaga/strategic-content-coordination-assistant-community-management-coordinator-2/",
+        "source": "emprego_co_mz",
+        "score": 50,
+        "scraped_at": "2026-11-03T10:27:40Z",
+        "created_at": "2026-11-03 10:27:40",
+        "first_seen_at": "2026-11-03T10:27:40Z",
+        "last_seen_at": "2026-11-03T10:27:40Z",
+        "days_since_first_seen": 19
     },
     {
         "job_id": "emprego_co_mz_6cd7775a993b",
@@ -1193,7 +1156,7 @@
         "created_at": "2026-11-02 10:31:12",
         "first_seen_at": "2026-11-02T10:31:12Z",
         "last_seen_at": "2026-11-02T10:31:12Z",
-        "days_since_first_seen": 19
+        "days_since_first_seen": 20
     },
     {
         "job_id": "agl_transport_d416cd914771",
@@ -1211,27 +1174,8 @@
         "scraped_at": "2026-09-17T08:23:31Z",
         "created_at": "2026-09-17 08:23:31",
         "first_seen_at": "2026-09-17T08:23:31Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 65
-    },
-    {
-        "job_id": "agl_transport_038baa595889",
-        "title": "Warehouse Manager - AFUNGI BASE M/F",
-        "company": "AGL (Africa Global Logistics)",
-        "location": "Afungi",
-        "locations": [
-            "Afungi"
-        ],
-        "category": "Logística e Transportes",
-        "description": "Warehouse Manager – AFUNGI BASE M/F",
-        "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=9884&idOrigine=2442&LCID=1036&offerReference=2026-9884",
-        "source": "agl_transport",
-        "score": 50,
-        "scraped_at": "2026-08-26T03:52:14Z",
-        "created_at": "2026-08-26 03:52:14",
-        "first_seen_at": "2026-08-26T03:52:14Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 87
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 66
     },
     {
         "job_id": "un_mozambique_e535eab640fd",
@@ -1249,8 +1193,46 @@
         "scraped_at": "2026-08-26T03:52:14Z",
         "created_at": "2026-08-26 03:52:14",
         "first_seen_at": "2026-08-26T03:52:14Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 87
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 88
+    },
+    {
+        "job_id": "agl_transport_038baa595889",
+        "title": "Warehouse Manager - AFUNGI BASE M/F",
+        "company": "AGL (Africa Global Logistics)",
+        "location": "Afungi",
+        "locations": [
+            "Afungi"
+        ],
+        "category": "Logística e Transportes",
+        "description": "Warehouse Manager – AFUNGI BASE M/F",
+        "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=9884&idOrigine=2442&LCID=1036&offerReference=2026-9884",
+        "source": "agl_transport",
+        "score": 50,
+        "scraped_at": "2026-08-26T03:52:14Z",
+        "created_at": "2026-08-26 03:52:14",
+        "first_seen_at": "2026-08-26T03:52:14Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 88
+    },
+    {
+        "job_id": "unjobs_1f4ceb2c421a",
+        "title": "Driver, Xai-Xai, Mozambique",
+        "company": "UN Jobs",
+        "location": "Xai-Xai",
+        "locations": [
+            "Xai-Xai"
+        ],
+        "category": "Logística e Transportes",
+        "description": null,
+        "url": "https://unjobs.org/vacancies/1795263299889",
+        "source": "unjobs",
+        "score": 45,
+        "scraped_at": "2026-11-22T10:42:35Z",
+        "created_at": "2026-11-22 10:42:35",
+        "first_seen_at": "2026-11-22T10:42:35Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 0
     },
     {
         "job_id": "unjobs_3d31aa1f435b",
@@ -1268,46 +1250,8 @@
         "scraped_at": "2026-11-16T10:37:47Z",
         "created_at": "2026-11-16 10:37:47",
         "first_seen_at": "2026-11-16T10:37:47Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 5
-    },
-    {
-        "job_id": "emprego_co_mz_3d9265c95a29",
-        "title": "Transit Representative",
-        "company": "Desconhecida",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Outros",
-        "description": "Detalhes completos disponíveis com uma conta CV Pro",
-        "url": "https://www.emprego.co.mz/vaga/transit-representative/",
-        "source": "emprego_co_mz",
-        "score": 40,
-        "scraped_at": "2026-11-21T10:39:11Z",
-        "created_at": "2026-11-21 10:39:11",
-        "first_seen_at": "2026-11-21T10:39:11Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
-    },
-    {
-        "job_id": "emprego_co_mz_20d1fedf0738",
-        "title": "Gestor - Projecto/Consórcio",
-        "company": "Desconhecida",
-        "location": "Vários Locais",
-        "locations": [
-            "Vários Locais"
-        ],
-        "category": "Gestão e Direcção",
-        "description": "Detalhes completos disponíveis com uma conta CV Pro",
-        "url": "https://www.emprego.co.mz/vaga/gestor-projecto-consorcio/",
-        "source": "emprego_co_mz",
-        "score": 40,
-        "scraped_at": "2026-11-21T10:39:11Z",
-        "created_at": "2026-11-21 10:39:11",
-        "first_seen_at": "2026-11-21T10:39:11Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 6
     },
     {
         "job_id": "emprego_co_mz_8395849bddd7",
@@ -1325,8 +1269,46 @@
         "scraped_at": "2026-11-21T10:39:11Z",
         "created_at": "2026-11-21 10:39:11",
         "first_seen_at": "2026-11-21T10:39:11Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 1
+    },
+    {
+        "job_id": "emprego_co_mz_20d1fedf0738",
+        "title": "Gestor - Projecto/Consórcio",
+        "company": "Desconhecida",
+        "location": "Vários Locais",
+        "locations": [
+            "Vários Locais"
+        ],
+        "category": "Gestão e Direcção",
+        "description": "Detalhes completos disponíveis com uma conta CV Pro",
+        "url": "https://www.emprego.co.mz/vaga/gestor-projecto-consorcio/",
+        "source": "emprego_co_mz",
+        "score": 40,
+        "scraped_at": "2026-11-21T10:39:11Z",
+        "created_at": "2026-11-21 10:39:11",
+        "first_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 1
+    },
+    {
+        "job_id": "emprego_co_mz_3d9265c95a29",
+        "title": "Transit Representative",
+        "company": "Desconhecida",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Outros",
+        "description": "Detalhes completos disponíveis com uma conta CV Pro",
+        "url": "https://www.emprego.co.mz/vaga/transit-representative/",
+        "source": "emprego_co_mz",
+        "score": 40,
+        "scraped_at": "2026-11-21T10:39:11Z",
+        "created_at": "2026-11-21 10:39:11",
+        "first_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 1
     },
     {
         "job_id": "totalenergies_bff93af31809",
@@ -1345,7 +1327,7 @@
         "created_at": "2026-11-14 09:48:45",
         "first_seen_at": "2026-11-14T09:48:45Z",
         "last_seen_at": "2026-11-14T09:48:45Z",
-        "days_since_first_seen": 7
+        "days_since_first_seen": 8
     },
     {
         "job_id": "emprego_co_mz_ebd8aa9526c9",
@@ -1363,45 +1345,7 @@
         "scraped_at": "2026-11-07T09:37:15Z",
         "created_at": "2026-11-07 09:37:15",
         "first_seen_at": "2026-11-07T09:37:15Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 14
-    },
-    {
-        "job_id": "emprego_co_mz_f839a227c752",
-        "title": "Engenheiro Quimico",
-        "company": "PRI – Precision Recruitment International",
-        "location": "Tete",
-        "locations": [
-            "Tete"
-        ],
-        "category": "Engenharia",
-        "description": "Recrutamento na PRI, para a vaga de Engenheiro Quimico, em Tete - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/engenheiro-quimico-2/",
-        "source": "emprego_co_mz",
-        "score": 40,
-        "scraped_at": "2026-11-06T10:23:05Z",
-        "created_at": "2026-11-06 10:23:05",
-        "first_seen_at": "2026-11-06T10:23:05Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 15
-    },
-    {
-        "job_id": "emprego_co_mz_f2092f973a79",
-        "title": "Engenheiro Mecanico",
-        "company": "PRI – Precision Recruitment International",
-        "location": "Tete",
-        "locations": [
-            "Tete"
-        ],
-        "category": "Engenharia",
-        "description": "Recrutamento na PRI, para a vaga de Engenheiro Mecanico, em Tete - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/engenheiro-mecanico-3/",
-        "source": "emprego_co_mz",
-        "score": 40,
-        "scraped_at": "2026-11-06T10:23:05Z",
-        "created_at": "2026-11-06 10:23:05",
-        "first_seen_at": "2026-11-06T10:23:05Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 15
     },
     {
@@ -1420,65 +1364,46 @@
         "scraped_at": "2026-11-06T10:23:05Z",
         "created_at": "2026-11-06 10:23:05",
         "first_seen_at": "2026-11-06T10:23:05Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 15
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 16
     },
     {
-        "job_id": "cim_e2850b696781",
-        "title": "Analista de Compras",
-        "company": "CIM - Cimentos de Moçambique",
-        "location": "Moçambique",
+        "job_id": "emprego_co_mz_f2092f973a79",
+        "title": "Engenheiro Mecanico",
+        "company": "PRI – Precision Recruitment International",
+        "location": "Tete",
         "locations": [
-            "Moçambique"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": null,
-        "url": "https://www.emprego.co.mz/vaga/analista-de-compras-3/",
-        "source": "cim",
-        "score": 40,
-        "scraped_at": "2026-09-27T08:56:15Z",
-        "created_at": "2026-09-27 08:56:15",
-        "first_seen_at": "2026-09-27T08:56:15Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
-    },
-    {
-        "job_id": "cim_358027b0b1b9",
-        "title": "Engenheiro de Processos",
-        "company": "CIM - Cimentos de Moçambique",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
+            "Tete"
         ],
         "category": "Engenharia",
-        "description": null,
-        "url": "https://www.emprego.co.mz/vaga/engenehiro-de-processos/",
-        "source": "cim",
+        "description": "Recrutamento na PRI, para a vaga de Engenheiro Mecanico, em Tete - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/engenheiro-mecanico-3/",
+        "source": "emprego_co_mz",
         "score": 40,
-        "scraped_at": "2026-09-27T08:56:15Z",
-        "created_at": "2026-09-27 08:56:15",
-        "first_seen_at": "2026-09-27T08:56:15Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
+        "scraped_at": "2026-11-06T10:23:05Z",
+        "created_at": "2026-11-06 10:23:05",
+        "first_seen_at": "2026-11-06T10:23:05Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 16
     },
     {
-        "job_id": "cim_cabdef7e87f5",
-        "title": "Analista Comercial",
-        "company": "CIM - Cimentos de Moçambique",
-        "location": "Moçambique",
+        "job_id": "emprego_co_mz_f839a227c752",
+        "title": "Engenheiro Quimico",
+        "company": "PRI – Precision Recruitment International",
+        "location": "Tete",
         "locations": [
-            "Moçambique"
+            "Tete"
         ],
-        "category": "Comercial e Vendas",
-        "description": null,
-        "url": "https://www.emprego.co.mz/vaga/analista-comercial-11/",
-        "source": "cim",
+        "category": "Engenharia",
+        "description": "Recrutamento na PRI, para a vaga de Engenheiro Quimico, em Tete - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/engenheiro-quimico-2/",
+        "source": "emprego_co_mz",
         "score": 40,
-        "scraped_at": "2026-09-27T08:56:15Z",
-        "created_at": "2026-09-27 08:56:15",
-        "first_seen_at": "2026-09-27T08:56:15Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
+        "scraped_at": "2026-11-06T10:23:05Z",
+        "created_at": "2026-11-06 10:23:05",
+        "first_seen_at": "2026-11-06T10:23:05Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 16
     },
     {
         "job_id": "cim_1e7be9a8d8fe",
@@ -1496,8 +1421,65 @@
         "scraped_at": "2026-09-27T08:56:15Z",
         "created_at": "2026-09-27 08:56:15",
         "first_seen_at": "2026-09-27T08:56:15Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
+    },
+    {
+        "job_id": "cim_cabdef7e87f5",
+        "title": "Analista Comercial",
+        "company": "CIM - Cimentos de Moçambique",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Comercial e Vendas",
+        "description": null,
+        "url": "https://www.emprego.co.mz/vaga/analista-comercial-11/",
+        "source": "cim",
+        "score": 40,
+        "scraped_at": "2026-09-27T08:56:15Z",
+        "created_at": "2026-09-27 08:56:15",
+        "first_seen_at": "2026-09-27T08:56:15Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
+    },
+    {
+        "job_id": "cim_358027b0b1b9",
+        "title": "Engenheiro de Processos",
+        "company": "CIM - Cimentos de Moçambique",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Engenharia",
+        "description": null,
+        "url": "https://www.emprego.co.mz/vaga/engenehiro-de-processos/",
+        "source": "cim",
+        "score": 40,
+        "scraped_at": "2026-09-27T08:56:15Z",
+        "created_at": "2026-09-27 08:56:15",
+        "first_seen_at": "2026-09-27T08:56:15Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
+    },
+    {
+        "job_id": "cim_e2850b696781",
+        "title": "Analista de Compras",
+        "company": "CIM - Cimentos de Moçambique",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": null,
+        "url": "https://www.emprego.co.mz/vaga/analista-de-compras-3/",
+        "source": "cim",
+        "score": 40,
+        "scraped_at": "2026-09-27T08:56:15Z",
+        "created_at": "2026-09-27 08:56:15",
+        "first_seen_at": "2026-09-27T08:56:15Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
     },
     {
         "job_id": "cim_9ade4d8c2600",
@@ -1515,8 +1497,8 @@
         "scraped_at": "2026-09-27T08:56:16Z",
         "created_at": "2026-09-27 08:56:16",
         "first_seen_at": "2026-09-27T08:56:16Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
     },
     {
         "job_id": "agl_transport_bfb63228156b",
@@ -1534,47 +1516,8 @@
         "scraped_at": "2026-11-21T10:39:11Z",
         "created_at": "2026-11-21 10:39:11",
         "first_seen_at": "2026-11-21T10:39:11Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
-    },
-    {
-        "job_id": "contact_mz_d9e78659221d",
-        "title": "Consultor de Recursos Humanos - Estagiário (M/F) - 01 Vaga",
-        "company": "CONTACT",
-        "location": "Pemba, Cabo Delgado",
-        "locations": [
-            "Pemba",
-            "Cabo Delgado"
-        ],
-        "category": "Estágios",
-        "description": "consultor de recursos humanos - estagiário (m/f) - 01 vaga. Recrutamento CONTACT em Pemba, Cabo Delgado.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/42B71B7FB3/consultor-de-recursos-humanos-estagiario-m-f-01-vaga",
-        "source": "contact_mz",
-        "score": 25,
-        "scraped_at": "2026-11-13T10:30:25Z",
-        "created_at": "2026-11-13 10:30:25",
-        "first_seen_at": "2026-11-13T10:30:25Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 8
-    },
-    {
-        "job_id": "emprego_co_mz_a0a890909cb5",
-        "title": "Operador de Maquinaria Pesada (Grua Movel e Crawler)",
-        "company": "PRI – Precision Recruitment International",
-        "location": "Cabo Delgado",
-        "locations": [
-            "Cabo Delgado"
-        ],
-        "category": "Outros",
-        "description": "Recrutamento na PRI, para a vaga de Operador de Maquinaria Pesada (Grua Movel e Crawler), em Cabo Delgado - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/operador-de-maquinaria-pesada-grua-movel-e-crawler/",
-        "source": "emprego_co_mz",
-        "score": 25,
-        "scraped_at": "2026-11-20T10:54:40Z",
-        "created_at": "2026-11-20 10:54:40",
-        "first_seen_at": "2026-11-20T10:54:40Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 1
     },
     {
         "job_id": "agl_transport_12bf136ec3f0",
@@ -1592,160 +1535,26 @@
         "scraped_at": "2026-11-20T10:54:40Z",
         "created_at": "2026-11-20 10:54:40",
         "first_seen_at": "2026-11-20T10:54:40Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
-    },
-    {
-        "job_id": "emprego_co_mz_424a8466a587",
-        "title": "HSE Supervisor (Offshore Marine Seismic)",
-        "company": "Heading Moçambique",
-        "location": "Angoche",
-        "locations": [
-            "Angoche"
-        ],
-        "category": "Segurança e HSE",
-        "description": "Heading is hiring a HSE Supervisor (Offshore Marine Seismic), in Angoche, Mozambique.",
-        "url": "https://www.emprego.co.mz/vaga/hse-supervisor-offshore-marine-seismic/",
-        "source": "emprego_co_mz",
-        "score": 25,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 1
     },
     {
-        "job_id": "emprego_co_mz_4a9328638626",
-        "title": "Voluntários para Aconselhamento de Negócios",
-        "company": "TechnoServe",
-        "location": "Vários Locais",
+        "job_id": "emprego_co_mz_a0a890909cb5",
+        "title": "Operador de Maquinaria Pesada (Grua Movel e Crawler)",
+        "company": "PRI – Precision Recruitment International",
+        "location": "Cabo Delgado",
         "locations": [
-            "Vários Locais"
-        ],
-        "category": "Outros",
-        "description": "Recrutamento na TechnoServe, para a vaga de 15 Voluntários para Aconselhamento de Negócios, em Manica, Barue, Buzi, Gondola, Nhamatanda, Gorongosa e Sussundenga - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/voluntarios-para-aconselhamento-de-negocios-2/",
-        "source": "emprego_co_mz",
-        "score": 25,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "emprego_co_mz_56764d89e32c",
-        "title": "Assistente de Atendimento e Caixa de Loja de Rações e Pintos",
-        "company": "Higest Moçambique",
-        "location": "Vários Locais",
-        "locations": [
-            "Vários Locais"
-        ],
-        "category": "Comercial e Vendas",
-        "description": "Recrutamento na Higest Moçambique, para a vaga de Assistente de Atendimento e Caixa de Loja, em Maputo e Manhiça - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/assistente-de-atendimento-e-caixa-de-loja-de-racoes-e-pintos/",
-        "source": "emprego_co_mz",
-        "score": 25,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "contact_mz_c3326c1db949",
-        "title": "preparador de projectos MEP (m/f) - 1 vaga",
-        "company": "CONTACT",
-        "location": "Afungi, Cabo Delgado",
-        "locations": [
-            "Afungi",
             "Cabo Delgado"
         ],
         "category": "Outros",
-        "description": "preparador de projectos MEP (m/f) - 1 vaga. Recrutamento CONTACT em Afungi, Cabo Delgado.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/374FE45F0C/preparador-de-projectos-mep-m-f-1-vaga",
-        "source": "contact_mz",
+        "description": "Recrutamento na PRI, para a vaga de Operador de Maquinaria Pesada (Grua Movel e Crawler), em Cabo Delgado - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/operador-de-maquinaria-pesada-grua-movel-e-crawler/",
+        "source": "emprego_co_mz",
         "score": 25,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "slb_44efd6d42ef6",
-        "title": "Early Careers - Human Resources Internships",
-        "company": "SLB",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Estágios",
-        "description": "Early Careers - Human Resources Internships. SLB, Moçambique. Nível: Intern.",
-        "url": "https://careers.slb.com/jobdescription.aspx?id=73230&location='Mozambique|Multi-Location'",
-        "source": "slb",
-        "score": 25,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "slb_149ee79c9bb6",
-        "title": "Early Careers - Maintenance Technician",
-        "company": "SLB",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Outros",
-        "description": "Early Careers - Maintenance Technician. SLB, Moçambique. Nível: Early Careers.",
-        "url": "https://careers.slb.com/jobdescription.aspx?id=MAINT-Tech&location='Mozambique|Multi-Location'",
-        "source": "slb",
-        "score": 25,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "slb_f3ee66d98489",
-        "title": "Early Careers - Supply Chain Internships",
-        "company": "SLB",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Estágios",
-        "description": "Early Careers - Supply Chain Internships. SLB, Moçambique. Nível: Intern.",
-        "url": "https://careers.slb.com/jobdescription.aspx?id=SupplyChainIntern&location='Mozambique|Multi-Location'",
-        "source": "slb",
-        "score": 25,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "slb_4708856b9121",
-        "title": "Early Careers - Field Specialist",
-        "company": "SLB",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "Early Careers - Field Specialist. SLB, Moçambique. Nível: Early Careers.",
-        "url": "https://careers.slb.com/jobdescription.aspx?id=FieldSpec&location='Mozambique|Multi-Location'",
-        "source": "slb",
-        "score": 25,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "scraped_at": "2026-11-20T10:54:40Z",
+        "created_at": "2026-11-20 10:54:40",
+        "first_seen_at": "2026-11-20T10:54:40Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 1
     },
     {
@@ -1764,27 +1573,161 @@
         "scraped_at": "2026-11-20T01:50:22Z",
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
     },
     {
-        "job_id": "emprego_co_mz_a01d9105709c",
-        "title": "Coordenador de Logística e Compras",
-        "company": "WeWorld-GVC",
-        "location": "Maputo",
+        "job_id": "slb_4708856b9121",
+        "title": "Early Careers - Field Specialist",
+        "company": "SLB",
+        "location": "Moçambique",
         "locations": [
-            "Maputo"
+            "Moçambique"
         ],
         "category": "Consultoria e Organizações Internacionais",
-        "description": "Recrutamento na WeWorld-GVC, para a vaga de Coordenador de Logística e Compras, em Maputo - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/coordenador-de-logistica-e-compras/",
+        "description": "Early Careers - Field Specialist. SLB, Moçambique. Nível: Early Careers.",
+        "url": "https://careers.slb.com/jobdescription.aspx?id=FieldSpec&location='Mozambique|Multi-Location'",
+        "source": "slb",
+        "score": 25,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "slb_f3ee66d98489",
+        "title": "Early Careers - Supply Chain Internships",
+        "company": "SLB",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Estágios",
+        "description": "Early Careers - Supply Chain Internships. SLB, Moçambique. Nível: Intern.",
+        "url": "https://careers.slb.com/jobdescription.aspx?id=SupplyChainIntern&location='Mozambique|Multi-Location'",
+        "source": "slb",
+        "score": 25,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "slb_149ee79c9bb6",
+        "title": "Early Careers - Maintenance Technician",
+        "company": "SLB",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Outros",
+        "description": "Early Careers - Maintenance Technician. SLB, Moçambique. Nível: Early Careers.",
+        "url": "https://careers.slb.com/jobdescription.aspx?id=MAINT-Tech&location='Mozambique|Multi-Location'",
+        "source": "slb",
+        "score": 25,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "slb_44efd6d42ef6",
+        "title": "Early Careers - Human Resources Internships",
+        "company": "SLB",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Estágios",
+        "description": "Early Careers - Human Resources Internships. SLB, Moçambique. Nível: Intern.",
+        "url": "https://careers.slb.com/jobdescription.aspx?id=73230&location='Mozambique|Multi-Location'",
+        "source": "slb",
+        "score": 25,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "contact_mz_c3326c1db949",
+        "title": "preparador de projectos MEP (m/f) - 1 vaga",
+        "company": "CONTACT",
+        "location": "Afungi, Cabo Delgado",
+        "locations": [
+            "Afungi",
+            "Cabo Delgado"
+        ],
+        "category": "Outros",
+        "description": "preparador de projectos MEP (m/f) - 1 vaga. Recrutamento CONTACT em Afungi, Cabo Delgado.",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/374FE45F0C/preparador-de-projectos-mep-m-f-1-vaga",
+        "source": "contact_mz",
+        "score": 25,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "emprego_co_mz_56764d89e32c",
+        "title": "Assistente de Atendimento e Caixa de Loja de Rações e Pintos",
+        "company": "Higest Moçambique",
+        "location": "Vários Locais",
+        "locations": [
+            "Vários Locais"
+        ],
+        "category": "Comercial e Vendas",
+        "description": "Recrutamento na Higest Moçambique, para a vaga de Assistente de Atendimento e Caixa de Loja, em Maputo e Manhiça - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/assistente-de-atendimento-e-caixa-de-loja-de-racoes-e-pintos/",
         "source": "emprego_co_mz",
         "score": 25,
-        "scraped_at": "2026-11-16T10:37:47Z",
-        "created_at": "2026-11-16 10:37:47",
-        "first_seen_at": "2026-11-16T10:37:47Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 5
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "emprego_co_mz_4a9328638626",
+        "title": "Voluntários para Aconselhamento de Negócios",
+        "company": "TechnoServe",
+        "location": "Vários Locais",
+        "locations": [
+            "Vários Locais"
+        ],
+        "category": "Outros",
+        "description": "Recrutamento na TechnoServe, para a vaga de 15 Voluntários para Aconselhamento de Negócios, em Manica, Barue, Buzi, Gondola, Nhamatanda, Gorongosa e Sussundenga - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/voluntarios-para-aconselhamento-de-negocios-2/",
+        "source": "emprego_co_mz",
+        "score": 25,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "emprego_co_mz_424a8466a587",
+        "title": "HSE Supervisor (Offshore Marine Seismic)",
+        "company": "Heading Moçambique",
+        "location": "Angoche",
+        "locations": [
+            "Angoche"
+        ],
+        "category": "Segurança e HSE",
+        "description": "Heading is hiring a HSE Supervisor (Offshore Marine Seismic), in Angoche, Mozambique.",
+        "url": "https://www.emprego.co.mz/vaga/hse-supervisor-offshore-marine-seismic/",
+        "source": "emprego_co_mz",
+        "score": 25,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
     },
     {
         "job_id": "contact_mz_f3d86228aab6",
@@ -1803,26 +1746,46 @@
         "scraped_at": "2026-11-16T10:37:47Z",
         "created_at": "2026-11-16 10:37:47",
         "first_seen_at": "2026-11-16T10:37:47Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 5
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 6
     },
     {
-        "job_id": "emprego_co_mz_1b81b5b5afb3",
-        "title": "Contabilista/Oficial de Administração e Finanças",
-        "company": "Swisscontact",
+        "job_id": "emprego_co_mz_a01d9105709c",
+        "title": "Coordenador de Logística e Compras",
+        "company": "WeWorld-GVC",
         "location": "Maputo",
         "locations": [
             "Maputo"
         ],
-        "category": "Financeiro e Contabilidade",
-        "description": "Recrutamento na Swisscontact, para a vaga de Contabilista / Oficial de Administração e Finanças, em Maputo - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/contabilista-oficial-de-administracao-e-financas/",
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "Recrutamento na WeWorld-GVC, para a vaga de Coordenador de Logística e Compras, em Maputo - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/coordenador-de-logistica-e-compras/",
         "source": "emprego_co_mz",
         "score": 25,
-        "scraped_at": "2026-11-12T10:38:17Z",
-        "created_at": "2026-11-12 10:38:17",
-        "first_seen_at": "2026-11-12T10:38:17Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "scraped_at": "2026-11-16T10:37:47Z",
+        "created_at": "2026-11-16 10:37:47",
+        "first_seen_at": "2026-11-16T10:37:47Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 6
+    },
+    {
+        "job_id": "contact_mz_d9e78659221d",
+        "title": "Consultor de Recursos Humanos - Estagiário (M/F) - 01 Vaga",
+        "company": "CONTACT",
+        "location": "Pemba, Cabo Delgado",
+        "locations": [
+            "Pemba",
+            "Cabo Delgado"
+        ],
+        "category": "Estágios",
+        "description": "consultor de recursos humanos - estagiário (m/f) - 01 vaga. Recrutamento CONTACT em Pemba, Cabo Delgado.",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/42B71B7FB3/consultor-de-recursos-humanos-estagiario-m-f-01-vaga",
+        "source": "contact_mz",
+        "score": 25,
+        "scraped_at": "2026-11-13T10:30:25Z",
+        "created_at": "2026-11-13 10:30:25",
+        "first_seen_at": "2026-11-13T10:30:25Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 9
     },
     {
@@ -1841,8 +1804,27 @@
         "scraped_at": "2026-11-12T10:38:17Z",
         "created_at": "2026-11-12 10:38:17",
         "first_seen_at": "2026-11-12T10:38:17Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 9
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 10
+    },
+    {
+        "job_id": "emprego_co_mz_1b81b5b5afb3",
+        "title": "Contabilista/Oficial de Administração e Finanças",
+        "company": "Swisscontact",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Financeiro e Contabilidade",
+        "description": "Recrutamento na Swisscontact, para a vaga de Contabilista / Oficial de Administração e Finanças, em Maputo - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/contabilista-oficial-de-administracao-e-financas/",
+        "source": "emprego_co_mz",
+        "score": 25,
+        "scraped_at": "2026-11-12T10:38:17Z",
+        "created_at": "2026-11-12 10:38:17",
+        "first_seen_at": "2026-11-12T10:38:17Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 10
     },
     {
         "job_id": "contact_mz_f6e6a19cd713",
@@ -1861,26 +1843,7 @@
         "scraped_at": "2026-11-11T10:18:13Z",
         "created_at": "2026-11-11 10:18:13",
         "first_seen_at": "2026-11-11T10:18:13Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 10
-    },
-    {
-        "job_id": "emprego_co_mz_0bee0e8b0928",
-        "title": "Director Coordenador de Risco (Risk Office)",
-        "company": "Desconhecida",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Gestão e Direcção",
-        "description": "Recrutamento na instituição anónima, para a vaga de Director Coordenador de Risco (Risk Office), em Maputo - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/director-coordenador-de-risco-risk-office/",
-        "source": "emprego_co_mz",
-        "score": 25,
-        "scraped_at": "2026-11-09T10:53:51Z",
-        "created_at": "2026-11-09 10:53:51",
-        "first_seen_at": "2026-11-09T10:53:51Z",
-        "last_seen_at": "2026-11-09T10:53:51Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 11
     },
     {
@@ -1900,7 +1863,26 @@
         "created_at": "2026-11-09 10:53:51",
         "first_seen_at": "2026-11-09T10:53:51Z",
         "last_seen_at": "2026-11-09T10:53:51Z",
-        "days_since_first_seen": 11
+        "days_since_first_seen": 12
+    },
+    {
+        "job_id": "emprego_co_mz_0bee0e8b0928",
+        "title": "Director Coordenador de Risco (Risk Office)",
+        "company": "Desconhecida",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Gestão e Direcção",
+        "description": "Recrutamento na instituição anónima, para a vaga de Director Coordenador de Risco (Risk Office), em Maputo - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/director-coordenador-de-risco-risk-office/",
+        "source": "emprego_co_mz",
+        "score": 25,
+        "scraped_at": "2026-11-09T10:53:51Z",
+        "created_at": "2026-11-09 10:53:51",
+        "first_seen_at": "2026-11-09T10:53:51Z",
+        "last_seen_at": "2026-11-09T10:53:51Z",
+        "days_since_first_seen": 12
     },
     {
         "job_id": "emprego_co_mz_a59fd380e78d",
@@ -1918,64 +1900,7 @@
         "scraped_at": "2026-11-07T09:37:15Z",
         "created_at": "2026-11-07 09:37:15",
         "first_seen_at": "2026-11-07T09:37:15Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 14
-    },
-    {
-        "job_id": "emprego_co_mz_08cab124a4dc",
-        "title": "Técnico de Operações de Terminal",
-        "company": "Desconhecida",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Outros",
-        "description": "",
-        "url": "https://www.emprego.co.mz/vaga/tecnico-de-operacoes-de-terminal/",
-        "source": "emprego_co_mz",
-        "score": 25,
-        "scraped_at": "2026-11-06T10:23:05Z",
-        "created_at": "2026-11-06 10:23:05",
-        "first_seen_at": "2026-11-06T10:23:05Z",
-        "last_seen_at": "2026-11-06T10:23:05Z",
-        "days_since_first_seen": 15
-    },
-    {
-        "job_id": "emprego_co_mz_622618f1631e",
-        "title": "PD Outreach and Communications Intern",
-        "company": "Embaixada dos Estados Unidos da América",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Estágios",
-        "description": "The U.S. Embassy is hiring a PD Outreach and Communications Intern, in Maputo, Mozambique.",
-        "url": "https://www.emprego.co.mz/vaga/pd-outreach-and-communications-intern/",
-        "source": "emprego_co_mz",
-        "score": 25,
-        "scraped_at": "2026-11-06T10:23:05Z",
-        "created_at": "2026-11-06 10:23:05",
-        "first_seen_at": "2026-11-06T10:23:05Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 15
-    },
-    {
-        "job_id": "emprego_co_mz_3f49b3864c3e",
-        "title": "Especialista em Gestão de Emergências e Combate a Incêndios",
-        "company": "PRI – Precision Recruitment International",
-        "location": "Tete",
-        "locations": [
-            "Tete"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "Recrutamento na PRI, para a vaga de Especialista em Gestão de Emergências e Combate a Incêndios, em Tete - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/especialista-em-gestao-de-emergencias-e-combate-a-incendios/",
-        "source": "emprego_co_mz",
-        "score": 25,
-        "scraped_at": "2026-11-06T10:23:05Z",
-        "created_at": "2026-11-06 10:23:05",
-        "first_seen_at": "2026-11-06T10:23:05Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 15
     },
     {
@@ -1995,63 +1920,63 @@
         "created_at": "2026-11-06 10:23:05",
         "first_seen_at": "2026-11-06T10:23:05Z",
         "last_seen_at": "2026-11-06T10:23:05Z",
-        "days_since_first_seen": 15
+        "days_since_first_seen": 16
     },
     {
-        "job_id": "agl_transport_d1b0c8c55a3a",
-        "title": "Warehouse & Support Officer - Maputo M/F",
-        "company": "AGL (Africa Global Logistics)",
+        "job_id": "emprego_co_mz_3f49b3864c3e",
+        "title": "Especialista em Gestão de Emergências e Combate a Incêndios",
+        "company": "PRI – Precision Recruitment International",
+        "location": "Tete",
+        "locations": [
+            "Tete"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "Recrutamento na PRI, para a vaga de Especialista em Gestão de Emergências e Combate a Incêndios, em Tete - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/especialista-em-gestao-de-emergencias-e-combate-a-incendios/",
+        "source": "emprego_co_mz",
+        "score": 25,
+        "scraped_at": "2026-11-06T10:23:05Z",
+        "created_at": "2026-11-06 10:23:05",
+        "first_seen_at": "2026-11-06T10:23:05Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 16
+    },
+    {
+        "job_id": "emprego_co_mz_622618f1631e",
+        "title": "PD Outreach and Communications Intern",
+        "company": "Embaixada dos Estados Unidos da América",
         "location": "Maputo",
         "locations": [
             "Maputo"
         ],
-        "category": "Logística e Transportes",
-        "description": null,
-        "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10588&idOrigine=2442&LCID=1036&offerReference=2026-10588",
-        "source": "agl_transport",
+        "category": "Estágios",
+        "description": "The U.S. Embassy is hiring a PD Outreach and Communications Intern, in Maputo, Mozambique.",
+        "url": "https://www.emprego.co.mz/vaga/pd-outreach-and-communications-intern/",
+        "source": "emprego_co_mz",
         "score": 25,
-        "scraped_at": "2026-11-05T10:19:54Z",
-        "created_at": "2026-11-05 10:19:54",
-        "first_seen_at": "2026-11-05T10:19:54Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "scraped_at": "2026-11-06T10:23:05Z",
+        "created_at": "2026-11-06 10:23:05",
+        "first_seen_at": "2026-11-06T10:23:05Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 16
     },
     {
-        "job_id": "agl_transport_159cac7198d8",
-        "title": "Warehouse & Support Officer - Beira M/F",
-        "company": "AGL (Africa Global Logistics)",
-        "location": "Beira",
+        "job_id": "emprego_co_mz_08cab124a4dc",
+        "title": "Técnico de Operações de Terminal",
+        "company": "Desconhecida",
+        "location": "Moçambique",
         "locations": [
-            "Beira"
+            "Moçambique"
         ],
-        "category": "Logística e Transportes",
-        "description": null,
-        "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10589&idOrigine=2442&LCID=1036&offerReference=2026-10589",
-        "source": "agl_transport",
+        "category": "Outros",
+        "description": "",
+        "url": "https://www.emprego.co.mz/vaga/tecnico-de-operacoes-de-terminal/",
+        "source": "emprego_co_mz",
         "score": 25,
-        "scraped_at": "2026-11-05T10:19:54Z",
-        "created_at": "2026-11-05 10:19:54",
-        "first_seen_at": "2026-11-05T10:19:54Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 16
-    },
-    {
-        "job_id": "agl_transport_0af54e6087f1",
-        "title": "Warehouse & Support Officer - Nampula M/F",
-        "company": "AGL (Africa Global Logistics)",
-        "location": "Nampula",
-        "locations": [
-            "Nampula"
-        ],
-        "category": "Logística e Transportes",
-        "description": null,
-        "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10590&idOrigine=2442&LCID=1036&offerReference=2026-10590",
-        "source": "agl_transport",
-        "score": 25,
-        "scraped_at": "2026-11-05T10:19:54Z",
-        "created_at": "2026-11-05 10:19:54",
-        "first_seen_at": "2026-11-05T10:19:54Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "scraped_at": "2026-11-06T10:23:05Z",
+        "created_at": "2026-11-06 10:23:05",
+        "first_seen_at": "2026-11-06T10:23:05Z",
+        "last_seen_at": "2026-11-06T10:23:05Z",
         "days_since_first_seen": 16
     },
     {
@@ -2070,8 +1995,65 @@
         "scraped_at": "2026-11-05T10:19:54Z",
         "created_at": "2026-11-05 10:19:54",
         "first_seen_at": "2026-11-05T10:19:54Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 16
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 17
+    },
+    {
+        "job_id": "agl_transport_0af54e6087f1",
+        "title": "Warehouse & Support Officer - Nampula M/F",
+        "company": "AGL (Africa Global Logistics)",
+        "location": "Nampula",
+        "locations": [
+            "Nampula"
+        ],
+        "category": "Logística e Transportes",
+        "description": null,
+        "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10590&idOrigine=2442&LCID=1036&offerReference=2026-10590",
+        "source": "agl_transport",
+        "score": 25,
+        "scraped_at": "2026-11-05T10:19:54Z",
+        "created_at": "2026-11-05 10:19:54",
+        "first_seen_at": "2026-11-05T10:19:54Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 17
+    },
+    {
+        "job_id": "agl_transport_159cac7198d8",
+        "title": "Warehouse & Support Officer - Beira M/F",
+        "company": "AGL (Africa Global Logistics)",
+        "location": "Beira",
+        "locations": [
+            "Beira"
+        ],
+        "category": "Logística e Transportes",
+        "description": null,
+        "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10589&idOrigine=2442&LCID=1036&offerReference=2026-10589",
+        "source": "agl_transport",
+        "score": 25,
+        "scraped_at": "2026-11-05T10:19:54Z",
+        "created_at": "2026-11-05 10:19:54",
+        "first_seen_at": "2026-11-05T10:19:54Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 17
+    },
+    {
+        "job_id": "agl_transport_d1b0c8c55a3a",
+        "title": "Warehouse & Support Officer - Maputo M/F",
+        "company": "AGL (Africa Global Logistics)",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Logística e Transportes",
+        "description": null,
+        "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10588&idOrigine=2442&LCID=1036&offerReference=2026-10588",
+        "source": "agl_transport",
+        "score": 25,
+        "scraped_at": "2026-11-05T10:19:54Z",
+        "created_at": "2026-11-05 10:19:54",
+        "first_seen_at": "2026-11-05T10:19:54Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 17
     },
     {
         "job_id": "agl_transport_ce55db5a1981",
@@ -2089,8 +2071,46 @@
         "scraped_at": "2026-11-04T10:27:28Z",
         "created_at": "2026-11-04 10:27:28",
         "first_seen_at": "2026-11-04T10:27:28Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 17
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 18
+    },
+    {
+        "job_id": "totalenergies_8d8484524fb4",
+        "title": "Supervisor de Manutenção",
+        "company": "TotalEnergies",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Gestão e Direcção",
+        "description": "SUPERVISOR DE MANUTENÇÃO 20-11-2026 Mozambique Regular position TotalEnergies Marketing Moçambique, SA Apply",
+        "url": "https://jobs.totalenergies.com/en_US/careers/JobDetail/SUPERVISOR-DE-MANUTEN-O/86441",
+        "source": "totalenergies",
+        "score": 15,
+        "scraped_at": "2026-11-21T10:39:11Z",
+        "created_at": "2026-11-21 10:39:11",
+        "first_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 1
+    },
+    {
+        "job_id": "emprego_co_mz_6ed3fb3bca69",
+        "title": "Oficial de Compliance",
+        "company": "PRI – Precision Recruitment International",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "Recrutamento na PRI, para a vaga de Oficial de Compliance, em Maputo - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/oficial-de-compliance/",
+        "source": "emprego_co_mz",
+        "score": 15,
+        "scraped_at": "2026-11-21T10:39:11Z",
+        "created_at": "2026-11-21 10:39:11",
+        "first_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 1
     },
     {
         "job_id": "contact_mz_94b32ff9dd9f",
@@ -2109,84 +2129,8 @@
         "scraped_at": "2026-11-21T10:39:11Z",
         "created_at": "2026-11-21 10:39:11",
         "first_seen_at": "2026-11-21T10:39:11Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
-    },
-    {
-        "job_id": "emprego_co_mz_d5a7aa3c1fb2",
-        "title": "Local Content Advisor",
-        "company": "Heading Moçambique",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Outros",
-        "description": "Heading is hiring a Local Content Advisor, in Maputo, Mozambique.",
-        "url": "https://www.emprego.co.mz/vaga/local-content-advisor-2/",
-        "source": "emprego_co_mz",
-        "score": 15,
-        "scraped_at": "2026-11-18T11:06:41Z",
-        "created_at": "2026-11-18 11:06:41",
-        "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 2
-    },
-    {
-        "job_id": "emprego_co_mz_87f39fca274b",
-        "title": "Supplier Development Advisor",
-        "company": "Heading Moçambique",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Outros",
-        "description": "Heading is hiring a Supplier Development Advisor, in Maputo, Mozambique.",
-        "url": "https://www.emprego.co.mz/vaga/supplier-development-advisor-4/",
-        "source": "emprego_co_mz",
-        "score": 15,
-        "scraped_at": "2026-11-15T10:23:25Z",
-        "created_at": "2026-11-15 10:23:25",
-        "first_seen_at": "2026-11-15T10:23:25Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 6
-    },
-    {
-        "job_id": "emprego_co_mz_6ed3fb3bca69",
-        "title": "Oficial de Compliance",
-        "company": "PRI – Precision Recruitment International",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "Recrutamento na PRI, para a vaga de Oficial de Compliance, em Maputo - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/oficial-de-compliance/",
-        "source": "emprego_co_mz",
-        "score": 15,
-        "scraped_at": "2026-11-21T10:39:11Z",
-        "created_at": "2026-11-21 10:39:11",
-        "first_seen_at": "2026-11-21T10:39:11Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
-    },
-    {
-        "job_id": "totalenergies_8d8484524fb4",
-        "title": "Supervisor de Manutenção",
-        "company": "TotalEnergies",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Gestão e Direcção",
-        "description": "SUPERVISOR DE MANUTENÇÃO 20-11-2026 Mozambique Regular position TotalEnergies Marketing Moçambique, SA Apply",
-        "url": "https://jobs.totalenergies.com/en_US/careers/JobDetail/SUPERVISOR-DE-MANUTEN-O/86441",
-        "source": "totalenergies",
-        "score": 15,
-        "scraped_at": "2026-11-21T10:39:11Z",
-        "created_at": "2026-11-21 10:39:11",
-        "first_seen_at": "2026-11-21T10:39:11Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 1
     },
     {
         "job_id": "emprego_co_mz_4d30ba057336",
@@ -2204,141 +2148,7 @@
         "scraped_at": "2026-11-20T10:54:41Z",
         "created_at": "2026-11-20 10:54:41",
         "first_seen_at": "2026-11-20T10:54:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 0
-    },
-    {
-        "job_id": "emprego_co_mz_7324757ca539",
-        "title": "Geophysical Supervisor",
-        "company": "Heading Moçambique",
-        "location": "Angoche",
-        "locations": [
-            "Angoche"
-        ],
-        "category": "Gestão e Direcção",
-        "description": "Heading is hiring a Geophysical Supervisor, in Angoche, Mozambique.",
-        "url": "https://www.emprego.co.mz/vaga/geophysical-supervisor/",
-        "source": "emprego_co_mz",
-        "score": 15,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "emprego_co_mz_7cd66d2270c4",
-        "title": "Designer de Comunicação",
-        "company": "UX Information Technologies",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Outros",
-        "description": "Recrutamento na UX, para a vaga de Designer de Comunicação e Digital, em Maputo - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/designer-de-comunicacao/",
-        "source": "emprego_co_mz",
-        "score": 15,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "emprego_co_mz_e0cf240c2241",
-        "title": "Workforce Development Advisor",
-        "company": "Heading Moçambique",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Outros",
-        "description": "Heading is hiring a Workforce Development Advisor, in Maputo, Mozambique.",
-        "url": "https://www.emprego.co.mz/vaga/workforce-development-advisor-3/",
-        "source": "emprego_co_mz",
-        "score": 15,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "emprego_co_mz_c0007ac059db",
-        "title": "Oficial de Logistica",
-        "company": "PRI – Precision Recruitment International",
-        "location": "Pemba",
-        "locations": [
-            "Pemba"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "Recrutamento na PRI, para a vaga de Oficial de Logistica, em Pemba - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/oficial-de-logistica-6/",
-        "source": "emprego_co_mz",
-        "score": 15,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "emprego_co_mz_630065512bb3",
-        "title": "Representante de Vendas",
-        "company": "PRI – Precision Recruitment International",
-        "location": "Zambézia",
-        "locations": [
-            "Zambézia"
-        ],
-        "category": "Outros",
-        "description": "Recrutamento na PRI, para a vaga de Representante de Vendas, em Zambézia - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/representante-de-vendas-24/",
-        "source": "emprego_co_mz",
-        "score": 15,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "contact_mz_c6992c0ad6cc",
-        "title": "Atendedores (M/F) - 2 Vagas",
-        "company": "CONTACT",
-        "location": "Quelimane, Zambézia",
-        "locations": [
-            "Quelimane",
-            "Zambézia"
-        ],
-        "category": "Outros",
-        "description": "atendedores (m/f) - 2 vagas. Recrutamento CONTACT em Quelimane, Zambézia.",
-        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/8FD8AEF6A8/atendedores-m-f-2-vagas",
-        "source": "contact_mz",
-        "score": 15,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "slb_03f1e31a4cc2",
-        "title": "Early Careers - Field Engineer",
-        "company": "SLB",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Engenharia",
-        "description": "Early Careers - Field Engineer. SLB, Moçambique. Nível: Early Careers.",
-        "url": "https://careers.slb.com/jobdescription.aspx?id=FieldEng&location='Mozambique|Multi-Location'",
-        "source": "slb",
-        "score": 15,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 1
     },
     {
@@ -2357,45 +2167,141 @@
         "scraped_at": "2026-11-20T01:50:22Z",
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "emprego_co_mz_bcaf28c986d1",
-        "title": "Oficial de Ligação",
-        "company": "Heading Moçambique",
-        "location": "Maputo",
-        "locations": [
-            "Maputo"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "Recrutamento na Heading, para a vaga de Oficial de Ligação, em Maputo - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/oficial-de-ligacao-3/",
-        "source": "emprego_co_mz",
-        "score": 15,
-        "scraped_at": "2026-11-18T11:06:41Z",
-        "created_at": "2026-11-18 11:06:41",
-        "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 2
     },
     {
-        "job_id": "emprego_co_mz_e33091527b7f",
-        "title": "Projects Supervisor",
+        "job_id": "slb_03f1e31a4cc2",
+        "title": "Early Careers - Field Engineer",
+        "company": "SLB",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Engenharia",
+        "description": "Early Careers - Field Engineer. SLB, Moçambique. Nível: Early Careers.",
+        "url": "https://careers.slb.com/jobdescription.aspx?id=FieldEng&location='Mozambique|Multi-Location'",
+        "source": "slb",
+        "score": 15,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "contact_mz_c6992c0ad6cc",
+        "title": "Atendedores (M/F) - 2 Vagas",
+        "company": "CONTACT",
+        "location": "Quelimane, Zambézia",
+        "locations": [
+            "Quelimane",
+            "Zambézia"
+        ],
+        "category": "Outros",
+        "description": "atendedores (m/f) - 2 vagas. Recrutamento CONTACT em Quelimane, Zambézia.",
+        "url": "https://www.contact.co.mz/pt/recrutamento/oferta-de-emprego/8FD8AEF6A8/atendedores-m-f-2-vagas",
+        "source": "contact_mz",
+        "score": 15,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "emprego_co_mz_630065512bb3",
+        "title": "Representante de Vendas",
+        "company": "PRI – Precision Recruitment International",
+        "location": "Zambézia",
+        "locations": [
+            "Zambézia"
+        ],
+        "category": "Outros",
+        "description": "Recrutamento na PRI, para a vaga de Representante de Vendas, em Zambézia - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/representante-de-vendas-24/",
+        "source": "emprego_co_mz",
+        "score": 15,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "emprego_co_mz_c0007ac059db",
+        "title": "Oficial de Logistica",
+        "company": "PRI – Precision Recruitment International",
+        "location": "Pemba",
+        "locations": [
+            "Pemba"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "Recrutamento na PRI, para a vaga de Oficial de Logistica, em Pemba - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/oficial-de-logistica-6/",
+        "source": "emprego_co_mz",
+        "score": 15,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "emprego_co_mz_e0cf240c2241",
+        "title": "Workforce Development Advisor",
         "company": "Heading Moçambique",
         "location": "Maputo",
         "locations": [
             "Maputo"
         ],
-        "category": "Gestão e Direcção",
-        "description": "Heading is hiring a Projects Supervisor, in Maputo, Mozambique.",
-        "url": "https://www.emprego.co.mz/vaga/projects-supervisor/",
+        "category": "Outros",
+        "description": "Heading is hiring a Workforce Development Advisor, in Maputo, Mozambique.",
+        "url": "https://www.emprego.co.mz/vaga/workforce-development-advisor-3/",
         "source": "emprego_co_mz",
         "score": 15,
-        "scraped_at": "2026-11-18T11:06:41Z",
-        "created_at": "2026-11-18 11:06:41",
-        "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "emprego_co_mz_7cd66d2270c4",
+        "title": "Designer de Comunicação",
+        "company": "UX Information Technologies",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Outros",
+        "description": "Recrutamento na UX, para a vaga de Designer de Comunicação e Digital, em Maputo - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/designer-de-comunicacao/",
+        "source": "emprego_co_mz",
+        "score": 15,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "emprego_co_mz_7324757ca539",
+        "title": "Geophysical Supervisor",
+        "company": "Heading Moçambique",
+        "location": "Angoche",
+        "locations": [
+            "Angoche"
+        ],
+        "category": "Gestão e Direcção",
+        "description": "Heading is hiring a Geophysical Supervisor, in Angoche, Mozambique.",
+        "url": "https://www.emprego.co.mz/vaga/geophysical-supervisor/",
+        "source": "emprego_co_mz",
+        "score": 15,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
         "days_since_first_seen": 2
     },
     {
@@ -2414,8 +2320,65 @@
         "scraped_at": "2026-11-18T11:06:41Z",
         "created_at": "2026-11-18 11:06:41",
         "first_seen_at": "2026-11-18T11:06:41Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 2
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 3
+    },
+    {
+        "job_id": "emprego_co_mz_e33091527b7f",
+        "title": "Projects Supervisor",
+        "company": "Heading Moçambique",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Gestão e Direcção",
+        "description": "Heading is hiring a Projects Supervisor, in Maputo, Mozambique.",
+        "url": "https://www.emprego.co.mz/vaga/projects-supervisor/",
+        "source": "emprego_co_mz",
+        "score": 15,
+        "scraped_at": "2026-11-18T11:06:41Z",
+        "created_at": "2026-11-18 11:06:41",
+        "first_seen_at": "2026-11-18T11:06:41Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 3
+    },
+    {
+        "job_id": "emprego_co_mz_bcaf28c986d1",
+        "title": "Oficial de Ligação",
+        "company": "Heading Moçambique",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "Recrutamento na Heading, para a vaga de Oficial de Ligação, em Maputo - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/oficial-de-ligacao-3/",
+        "source": "emprego_co_mz",
+        "score": 15,
+        "scraped_at": "2026-11-18T11:06:41Z",
+        "created_at": "2026-11-18 11:06:41",
+        "first_seen_at": "2026-11-18T11:06:41Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 3
+    },
+    {
+        "job_id": "emprego_co_mz_d5a7aa3c1fb2",
+        "title": "Local Content Advisor",
+        "company": "Heading Moçambique",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Outros",
+        "description": "Heading is hiring a Local Content Advisor, in Maputo, Mozambique.",
+        "url": "https://www.emprego.co.mz/vaga/local-content-advisor-2/",
+        "source": "emprego_co_mz",
+        "score": 15,
+        "scraped_at": "2026-11-18T11:06:41Z",
+        "created_at": "2026-11-18 11:06:41",
+        "first_seen_at": "2026-11-18T11:06:41Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 3
     },
     {
         "job_id": "emprego_co_mz_98eed9610ead",
@@ -2433,27 +2396,27 @@
         "scraped_at": "2026-11-17T11:28:40Z",
         "created_at": "2026-11-17 11:28:40",
         "first_seen_at": "2026-11-17T11:28:40Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 3
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 4
     },
     {
-        "job_id": "agl_transport_3c9b826ed801",
-        "title": "Oficial de Compliance M/F",
-        "company": "AGL (Africa Global Logistics)",
-        "location": "Moçambique",
+        "job_id": "emprego_co_mz_87f39fca274b",
+        "title": "Supplier Development Advisor",
+        "company": "Heading Moçambique",
+        "location": "Maputo",
         "locations": [
-            "Moçambique"
+            "Maputo"
         ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "OFICIAL DE COMPLIANCE M/F",
-        "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10616&idOrigine=2442&LCID=1036&offerReference=2026-10616",
-        "source": "agl_transport",
+        "category": "Outros",
+        "description": "Heading is hiring a Supplier Development Advisor, in Maputo, Mozambique.",
+        "url": "https://www.emprego.co.mz/vaga/supplier-development-advisor-4/",
+        "source": "emprego_co_mz",
         "score": 15,
-        "scraped_at": "2026-11-12T10:38:17Z",
-        "created_at": "2026-11-12 10:38:17",
-        "first_seen_at": "2026-11-12T10:38:17Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 9
+        "scraped_at": "2026-11-15T10:23:25Z",
+        "created_at": "2026-11-15 10:23:25",
+        "first_seen_at": "2026-11-15T10:23:25Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 7
     },
     {
         "job_id": "emprego_co_mz_932e4c36053f",
@@ -2471,8 +2434,27 @@
         "scraped_at": "2026-11-12T10:38:17Z",
         "created_at": "2026-11-12 10:38:17",
         "first_seen_at": "2026-11-12T10:38:17Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 9
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 10
+    },
+    {
+        "job_id": "agl_transport_3c9b826ed801",
+        "title": "Oficial de Compliance M/F",
+        "company": "AGL (Africa Global Logistics)",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "OFICIAL DE COMPLIANCE M/F",
+        "url": "https://acareerbyagl.talent-soft.com/Pages/Offre/detailoffre.aspx?idOffre=10616&idOrigine=2442&LCID=1036&offerReference=2026-10616",
+        "source": "agl_transport",
+        "score": 15,
+        "scraped_at": "2026-11-12T10:38:17Z",
+        "created_at": "2026-11-12 10:38:17",
+        "first_seen_at": "2026-11-12T10:38:17Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 10
     },
     {
         "job_id": "emprego_co_mz_1cf10ad97379",
@@ -2490,27 +2472,8 @@
         "scraped_at": "2026-11-06T10:23:05Z",
         "created_at": "2026-11-06 10:23:05",
         "first_seen_at": "2026-11-06T10:23:05Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 15
-    },
-    {
-        "job_id": "emprego_co_mz_c1c5d8d73271",
-        "title": "Consultor Técnico",
-        "company": "Desconhecida",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Consultoria e Organizações Internacionais",
-        "description": "",
-        "url": "https://www.emprego.co.mz/vaga/consultor-tecnico-wateraid-mocambique/",
-        "source": "emprego_co_mz",
-        "score": 15,
-        "scraped_at": "2026-11-03T10:27:40Z",
-        "created_at": "2026-11-03 10:27:40",
-        "first_seen_at": "2026-11-03T10:27:40Z",
-        "last_seen_at": "2026-11-03T10:27:40Z",
-        "days_since_first_seen": 18
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 16
     },
     {
         "job_id": "emprego_co_mz_cbabe85ad5a3",
@@ -2529,102 +2492,26 @@
         "created_at": "2026-11-03 10:27:40",
         "first_seen_at": "2026-11-03T10:27:40Z",
         "last_seen_at": "2026-11-03T10:27:40Z",
-        "days_since_first_seen": 18
+        "days_since_first_seen": 19
     },
     {
-        "job_id": "cim_293ddfb7f6d2",
-        "title": "Técnico Mecânico",
-        "company": "CIM - Cimentos de Moçambique",
+        "job_id": "emprego_co_mz_c1c5d8d73271",
+        "title": "Consultor Técnico",
+        "company": "Desconhecida",
         "location": "Moçambique",
         "locations": [
             "Moçambique"
         ],
-        "category": "Construção e Manutenção Técnica",
-        "description": null,
-        "url": "https://www.emprego.co.mz/vaga/tecnico-mecanico-2/",
-        "source": "cim",
+        "category": "Consultoria e Organizações Internacionais",
+        "description": "",
+        "url": "https://www.emprego.co.mz/vaga/consultor-tecnico-wateraid-mocambique/",
+        "source": "emprego_co_mz",
         "score": 15,
-        "scraped_at": "2026-09-27T08:56:16Z",
-        "created_at": "2026-09-27 08:56:16",
-        "first_seen_at": "2026-09-27T08:56:16Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
-    },
-    {
-        "job_id": "cim_ff8e0a1f9f9e",
-        "title": "Operador de Ponte Rolante",
-        "company": "CIM - Cimentos de Moçambique",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Construção e Manutenção Técnica",
-        "description": null,
-        "url": "https://www.emprego.co.mz/vaga/operador-de-ponte-rolante/",
-        "source": "cim",
-        "score": 15,
-        "scraped_at": "2026-09-27T08:56:16Z",
-        "created_at": "2026-09-27 08:56:16",
-        "first_seen_at": "2026-09-27T08:56:16Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
-    },
-    {
-        "job_id": "cim_9c4135e3871d",
-        "title": "Técnico Eléctrico",
-        "company": "CIM - Cimentos de Moçambique",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Electricidade e Energia",
-        "description": null,
-        "url": "https://www.emprego.co.mz/vaga/tecnico-electrico-4/",
-        "source": "cim",
-        "score": 15,
-        "scraped_at": "2026-09-27T08:56:16Z",
-        "created_at": "2026-09-27 08:56:16",
-        "first_seen_at": "2026-09-27T08:56:16Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
-    },
-    {
-        "job_id": "cim_f697bec0c184",
-        "title": "Supervisor de Qualidade",
-        "company": "CIM - Cimentos de Moçambique",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Gestão e Direcção",
-        "description": null,
-        "url": "https://www.emprego.co.mz/vaga/supervisor-de-qualidade-3/",
-        "source": "cim",
-        "score": 15,
-        "scraped_at": "2026-09-27T08:56:16Z",
-        "created_at": "2026-09-27 08:56:16",
-        "first_seen_at": "2026-09-27T08:56:16Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
-    },
-    {
-        "job_id": "cim_506b866083b5",
-        "title": "Agente de Navegação",
-        "company": "CIM - Cimentos de Moçambique",
-        "location": "Moçambique",
-        "locations": [
-            "Moçambique"
-        ],
-        "category": "Logística e Transportes",
-        "description": null,
-        "url": "https://www.emprego.co.mz/vaga/agente-de-navegacao/",
-        "source": "cim",
-        "score": 15,
-        "scraped_at": "2026-09-27T08:56:16Z",
-        "created_at": "2026-09-27 08:56:16",
-        "first_seen_at": "2026-09-27T08:56:16Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
+        "scraped_at": "2026-11-03T10:27:40Z",
+        "created_at": "2026-11-03 10:27:40",
+        "first_seen_at": "2026-11-03T10:27:40Z",
+        "last_seen_at": "2026-11-03T10:27:40Z",
+        "days_since_first_seen": 19
     },
     {
         "job_id": "cim_7366d2bf248b",
@@ -2642,46 +2529,122 @@
         "scraped_at": "2026-09-27T08:56:16Z",
         "created_at": "2026-09-27 08:56:16",
         "first_seen_at": "2026-09-27T08:56:16Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 55
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
     },
     {
-        "job_id": "emprego_co_mz_6e258bb25f94",
-        "title": "Canalizador",
-        "company": "PRI – Precision Recruitment International",
-        "location": "Cabo Delgado",
+        "job_id": "cim_506b866083b5",
+        "title": "Agente de Navegação",
+        "company": "CIM - Cimentos de Moçambique",
+        "location": "Moçambique",
         "locations": [
-            "Cabo Delgado"
+            "Moçambique"
+        ],
+        "category": "Logística e Transportes",
+        "description": null,
+        "url": "https://www.emprego.co.mz/vaga/agente-de-navegacao/",
+        "source": "cim",
+        "score": 15,
+        "scraped_at": "2026-09-27T08:56:16Z",
+        "created_at": "2026-09-27 08:56:16",
+        "first_seen_at": "2026-09-27T08:56:16Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
+    },
+    {
+        "job_id": "cim_f697bec0c184",
+        "title": "Supervisor de Qualidade",
+        "company": "CIM - Cimentos de Moçambique",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Gestão e Direcção",
+        "description": null,
+        "url": "https://www.emprego.co.mz/vaga/supervisor-de-qualidade-3/",
+        "source": "cim",
+        "score": 15,
+        "scraped_at": "2026-09-27T08:56:16Z",
+        "created_at": "2026-09-27 08:56:16",
+        "first_seen_at": "2026-09-27T08:56:16Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
+    },
+    {
+        "job_id": "cim_9c4135e3871d",
+        "title": "Técnico Eléctrico",
+        "company": "CIM - Cimentos de Moçambique",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Electricidade e Energia",
+        "description": null,
+        "url": "https://www.emprego.co.mz/vaga/tecnico-electrico-4/",
+        "source": "cim",
+        "score": 15,
+        "scraped_at": "2026-09-27T08:56:16Z",
+        "created_at": "2026-09-27 08:56:16",
+        "first_seen_at": "2026-09-27T08:56:16Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
+    },
+    {
+        "job_id": "cim_ff8e0a1f9f9e",
+        "title": "Operador de Ponte Rolante",
+        "company": "CIM - Cimentos de Moçambique",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
         ],
         "category": "Construção e Manutenção Técnica",
-        "description": "Recrutamento na PRI, para a vaga de Canalizador, em Cabo Delgado - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/canalizador-4/",
+        "description": null,
+        "url": "https://www.emprego.co.mz/vaga/operador-de-ponte-rolante/",
+        "source": "cim",
+        "score": 15,
+        "scraped_at": "2026-09-27T08:56:16Z",
+        "created_at": "2026-09-27 08:56:16",
+        "first_seen_at": "2026-09-27T08:56:16Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
+    },
+    {
+        "job_id": "cim_293ddfb7f6d2",
+        "title": "Técnico Mecânico",
+        "company": "CIM - Cimentos de Moçambique",
+        "location": "Moçambique",
+        "locations": [
+            "Moçambique"
+        ],
+        "category": "Construção e Manutenção Técnica",
+        "description": null,
+        "url": "https://www.emprego.co.mz/vaga/tecnico-mecanico-2/",
+        "source": "cim",
+        "score": 15,
+        "scraped_at": "2026-09-27T08:56:16Z",
+        "created_at": "2026-09-27 08:56:16",
+        "first_seen_at": "2026-09-27T08:56:16Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 56
+    },
+    {
+        "job_id": "emprego_co_mz_837a332e816b",
+        "title": "Chef de Cozinha",
+        "company": "PRI – Precision Recruitment International",
+        "location": "Maputo",
+        "locations": [
+            "Maputo"
+        ],
+        "category": "Hotelaria e Restauração",
+        "description": "Recrutamento na PRI, para a vaga de Chef de Cozinha, em Maputo - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/chef-de-cozinha-2/",
         "source": "emprego_co_mz",
         "score": 5,
         "scraped_at": "2026-11-20T01:50:22Z",
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
-    },
-    {
-        "job_id": "emprego_co_mz_2c919d2c26d5",
-        "title": "Carpinteiro",
-        "company": "PRI – Precision Recruitment International",
-        "location": "Cabo Delgado",
-        "locations": [
-            "Cabo Delgado"
-        ],
-        "category": "Construção e Manutenção Técnica",
-        "description": "Recrutamento na PRI, para a vaga de Carpinteiro, em Cabo Delgado - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/carpinteiro-4/",
-        "source": "emprego_co_mz",
-        "score": 5,
-        "scraped_at": "2026-11-20T01:50:22Z",
-        "created_at": "2026-11-20 01:50:22",
-        "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
     },
     {
         "job_id": "emprego_co_mz_7fc2aa724e05",
@@ -2700,26 +2663,45 @@
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
         "last_seen_at": "2026-11-20T01:50:22Z",
-        "days_since_first_seen": 1
+        "days_since_first_seen": 2
     },
     {
-        "job_id": "emprego_co_mz_837a332e816b",
-        "title": "Chef de Cozinha",
+        "job_id": "emprego_co_mz_2c919d2c26d5",
+        "title": "Carpinteiro",
         "company": "PRI – Precision Recruitment International",
-        "location": "Maputo",
+        "location": "Cabo Delgado",
         "locations": [
-            "Maputo"
+            "Cabo Delgado"
         ],
-        "category": "Hotelaria e Restauração",
-        "description": "Recrutamento na PRI, para a vaga de Chef de Cozinha, em Maputo - Moçambique.",
-        "url": "https://www.emprego.co.mz/vaga/chef-de-cozinha-2/",
+        "category": "Construção e Manutenção Técnica",
+        "description": "Recrutamento na PRI, para a vaga de Carpinteiro, em Cabo Delgado - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/carpinteiro-4/",
         "source": "emprego_co_mz",
         "score": 5,
         "scraped_at": "2026-11-20T01:50:22Z",
         "created_at": "2026-11-20 01:50:22",
         "first_seen_at": "2026-11-20T01:50:22Z",
-        "last_seen_at": "2026-11-21T10:39:11Z",
-        "days_since_first_seen": 1
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
+    },
+    {
+        "job_id": "emprego_co_mz_6e258bb25f94",
+        "title": "Canalizador",
+        "company": "PRI – Precision Recruitment International",
+        "location": "Cabo Delgado",
+        "locations": [
+            "Cabo Delgado"
+        ],
+        "category": "Construção e Manutenção Técnica",
+        "description": "Recrutamento na PRI, para a vaga de Canalizador, em Cabo Delgado - Moçambique.",
+        "url": "https://www.emprego.co.mz/vaga/canalizador-4/",
+        "source": "emprego_co_mz",
+        "score": 5,
+        "scraped_at": "2026-11-20T01:50:22Z",
+        "created_at": "2026-11-20 01:50:22",
+        "first_seen_at": "2026-11-20T01:50:22Z",
+        "last_seen_at": "2026-11-22T10:42:35Z",
+        "days_since_first_seen": 2
     },
     {
         "job_id": "emprego_co_mz_5d44d0ae6ec7",
@@ -2738,6 +2720,6 @@
         "created_at": "2026-11-17 11:28:40",
         "first_seen_at": "2026-11-17T11:28:40Z",
         "last_seen_at": "2026-11-17T11:28:40Z",
-        "days_since_first_seen": 3
+        "days_since_first_seen": 4
     }
 ]
