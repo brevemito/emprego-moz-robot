@@ -4,6 +4,7 @@ import unicodedata
 from datetime import datetime, timezone
 from database import get_connection
 from job_category import categorize
+from job_level import classify, rank, LEVEL_LABELS
 
 
 def _to_iso8601(sqlite_timestamp):
@@ -172,13 +173,22 @@ def export_jobs_to_json():
         # texto (ex.: "Cabo Delgado, Pemba" -> ["Cabo Delgado", "Pemba"]).
         locations_list = [loc.strip() for loc in location.split(",") if loc.strip()]
 
+        category = categorize(title, description)
+        # Nível pedido e público (ver job_level.py): permite ao site
+        # filtrar "Para o meu nível" e pôr o público principal primeiro.
+        level, audience, lang = classify(job, category)
+
         jobs.append({
             "job_id": job.get("job_id"),
             "title": title,
             "company": job.get("company") or "Desconhecida",
             "location": location,
             "locations": locations_list,
-            "category": categorize(title, description),
+            "category": category,
+            "level": level,
+            "level_label": LEVEL_LABELS.get(level, ""),
+            "audience": audience,
+            "lang": lang,
             "description": clean_description,
             "url": job.get("url"),
             "source": job.get("source"),
@@ -196,6 +206,11 @@ def export_jobs_to_json():
             "last_seen_at": _to_iso8601(job.get("last_seen_at")),
             "days_since_first_seen": _days_since(job.get("created_at")),
         })
+        jobs[-1]["rank"] = rank(jobs[-1], jobs[-1]["score"])
+        # Página própria de cada vaga (gerada por site_pages.py).
+        jobs[-1]["page"] = "vagas/" + re.sub(r"[^A-Za-z0-9_-]", "_", jobs[-1]["job_id"] or "") + ".html"
+
+    jobs.sort(key=lambda j: -(j.get("rank") or 0))
 
     with open(
         "data/jobs.json",
@@ -212,3 +227,11 @@ def export_jobs_to_json():
     conn.close()
 
     print(f"JSON exportado com {len(jobs)} vagas.")
+
+    # Páginas por vaga, sitemap.xml e texto do canal. Uma falha aqui
+    # nunca impede a publicação do jobs.json.
+    try:
+        from site_pages import generate_site
+        generate_site(jobs)
+    except Exception as err:  # noqa: BLE001
+        print(f"⚠️ Não foi possível gerar as páginas do site: {err}")
