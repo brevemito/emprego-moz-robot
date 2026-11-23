@@ -1,0 +1,89 @@
+/* =========================================================================
+   Novidades: filtro por nível, botão das vagas internacionais,
+   pesquisa guardada, instalação da app e etiqueta de nível nos cartões.
+   ========================================================================= */
+
+.bm-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 4px;
+}
+
+.bm-chip {
+  font: 500 14px/1.2 Inter, Arial, sans-serif;
+  border: 1px solid rgba(52, 56, 59, 0.25);
+  background: #fff;
+  color: #34383B;
+  border-radius: 999px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.bm-chip span {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 0 7px;
+  border-radius: 999px;
+  background: rgba(52, 56, 59, 0.1);
+  font-size: 12px;
+}
+
+.bm-chip[aria-pressed="true"] {
+  background: #34383B;
+  color: #fff;
+  border-color: #34383B;
+}
+
+.bm-chip[aria-pressed="true"] span {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.bm-install {
+  background: #128C4A;
+  color: #fff;
+  border-color: #128C4A;
+}
+
+.bm-alert {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: #fff4e0;
+  border-left: 4px solid #E0532A;
+  font: 15px/1.45 Inter, Arial, sans-serif;
+}
+
+.bm-alert p {
+  margin: 0;
+  flex: 1 1 260px;
+}
+
+.job-level {
+  display: inline-block;
+  font: 600 12px/1.4 Inter, Arial, sans-serif;
+  padding: 2px 9px;
+  border-radius: 999px;
+  background: #F4B324;
+  color: #1A1424;
+}
+
+.job-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.job-title a:hover,
+.job-title a:focus-visible {
+  text-decoration: underline;
+}
+
+.bm-scam {
+  margin: 8px 0 0;
+  font: 14px/1.45 Inter, Arial, sans-serif;
+  color: #7A2635;
+}
