@@ -45,12 +45,16 @@ jobs:
         continue-on-error: true
         run: python scraper/bolsas.py
 
-      - name: Commit jobs.json e bolsas.json
+      - name: Commit jobs.json, bolsas.json e páginas das vagas
         if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add data/jobs.json
           if [ -f data/bolsas.json ]; then git add data/bolsas.json; fi
-          git commit -m "Update jobs.json e bolsas.json" || echo "No changes to commit"
+          # Páginas por vaga (inclui as apagadas), sitemap e texto do canal.
+          if [ -d docs/vagas ]; then git add -A docs/vagas; fi
+          if [ -f docs/sitemap.xml ]; then git add docs/sitemap.xml; fi
+          if [ -f docs/canal.html ]; then git add docs/canal.html; fi
+          git commit -m "Update jobs.json, bolsas.json e páginas das vagas" || echo "No changes to commit"
           git push
