@@ -1,0 +1,16 @@
+{
+  "name": "Brevemito — Vagas e Bolsas de Estudo em Moçambique",
+  "short_name": "Brevemito Vagas",
+  "description": "Vagas de emprego e bolsas de estudo para moçambicanos, actualizadas todos os dias.",
+  "lang": "pt-MZ",
+  "start_url": "./?origem=app",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F6EEDD",
+  "theme_color": "#34383B",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
