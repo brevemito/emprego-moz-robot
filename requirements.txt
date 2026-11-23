@@ -1,3 +1,4 @@
-requests
-beautifulsoup4
-pandas
+# Versões fixadas: uma versão nova só entra quando for testada.
+# (O Dependabot avisa quando houver actualizações de segurança.)
+requests==2.34.2
+beautifulsoup4==4.15.0
