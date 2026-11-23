@@ -127,6 +127,14 @@ function buildExtraControls() {
   alert.hidden = true;
   row.insertAdjacentElement("afterend", alert);
 
+  // Aviso contra burlas, sempre visível por cima da lista de vagas.
+  const scam = document.createElement("p");
+  scam.className = "bm-alert";
+  scam.setAttribute("role", "note");
+  scam.textContent =
+    "⚠️ Nenhuma vaga verdadeira pede dinheiro. Se lhe pedirem taxa de inscrição, depósito ou transferência por M-Pesa ou e-Mola, é burla: não pague.";
+  alert.insertAdjacentElement("afterend", scam);
+
   document.getElementById("bm-intl").addEventListener("click", (e) => {
     showIntl = !showIntl;
     e.currentTarget.setAttribute("aria-pressed", String(showIntl));
@@ -425,13 +433,23 @@ function buildCard(job) {
 
   const apply = document.createElement("a");
   apply.className = "job-apply";
-  apply.href = job.url || "#";
+  apply.href = safeUrl(job.url);
   apply.target = "_blank";
   apply.rel = "noopener";
   apply.textContent = "Candidatar";
   card.appendChild(apply);
 
   return card;
+}
+
+function safeUrl(u) {
+  // Só links normais (http/https); qualquer outro esquema (ex.: "javascript:") fica "#".
+  try {
+    const x = new URL(u, location.href);
+    return x.protocol === "https:" || x.protocol === "http:" ? x.href : "#";
+  } catch (e) {
+    return "#";
+  }
 }
 
 function sepSpan() {
