@@ -37,6 +37,16 @@
 
   function $(id) { return document.getElementById(id); }
 
+  // Só links normais (http/https); qualquer outro esquema fica "#".
+  function safeUrl(u) {
+    try {
+      var x = new URL(u, location.href);
+      return x.protocol === "https:" || x.protocol === "http:" ? x.href : "#";
+    } catch (e) {
+      return "#";
+    }
+  }
+
   // ---------- última visita ----------
   // Lida uma vez à entrada; só é actualizada quando a pessoa sai, para que
   // as etiquetas "Novo" se mantenham durante toda a visita.
@@ -218,7 +228,7 @@
       li.className = "saved-item";
 
       var info = document.createElement("a");
-      info.href = s.url;
+      info.href = safeUrl(s.url);
       info.target = "_blank";
       info.rel = "noopener";
       info.className = "saved-link";
