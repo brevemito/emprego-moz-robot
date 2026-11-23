@@ -23,6 +23,16 @@
   var loaded = false;
   var loading = null;
 
+  // Só links normais (http/https); qualquer outro esquema fica "#".
+  function safeUrl(u) {
+    try {
+      var x = new URL(u, location.href);
+      return x.protocol === "https:" || x.protocol === "http:" ? x.href : "#";
+    } catch (e) {
+      return "#";
+    }
+  }
+
   function $(id) {
     return document.getElementById(id);
   }
@@ -286,7 +296,7 @@
 
     var link = document.createElement("a");
     link.className = "job-apply";
-    link.href = b.url || "#";
+    link.href = safeUrl(b.url);
     link.target = "_blank";
     link.rel = "noopener";
     link.textContent = "Ver bolsa";
@@ -347,7 +357,7 @@
     soon.forEach(function (b) {
       var li = document.createElement("li");
       var a = document.createElement("a");
-      a.href = b.url;
+      a.href = safeUrl(b.url);
       a.target = "_blank";
       a.rel = "noopener";
       var t = document.createElement("span");
