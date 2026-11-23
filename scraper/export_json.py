@@ -61,6 +61,37 @@ def _plain(text):
 GENERIC_WORDS = {"", "desconhecida", "mocambique", "mozambique"}
 
 
+# =========================
+# SEGURANÇA
+# =========================
+# 1) Só links normais (http/https). Um link "javascript:..." vindo de uma
+#    fonte comprometida seria executado no site quando alguém tocasse em
+#    "Candidatar" - por isso essas vagas nunca são publicadas.
+SAFE_URL = re.compile(r"^https?://[^\s]+$", re.IGNORECASE)
+
+# 2) Vagas-burla: anúncios que pedem dinheiro ao candidato. Frases
+#    específicas, para não apanhar cargos legítimos como "Técnico de
+#    Pagamentos" ou "Gestor de Produto M-Pesa".
+SCAM_PATTERNS = [
+    r"taxa de (inscricao|candidatura|processamento|registo|admissao|seleccao|selecao)",
+    r"(pagar|pague|efectue|efetue|efectuar|efetuar|faca|fazer) (uma |a |o )?(taxa|pagamento|deposito)",
+    r"(via|por|pelo|para o|numero( de)?) (m-?pesa|e-?mola|mkesh)",
+    r"deposito (de|no valor)",
+    r"(envie|enviar|transfira|transferir) (o |um |uma )?(valor|montante|dinheiro|quantia)",
+    r"\bpay (a|the|an) (fee|registration|processing|application)",
+    r"\bapplication fee\b",
+]
+_SCAM_RE = re.compile("|".join(SCAM_PATTERNS))
+
+
+def is_safe_url(url):
+    return bool(url) and bool(SAFE_URL.match(url.strip()))
+
+
+def looks_like_scam(title, description):
+    return bool(_SCAM_RE.search(_plain((title or "") + " " + (description or ""))))
+
+
 def _norm_title(title):
     t = _plain(title)
     t = re.sub(r"\((m/f|f/m|m/f/d|h/m)\)", " ", t)
@@ -154,12 +185,21 @@ def export_jobs_to_json():
         print(f"🔁 {merged} vaga(s) repetida(s) noutra fonte foram juntadas (fica o link mais oficial).")
 
     jobs = []
+    unsafe = scams = 0
 
     for row in rows:
         job = dict(row)
 
         title = job.get("title") or ""
         description = job.get("description") or ""
+
+        if not is_safe_url(job.get("url")):
+            unsafe += 1
+            continue
+        if looks_like_scam(title, description):
+            scams += 1
+            print(f"🚫 Vaga retirada (pede dinheiro ao candidato): {title[:70]} | {job.get('url')}")
+            continue
         location = job.get("location") or "Moçambique"
 
         # Se a descrição for apenas uma repetição do título (comum nas
@@ -227,6 +267,8 @@ def export_jobs_to_json():
     conn.close()
 
     print(f"JSON exportado com {len(jobs)} vagas.")
+    if unsafe or scams:
+        print(f"🛡️ Segurança: {unsafe} vaga(s) com link inválido e {scams} possível(is) burla(s) não foram publicadas.")
 
     # Páginas por vaga, sitemap.xml e texto do canal. Uma falha aqui
     # nunca impede a publicação do jobs.json.
