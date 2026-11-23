@@ -104,7 +104,7 @@
     var kind = card.dataset.kind === "bolsa" ? "Bolsa de estudo" : "Vaga";
     var org = card.dataset.org ? " — " + card.dataset.org : "";
     var section = card.dataset.kind === "bolsa" ? "#bolsas" : "#vagas";
-    return kind + ": " + card.dataset.title + org + "\n" + card.dataset.url +
+    return kind + ": " + card.dataset.title + org + "\n" + (card.dataset.page || card.dataset.url) +
       "\n\nMais vagas e bolsas para moçambicanos: " + PAGE_URL + section;
   }
 
@@ -187,7 +187,7 @@
 
   function isUnfiltered(kind) {
     var ids = kind === "vaga"
-      ? ["search-input", "filter-category", "filter-location"]
+      ? ["search-input", "filter-category", "filter-location", "filter-level"]
       : ["bolsa-search", "bolsa-level", "bolsa-country"];
     return ids.every(function (id) { var e = $(id); return !e || !e.value; });
   }
