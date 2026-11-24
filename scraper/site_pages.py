@@ -21,7 +21,7 @@ import os
 import re
 from datetime import datetime, timezone, timedelta
 
-SITE = "https://brevemito.github.io/emprego-moz-robot/"
+SITE = "https://vagas.brevemito.com/"
 DOCS = "docs"
 PAGES_DIR = os.path.join(DOCS, "vagas")
 CHANNEL_URL = "https://whatsapp.com/channel/0029VbD9lut2Jl88G0igIL0O"
