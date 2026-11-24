@@ -6,15 +6,15 @@ Sistema automático de recolha e classificação de vagas de emprego em Moçambi
 
 As vagas recolhidas estão disponíveis, actualizadas automaticamente todos os dias às 05h00, em:
 
-**https://brevemito.github.io/emprego-moz-robot/**
+**https://vagas.brevemito.com/**
 
-A página permite filtrar por categoria e localização e ordenar por mais recentes ou mais relevantes. As mesmas vagas são também publicadas em [brevemito.com](https://mistyrose-ostrich-482714.hostingersite.com/emprego/).
+A página permite filtrar por categoria e localização e ordenar por mais recentes ou mais relevantes. As mesmas vagas são também publicadas em [brevemito.com](https://brevemito.com).
 
 ## Bolsas de estudo
 
 A mesma página tem um separador **Bolsas de estudo**, com bolsas internacionais a que candidatos moçambicanos podem concorrer, ordenadas pelo prazo mais próximo e filtráveis por nível (licenciatura, mestrado, doutoramento, MBA) e país de estudo. Link directo para o separador:
 
-**https://brevemito.github.io/emprego-moz-robot/#bolsas**
+**https://vagas.brevemito.com/#bolsas**
 
 - Recolha: `scraper/bolsas.py`, todos os dias, logo a seguir às vagas (fonte: lista de bolsas abertas a africanos do [Scholars4Dev](https://www.scholars4dev.com)).
 - Dados: `data/bolsas.json`.
