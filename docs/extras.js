@@ -16,7 +16,7 @@
   var KEY_BAR_CLOSED = "bm_channel_bar_closed";
   var BAR_SNOOZE_DAYS = 7;
   var DAY = 86400000;
-  var PAGE_URL = "https://brevemito.github.io/emprego-moz-robot/";
+  var PAGE_URL = "https://vagas.brevemito.com/";
 
   // ---------- armazenamento seguro (pode falhar em modo privado) ----------
 
