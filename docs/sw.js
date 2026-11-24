@@ -6,7 +6,7 @@
    Para forçar todos os telemóveis a buscar ficheiros novos, aumente VERSION.
    ========================================================================= */
 
-const VERSION = "bm-v1";
+const VERSION = "bm-v2";
 const SHELL = [
   "./",
   "index.html",
@@ -20,6 +20,7 @@ const SHELL = [
   "manifest.webmanifest",
   "icon-192.png",
   "icon-512.png",
+  "apple-touch-icon.png",
 ];
 
 self.addEventListener("install", (event) => {
