@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T11:53:03Z",
+  "updated_at": "2026-11-27T11:45:48Z",
   "total": 93,
   "bolsas": [
     {
@@ -20,8 +20,8 @@
       "featured": true,
       "url": "https://www.gov.br/capes/pt-br/acesso-a-informacao/acoes-e-programas/bolsas/bolsas-e-auxilios-internacionais/encontre-aqui/paises/multinacional/programa-de-estudantes-convenio-de-pos-graduacao-pec-pg",
       "source": "curadoria",
-      "first_seen_at": "2026-11-26T11:53:03Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "first_seen_at": "2026-11-27T11:45:48Z",
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "fixa_b7d497edd298",
@@ -41,8 +41,8 @@
       "featured": true,
       "url": "https://www.gcub.org.br/",
       "source": "curadoria",
-      "first_seen_at": "2026-11-26T11:53:03Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "first_seen_at": "2026-11-27T11:45:48Z",
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "fixa_188e62dfa259",
@@ -61,8 +61,8 @@
       "featured": true,
       "url": "https://www.gov.br/mre/pt-br/assuntos/cultura-e-educacao/temas-educacionais/programas-de-estudo-para-estrangeiros/pec-g/processo-seletivo",
       "source": "curadoria",
-      "first_seen_at": "2026-11-26T11:53:03Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "first_seen_at": "2026-11-27T11:45:48Z",
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "fixa_ca2f4219db5b",
@@ -81,8 +81,8 @@
       "featured": true,
       "url": "https://studyinsaudi.sa/ar/Programs/Details/3e10581e-8052-4c63-8ba9-5d063534c474",
       "source": "curadoria",
-      "first_seen_at": "2026-11-26T11:53:03Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "first_seen_at": "2026-11-27T11:45:48Z",
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_90aef472359a",
@@ -95,7 +95,7 @@
       ],
       "summary": "Bachelors/Masters Degree. Study in France. Course starts September 2027.",
       "deadline": "2026-11-29",
-      "days_left": 3,
+      "days_left": 2,
       "deadline_text": "29 Nov 2026/13 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -103,7 +103,7 @@
       "url": "https://www.scholars4dev.com/emile-boutmy-scholarships-for-non-eu-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_64a1726bf104",
@@ -115,7 +115,7 @@
       ],
       "summary": "Masters Degree. Study in Switzerland. Course starts Autumn 2027.",
       "deadline": "2026-11-30",
-      "days_left": 4,
+      "days_left": 3,
       "deadline_text": "30 Nov 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -123,7 +123,7 @@
       "url": "https://www.scholars4dev.com/eth-zurich-excellence-masters-scholarship-program/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_920ede17beab",
@@ -135,7 +135,7 @@
       ],
       "summary": "Masters Degree. Study in Netherlands. Course starts September 2027.",
       "deadline": "2026-12-01",
-      "days_left": 5,
+      "days_left": 4,
       "deadline_text": "1 Dec 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -143,7 +143,7 @@
       "url": "https://www.scholars4dev.com/eric-bleumink-scholarships-for-developing-countries-at-university-of-groningen/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_e5ba40b9eea7",
@@ -155,7 +155,7 @@
       ],
       "summary": "Masters Degree. Study in Netherlands. Course starts September 2027.",
       "deadline": "2026-12-01",
-      "days_left": 5,
+      "days_left": 4,
       "deadline_text": "1 Dec 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -163,7 +163,7 @@
       "url": "https://www.scholars4dev.com/tu-delft-excellence-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_76db9066e636",
@@ -175,7 +175,7 @@
       ],
       "summary": "Masters Degree. Study in Netherlands. Course starts September 2027.",
       "deadline": "2026-12-01",
-      "days_left": 5,
+      "days_left": 4,
       "deadline_text": "1 Dec 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -183,7 +183,7 @@
       "url": "https://www.scholars4dev.com/leiden-university-excellence-scholarship-for-non-eu-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_39a9b4bd0f15",
@@ -197,7 +197,7 @@
       ],
       "summary": "Bachelors/Masters/PhD Degree. Study in Norway. Course starts 2016.",
       "deadline": "2026-12-01",
-      "days_left": 5,
+      "days_left": 4,
       "deadline_text": "1 December",
       "deadline_status": "open",
       "for_africans": true,
@@ -205,7 +205,7 @@
       "url": "https://www.scholars4dev.com/quota-scholarships-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_c09559e9a03a",
@@ -217,7 +217,7 @@
       ],
       "summary": "PhD Degree. Study in Singapore. Course starts August 2027.",
       "deadline": "2026-12-01",
-      "days_left": 5,
+      "days_left": 4,
       "deadline_text": "1 Dec 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -225,7 +225,7 @@
       "url": "https://www.scholars4dev.com/singapore-international-graduate-award/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_578872a57a1a",
@@ -237,7 +237,7 @@
       ],
       "summary": "Masters Degree. Study in Netherlands. Course starts September 2027.",
       "deadline": "2026-12-01",
-      "days_left": 5,
+      "days_left": 4,
       "deadline_text": "1 Dec 2026/1 Feb 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -245,7 +245,7 @@
       "url": "https://www.scholars4dev.com/vu-university-amsterdam-fellowship-programme-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_a5ccb9a112c9",
@@ -257,7 +257,7 @@
       ],
       "summary": "Bachelor's Degree. Study in Canada. Course starts Sept 2027.",
       "deadline": "2026-12-02",
-      "days_left": 6,
+      "days_left": 5,
       "deadline_text": "2 Dec 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -265,7 +265,7 @@
       "url": "https://www.scholars4dev.com/ilot-scholarships-at-university-of-british-columbia/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_cf5152b8a49b",
@@ -277,7 +277,7 @@
       ],
       "summary": "Bachelors Degree. Study in Kyoto, Japan. Course starts Oct 2027.",
       "deadline": "2026-12-03",
-      "days_left": 7,
+      "days_left": 6,
       "deadline_text": "3 Dec 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -285,7 +285,7 @@
       "url": "https://www.scholars4dev.com/kyoto-university-international-undergraduate-program/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_23582cace6ce",
@@ -297,7 +297,7 @@
       ],
       "summary": "MBA Degree. Study in France/Singapore. Course starts August 2027/January 2028.",
       "deadline": "2026-12-07",
-      "days_left": 11,
+      "days_left": 10,
       "deadline_text": "7 Dec 2026/26 Apr/7 Jun 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -305,7 +305,7 @@
       "url": "https://www.scholars4dev.com/insead-syngenta-mba-scholarships-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_2fe068d153dc",
@@ -317,7 +317,7 @@
       ],
       "summary": "Masters Degree. Study in UK. Course starts Sept/Oct 2027.",
       "deadline": "2026-12-08",
-      "days_left": 12,
+      "days_left": 11,
       "deadline_text": "8 Dec 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -325,7 +325,7 @@
       "url": "https://www.scholars4dev.com/commonwealth-shared-scholarship-scheme-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_d1698652d248",
@@ -338,7 +338,7 @@
       ],
       "summary": "Masters/PhD Degree. Study in UK. Course starts October 2027.",
       "deadline": "2026-12-08",
-      "days_left": 12,
+      "days_left": 11,
       "deadline_text": "14 Oct/8 Dec 2026/6 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -346,7 +346,7 @@
       "url": "https://www.scholars4dev.com/gates-scholarships-for-international-students-at-university-of-cambridge/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_f50d94f714de",
@@ -358,7 +358,7 @@
       ],
       "summary": "Masters Degree. Study in Netherlands. Course starts September 2027.",
       "deadline": "2026-12-10",
-      "days_left": 14,
+      "days_left": 13,
       "deadline_text": "10 Dec 2026/1 Feb 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -366,7 +366,7 @@
       "url": "https://www.scholars4dev.com/scholarships-for-high-potential-international-students-at-maastricht-university/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_f9c04c83919f",
@@ -378,7 +378,7 @@
       ],
       "summary": "PhD Degree. Study in London, UK. Course starts October 2027.",
       "deadline": "2026-12-10",
-      "days_left": 14,
+      "days_left": 13,
       "deadline_text": "7/10 Dec 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -386,7 +386,7 @@
       "url": "https://www.scholars4dev.com/warwick-chancellors-international-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_37b503b18e57",
@@ -399,7 +399,7 @@
       ],
       "summary": "Bachelors/Masters Degree. Study in Australia. Course starts Semester 1, 2027.",
       "deadline": "2026-12-14",
-      "days_left": 18,
+      "days_left": 17,
       "deadline_text": "14 Dec 2026/17 May 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -407,7 +407,7 @@
       "url": "https://www.scholars4dev.com/la-trobe-vice-chancellor-scholarship-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_705ec34f53d6",
@@ -420,7 +420,7 @@
       ],
       "summary": "Masters/PhD Degree. Study in Australia. Course starts mid-2027/2028.",
       "deadline": "2026-12-18",
-      "days_left": 22,
+      "days_left": 21,
       "deadline_text": "18 Dec 2026/10 Sep 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -428,7 +428,7 @@
       "url": "https://www.scholars4dev.com/international-scholarships-at-university-of-sydney/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_060f11551c7d",
@@ -441,7 +441,7 @@
       ],
       "summary": "Masters/PhD Degree. Study in UK. Course starts October 2027.",
       "deadline": "2026-12-31",
-      "days_left": 35,
+      "days_left": 34,
       "deadline_text": "Dec 2026/Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -449,7 +449,7 @@
       "url": "https://www.scholars4dev.com/clarendon-scholarships-at-university-of-oxford/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_17a6666ab50f",
@@ -461,7 +461,7 @@
       ],
       "summary": "Bachelors (BS) Degree. Study in home country/IDB country. Course starts 2015.",
       "deadline": "2026-12-31",
-      "days_left": 35,
+      "days_left": 34,
       "deadline_text": "varies, June-Dec",
       "deadline_status": "open",
       "for_africans": true,
@@ -469,7 +469,7 @@
       "url": "https://www.scholars4dev.com/idb-scholarships-for-muslims/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_35b866895330",
@@ -481,7 +481,7 @@
       ],
       "summary": "PhD Degree. Study in Singapore. Course starts Academic Year 2027-28.",
       "deadline": "2026-12-31",
-      "days_left": 35,
+      "days_left": 34,
       "deadline_text": "31 Dec 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -489,7 +489,7 @@
       "url": "https://www.scholars4dev.com/nanyang-presidents-graduate-scholarship-ntu-singapore/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-23T11:47:19Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_5eac2e48d0d8",
@@ -502,7 +502,7 @@
       ],
       "summary": "Masters/DPhil Degree. Study in UK. Course starts October 2027.",
       "deadline": "2026-12-31",
-      "days_left": 35,
+      "days_left": 34,
       "deadline_text": "Dec 2026/Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -510,7 +510,7 @@
       "url": "https://www.scholars4dev.com/ocis-scholarships-for-muslims/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_565a90f30717",
@@ -522,7 +522,7 @@
       ],
       "summary": "Masters Degree. Study in UK. Course starts Autumn 2027.",
       "deadline": "2026-12-31",
-      "days_left": 35,
+      "days_left": 34,
       "deadline_text": "Dec 2026/Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -530,7 +530,7 @@
       "url": "https://www.scholars4dev.com/weidenfeld-scholarships-at-university-of-oxford/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_ccf670b837ad",
@@ -544,7 +544,7 @@
       ],
       "summary": "PhD/Research/Arts Masters. Study in Switzerland. Course starts September 2027.",
       "deadline": "2026-12-31",
-      "days_left": 35,
+      "days_left": 34,
       "deadline_text": "varies, Sept-Dec 2026",
       "deadline_status": "open",
       "for_africans": true,
@@ -552,7 +552,7 @@
       "url": "https://www.scholars4dev.com/swiss-government-scholarships-for-foreign-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_8c71610bf7a8",
@@ -565,7 +565,7 @@
       ],
       "summary": "Masters/PhD Degree. Study in UK. Course starts October 2027.",
       "deadline": "2027-01-05",
-      "days_left": 40,
+      "days_left": 39,
       "deadline_text": "5 Jan 2027 (most courses)",
       "deadline_status": "open",
       "for_africans": true,
@@ -573,7 +573,7 @@
       "url": "https://www.scholars4dev.com/ertegun-graduate-scholarships-oxford/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-23T11:47:19Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_92499532116b",
@@ -585,7 +585,7 @@
       ],
       "summary": "MBA Degree. Study in USA. Course starts Fall 2027.",
       "deadline": "2027-01-05",
-      "days_left": 40,
+      "days_left": 39,
       "deadline_text": "5 Jan/31 Mar 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -593,7 +593,7 @@
       "url": "https://www.scholars4dev.com/mba-scholarships-for-developing-countries-at-wharton-business-school/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_2d5ac17042db",
@@ -606,7 +606,7 @@
       ],
       "summary": "Masters/PhD Degree. Study in France. Course starts AY 2027-2028.",
       "deadline": "2027-01-06",
-      "days_left": 41,
+      "days_left": 40,
       "deadline_text": "6 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -614,7 +614,7 @@
       "url": "https://www.scholars4dev.com/eiffel-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_c0b7dbc8ab67",
@@ -627,7 +627,7 @@
       ],
       "summary": "MBA/Masters Degree. Study in UK. Course starts Sept/Oct 2027.",
       "deadline": "2027-01-06",
-      "days_left": 41,
+      "days_left": 40,
       "deadline_text": "6 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -635,7 +635,7 @@
       "url": "https://www.scholars4dev.com/oxford-perishing-square-graduate-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_b88c4e5975b7",
@@ -649,7 +649,7 @@
       ],
       "summary": "Associate/Bachelors/Masters Degree. Study in any Country (online).",
       "deadline": "2027-01-07",
-      "days_left": 42,
+      "days_left": 41,
       "deadline_text": "7 Jan/18 Mar 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -657,7 +657,7 @@
       "url": "https://www.scholars4dev.com/free-online-education-at-university-of-the-people/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_f2967562091d",
@@ -669,7 +669,7 @@
       ],
       "summary": "MBA Degree. Study in UK. Course starts Sept 2027.",
       "deadline": "2027-01-08",
-      "days_left": 43,
+      "days_left": 42,
       "deadline_text": "8 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -677,7 +677,7 @@
       "url": "https://www.scholars4dev.com/skoll-international-mba-scholarships-on-social-entrepreneurship/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_0d6fa5c6cc43",
@@ -689,7 +689,7 @@
       ],
       "summary": "Bachelor's Degree. Study in USA. Course starts Fall 2027.",
       "deadline": "2027-01-15",
-      "days_left": 50,
+      "days_left": 49,
       "deadline_text": "15 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -697,7 +697,7 @@
       "url": "https://www.scholars4dev.com/american-university-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_adc0a7c4253e",
@@ -709,7 +709,7 @@
       ],
       "summary": "Masters Degree. Study in Sweden. Course starts August 2027.",
       "deadline": "2027-01-15",
-      "days_left": 50,
+      "days_left": 49,
       "deadline_text": "15 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -717,7 +717,7 @@
       "url": "https://www.scholars4dev.com/chalmers-ipoet-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_fc10420583a4",
@@ -729,7 +729,7 @@
       ],
       "summary": "Masters Degree. Study in Denmark. Course starts September 2027.",
       "deadline": "2027-01-15",
-      "days_left": 50,
+      "days_left": 49,
       "deadline_text": "15 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -737,7 +737,7 @@
       "url": "https://www.scholars4dev.com/danish-state-tuition-fee-waivers-and-scholarships-at-roskilde-university/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_cc7a2c28e4e0",
@@ -749,7 +749,7 @@
       ],
       "summary": "Masters Degree. Study in Sweden. Course starts August 2027.",
       "deadline": "2027-01-15",
-      "days_left": 50,
+      "days_left": 49,
       "deadline_text": "15 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -757,7 +757,7 @@
       "url": "https://www.scholars4dev.com/kth-tuition-fee-waivers-for-non-eu-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_65c694c9b9e1",
@@ -770,7 +770,7 @@
       ],
       "summary": "Bachelors/Masters Degree. Study in Sweden. Course starts August 2027.",
       "deadline": "2027-01-15",
-      "days_left": 50,
+      "days_left": 49,
       "deadline_text": "15 Jan/Feb 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -778,7 +778,7 @@
       "url": "https://www.scholars4dev.com/lund-university-scholarships-sweden/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_0b5e20c86020",
@@ -790,7 +790,7 @@
       ],
       "summary": "Masters Degree. Study in Sweden. Course starts August 2027.",
       "deadline": "2027-01-15",
-      "days_left": 50,
+      "days_left": 49,
       "deadline_text": "15 Jan/Apr 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -798,7 +798,7 @@
       "url": "https://www.scholars4dev.com/stockholm-university-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-23T11:47:19Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_3a6cd9abe9be",
@@ -810,7 +810,7 @@
       ],
       "summary": "Masters Degree. Study in Sweden. Course starts August 2026.",
       "deadline": "2027-01-15",
-      "days_left": 50,
+      "days_left": 49,
       "deadline_text": "15 Jan/mid-Feb 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -818,7 +818,7 @@
       "url": "https://www.scholars4dev.com/the-university-of-gothenburg-study-scholarship/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_ab9513d076ca",
@@ -830,7 +830,7 @@
       ],
       "summary": "Masters Degree. Study in Sweden. Course starts August 2027.",
       "deadline": "2027-01-15",
-      "days_left": 50,
+      "days_left": 49,
       "deadline_text": "15 Jan/early Feb 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -838,7 +838,7 @@
       "url": "https://www.scholars4dev.com/the-uppsala-university-ipk-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_d2d6174f76f4",
@@ -850,7 +850,7 @@
       ],
       "summary": "Masters (LLM-MAS). Study in Geneva, Switzerland. Course starts September 2027.",
       "deadline": "2027-01-17",
-      "days_left": 52,
+      "days_left": 51,
       "deadline_text": "17 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -858,7 +858,7 @@
       "url": "https://www.scholars4dev.com/geneva-academy-of-international-humanitarian-law-and-human-rights-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-23T11:47:19Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_e5c73ce68e78",
@@ -871,7 +871,7 @@
       ],
       "summary": "Bachelor's/Masters Degree. Study in Finland. Course starts Autumn 2027.",
       "deadline": "2027-01-21",
-      "days_left": 56,
+      "days_left": 55,
       "deadline_text": "21 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -879,7 +879,7 @@
       "url": "https://www.scholars4dev.com/university-of-oulu-international-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-24T13:16:46Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_096f51c0ccf4",
@@ -891,7 +891,7 @@
       ],
       "summary": "Masters Degree. Study in Milan, Italy. Course starts September 2027.",
       "deadline": "2027-01-26",
-      "days_left": 61,
+      "days_left": 60,
       "deadline_text": "26 Jan/11 Mar/29 Apr 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -899,7 +899,7 @@
       "url": "https://www.scholars4dev.com/scholarships-in-italy-for-international-students-at-bocconi-univiersity/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_8e77546266b3",
@@ -911,7 +911,7 @@
       ],
       "summary": "Bachelor's Degree. Study in Canada. Course starts September 2027.",
       "deadline": "2027-01-27",
-      "days_left": 62,
+      "days_left": 61,
       "deadline_text": "27 Jan 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -919,7 +919,7 @@
       "url": "https://www.scholars4dev.com/international-undergraduate-scholarships-at-york-university/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_37b1ebe866ad",
@@ -933,7 +933,7 @@
       ],
       "summary": "Bachelor's/Master's/PhD Degree. Study in China. Course starts September 2027.",
       "deadline": "2027-01-31",
-      "days_left": 66,
+      "days_left": 65,
       "deadline_text": "Varies, mostly January–April 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -941,7 +941,7 @@
       "url": "https://www.scholars4dev.com/chinese-government-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_b807c1fdcf3b",
@@ -953,7 +953,7 @@
       ],
       "summary": "Masters Degree. Study in Europe. Course starts Aug-Sept 2027.",
       "deadline": "2027-01-31",
-      "days_left": 66,
+      "days_left": 65,
       "deadline_text": "varies (Oct 2026-Jan 2027)",
       "deadline_status": "open",
       "for_africans": true,
@@ -961,7 +961,7 @@
       "url": "https://www.scholars4dev.com/erasmus-mundus-scholarships-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_da95d9c470bf",
@@ -973,7 +973,7 @@
       ],
       "summary": "Masters Degree. Study in Netherlands. Course starts September 2027.",
       "deadline": "2027-01-31",
-      "days_left": 66,
+      "days_left": 65,
       "deadline_text": "31 January 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -981,7 +981,7 @@
       "url": "https://www.scholars4dev.com/radboud-university-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_25983d11e8e6",
@@ -995,7 +995,7 @@
       ],
       "summary": "Bachelors/Masters/PhD Degree. Study in Turkey. Course starts 2027.",
       "deadline": "2027-01-31",
-      "days_left": 66,
+      "days_left": 65,
       "deadline_text": "Jan-Feb",
       "deadline_status": "open",
       "for_africans": true,
@@ -1003,7 +1003,7 @@
       "url": "https://www.scholars4dev.com/turkish-government-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_21b80c1ce5db",
@@ -1016,7 +1016,7 @@
       ],
       "summary": "Bachelor's/Graduate Degree. Study in USA. Course starts Fall 2027.",
       "deadline": "2027-02-01",
-      "days_left": 67,
+      "days_left": 66,
       "deadline_text": "1 Feb 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -1024,7 +1024,7 @@
       "url": "https://www.scholars4dev.com/icsp-tuition-scholarships-at-university-of-oregon-usa/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_08960b42edab",
@@ -1036,7 +1036,7 @@
       ],
       "summary": "PhD Degree. Study in UK. Course starts 2027.",
       "deadline": "2027-02-02",
-      "days_left": 68,
+      "days_left": 67,
       "deadline_text": "16 Nov 2026 – 2 Feb 2027 (varies by school)",
       "deadline_status": "open",
       "for_africans": true,
@@ -1044,7 +1044,7 @@
       "url": "https://www.scholars4dev.com/edinburgh-global-research-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_a07d5645242f",
@@ -1056,7 +1056,7 @@
       ],
       "summary": "Masters Degree. Study in Belgium. Course starts September 2027.",
       "deadline": "2027-02-15",
-      "days_left": 81,
+      "days_left": 80,
       "deadline_text": "15 Feb 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -1064,7 +1064,7 @@
       "url": "https://www.scholars4dev.com/science-scholarships-for-international-students-at-ku-leuven/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_d2591b1db1f6",
@@ -1076,7 +1076,7 @@
       ],
       "summary": "Masters Degree. Study in USA, Europe, Japan, Australia. Course starts AY 2027-2028.",
       "deadline": "2027-02-26",
-      "days_left": 92,
+      "days_left": 91,
       "deadline_text": "26 Feb/21 May 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -1084,7 +1084,7 @@
       "url": "https://www.scholars4dev.com/japan-world-bank-graduate-scholarships-for-development-related-studies/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_58bed4e227e0",
@@ -1096,7 +1096,7 @@
       ],
       "summary": "Masters Degree. Study in Switzerland. Course starts September 2027.",
       "deadline": "2027-02-28",
-      "days_left": 94,
+      "days_left": 93,
       "deadline_text": "28 February",
       "deadline_status": "open",
       "for_africans": true,
@@ -1104,7 +1104,7 @@
       "url": "https://www.scholars4dev.com/university-of-geneva-excellence-masters-fellowships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_4a9e6792a10f",
@@ -1117,7 +1117,7 @@
       ],
       "summary": "Bachelors/Masters Degree. Study in Belgium. Course starts September 2027.",
       "deadline": "2027-02-28",
-      "days_left": 94,
+      "days_left": 93,
       "deadline_text": "Varies, up to 28 Feb 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -1125,7 +1125,7 @@
       "url": "https://www.scholars4dev.com/vlir-uos-masters-scholarships-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_b0a2161bdbe0",
@@ -1138,7 +1138,7 @@
       ],
       "summary": "Master's/PhD Degree. Study in Germany. Course starts 2027.",
       "deadline": "2027-03-01",
-      "days_left": 95,
+      "days_left": 94,
       "deadline_text": "1 Mar/1 Sep 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -1146,7 +1146,7 @@
       "url": "https://www.scholars4dev.com/heinrich-boll-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_15bcef5126be",
@@ -1158,7 +1158,7 @@
       ],
       "summary": "Masters Degree. Study in New Zealand. Course starts 2027.",
       "deadline": "2027-03-01",
-      "days_left": 95,
+      "days_left": 94,
       "deadline_text": "1 Mar/1 Jun/1 Sep/1 Nov (review dates)",
       "deadline_status": "open",
       "for_africans": true,
@@ -1166,7 +1166,7 @@
       "url": "https://www.scholars4dev.com/university-of-otago-international-research-masters-scholarship/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_ade59162cd41",
@@ -1179,7 +1179,7 @@
       ],
       "summary": "Bachelors Degree/Diploma. Study in Developing countries. Course starts 2027.",
       "deadline": "2027-03-01",
-      "days_left": 95,
+      "days_left": 94,
       "deadline_text": "1 Mar 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -1187,7 +1187,7 @@
       "url": "https://www.scholars4dev.com/wmf-scholarships-for-developing-country-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_f09321e81477",
@@ -1200,7 +1200,7 @@
       ],
       "summary": "Bachelors/Masters Degree. Study in London, UK. Course starts September 2027.",
       "deadline": "2027-03-10",
-      "days_left": 104,
+      "days_left": 103,
       "deadline_text": "10 March 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -1208,7 +1208,7 @@
       "url": "https://www.scholars4dev.com/international-ambassador-scholarships-university-west-london/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_ca62962a8afd",
@@ -1221,7 +1221,7 @@
       ],
       "summary": "Bachelors/Masters Degree. Study in UK. Course starts September 2027.",
       "deadline": "2027-03-19",
-      "days_left": 113,
+      "days_left": 112,
       "deadline_text": "19 Mar 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -1229,7 +1229,7 @@
       "url": "https://www.scholars4dev.com/international-postgraduate-scholarships-at-bristol-university/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_2df7cb8f3ef7",
@@ -1243,7 +1243,7 @@
       ],
       "summary": "Bachelors/Masters/PhD Degree. Study in New Zealand. Course starts 2028.",
       "deadline": "2027-03-31",
-      "days_left": 125,
+      "days_left": 124,
       "deadline_text": "31 Mar 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -1251,7 +1251,7 @@
       "url": "https://www.scholars4dev.com/new-zealand-development-scholarships-for-africans-asians-latin-americans-and-pacific-islanders/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_1e9a581932f4",
@@ -1263,7 +1263,7 @@
       ],
       "summary": "Masters Degree. Study in France. Course starts September 2027.",
       "deadline": "2027-03-31",
-      "days_left": 125,
+      "days_left": 124,
       "deadline_text": "late March",
       "deadline_status": "open",
       "for_africans": true,
@@ -1271,7 +1271,7 @@
       "url": "https://www.scholars4dev.com/universite-paris-saclay-international-masters-scholarships-2/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_e8401ff0505b",
@@ -1283,7 +1283,7 @@
       ],
       "summary": "Masters Degree. Study in Netherlands. Course starts September 2020.",
       "deadline": "2027-03-31",
-      "days_left": 125,
+      "days_left": 124,
       "deadline_text": "31 March",
       "deadline_status": "open",
       "for_africans": true,
@@ -1291,7 +1291,7 @@
       "url": "https://www.scholars4dev.com/one-world-citizen-talent-scholarship/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_c69bdfba866d",
@@ -1303,7 +1303,7 @@
       ],
       "summary": "Masters Degree. Study in Netherlands. Course starts Sept 2027.",
       "deadline": "2027-04-01",
-      "days_left": 126,
+      "days_left": 125,
       "deadline_text": "1 April 2027",
       "deadline_status": "open",
       "for_africans": true,
@@ -1311,7 +1311,7 @@
       "url": "https://www.scholars4dev.com/masters-scholarships-for-non-eu-students-at-university-of-twente/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_cfb8860b7b62",
@@ -1325,7 +1325,7 @@
       ],
       "summary": "Bachelors/Masters/PhD Degree. Study in Australia. Course starts 2028.",
       "deadline": "2027-04-30",
-      "days_left": 155,
+      "days_left": 154,
       "deadline_text": "30 April (annual, most countries)",
       "deadline_status": "open",
       "for_africans": true,
@@ -1333,7 +1333,7 @@
       "url": "https://www.scholars4dev.com/australia-awards-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_0158d460ca37",
@@ -1347,7 +1347,7 @@
       ],
       "summary": "Bachelor's/Master's/PhD Degree. Study in Taiwan. Course starts September 2027.",
       "deadline": "2027-04-30",
-      "days_left": 155,
+      "days_left": 154,
       "deadline_text": "Up to 30 April, varies by country",
       "deadline_status": "open",
       "for_africans": true,
@@ -1355,7 +1355,7 @@
       "url": "https://www.scholars4dev.com/taiwan-government-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_f40425195709",
@@ -1367,7 +1367,7 @@
       ],
       "summary": "MS/PhD Degree. Study in South Africa. Course starts 2014.",
       "deadline": "2027-08-31",
-      "days_left": 278,
+      "days_left": 277,
       "deadline_text": "around August",
       "deadline_status": "open",
       "for_africans": true,
@@ -1375,7 +1375,7 @@
       "url": "https://www.scholars4dev.com/canon-collins-postgraduate-scholarships-for-africans/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_d6bb386b3f4c",
@@ -1387,7 +1387,7 @@
       ],
       "summary": "MBA Degree. Study in Switzerland. Course starts January 2018.",
       "deadline": "2027-09-30",
-      "days_left": 308,
+      "days_left": 307,
       "deadline_text": "30 September",
       "deadline_status": "open",
       "for_africans": true,
@@ -1395,7 +1395,7 @@
       "url": "https://www.scholars4dev.com/imd-future-leaders-mba-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_88b2777ed4e2",
@@ -1407,7 +1407,7 @@
       ],
       "summary": "MBA Degree. Study in Switzerland. Course starts January 2018.",
       "deadline": "2027-09-30",
-      "days_left": 308,
+      "days_left": 307,
       "deadline_text": "30 September",
       "deadline_status": "open",
       "for_africans": true,
@@ -1415,7 +1415,7 @@
       "url": "https://www.scholars4dev.com/jim-ellert-mba-scholarships-for-africans-southeast-asians-and-centraleastern-europeans/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_3b86d941d5fb",
@@ -1428,7 +1428,7 @@
       ],
       "summary": "Bachelors/Masters Degree. Study in Australia. Course starts 2027.",
       "deadline": "2027-10-31",
-      "days_left": 339,
+      "days_left": 338,
       "deadline_text": "Rolling, until places run out",
       "deadline_status": "open",
       "for_africans": true,
@@ -1436,7 +1436,7 @@
       "url": "https://www.scholars4dev.com/university-of-adelaide-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_6b8d34fc59ef",
@@ -1456,7 +1456,7 @@
       "url": "https://www.scholars4dev.com/african-leadership-in-business-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_46e471907118",
@@ -1477,7 +1477,7 @@
       "url": "https://www.scholars4dev.com/international-postgraduate-scholarships-at-australian-universities/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_d5b880b11b2e",
@@ -1497,7 +1497,7 @@
       "url": "https://www.scholars4dev.com/cambridge-international-scholarship-scheme-ciss/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_980f032334b4",
@@ -1518,7 +1518,7 @@
       "url": "https://www.scholars4dev.com/danish-international-scholarship-scheme-for-non-eu-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_2f93757e0f3c",
@@ -1538,7 +1538,7 @@
       "url": "https://www.scholars4dev.com/cimo-international-research-fellowships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_14dfca5c7b94",
@@ -1559,7 +1559,7 @@
       "url": "https://www.scholars4dev.com/usa-fulbright-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_4be5f2310693",
@@ -1579,7 +1579,7 @@
       "url": "https://www.scholars4dev.com/mba-scholarships-for-developing-countries-at-hec/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_d38577a2f25d",
@@ -1599,7 +1599,7 @@
       "url": "https://www.scholars4dev.com/hubert-humphrey-fellowships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_2b6b9a8b46e9",
@@ -1619,7 +1619,7 @@
       "url": "https://www.scholars4dev.com/international-undergraduate-scholarships-at-humber-college-canada/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_523cfa341621",
@@ -1639,7 +1639,7 @@
       "url": "https://www.scholars4dev.com/japan-foundation-united-nations-university-scholarships-for-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_c9df323e892a",
@@ -1660,7 +1660,7 @@
       "url": "https://www.scholars4dev.com/japanese-government-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_469c2f5bb0e6",
@@ -1680,7 +1680,7 @@
       "url": "https://www.scholars4dev.com/japanese-government-scholarships-for-international-undergraduate-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_cd274d33db75",
@@ -1700,7 +1700,7 @@
       "url": "https://www.scholars4dev.com/kofi-annan-mba-scholarships-for-developing-country-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_db135c285bb9",
@@ -1721,7 +1721,7 @@
       "url": "https://www.scholars4dev.com/macquarie-university-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_65bb88205ac0",
@@ -1742,7 +1742,7 @@
       "url": "https://www.scholars4dev.com/mastercard-foundation-scholarship-program-for-africans/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_9b4e1184bd26",
@@ -1762,7 +1762,7 @@
       "url": "https://www.scholars4dev.com/mo-ibrahim-foundation-mba-scholarships-for-sub-saharan-africans-at-london-business-school/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_6f2c0cc16b22",
@@ -1782,7 +1782,7 @@
       "url": "https://www.scholars4dev.com/nestle-mba-scholarships-for-women-from-developing-countries/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_a4d46b694174",
@@ -1802,7 +1802,7 @@
       "url": "https://www.scholars4dev.com/developing-solutions-master-scholarships-at-university-of-nottingham/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_3a7e0a8d210a",
@@ -1823,7 +1823,7 @@
       "url": "https://www.scholars4dev.com/rotary-international-ambassadorial-scholarships/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_fbfde47a3b00",
@@ -1844,7 +1844,7 @@
       "url": "https://www.scholars4dev.com/tohoku-university-international-excellence-scholarship/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_539c9df93782",
@@ -1865,7 +1865,7 @@
       "url": "https://www.scholars4dev.com/masters-phd-scholarships-for-international-students-at-canada-manitoba-university/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_6f6826e50f79",
@@ -1886,7 +1886,7 @@
       "url": "https://www.scholars4dev.com/university-of-melbourne-research-scholarships-for-international-students/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     },
     {
       "id": "bolsa_e1456817e43d",
@@ -1906,7 +1906,7 @@
       "url": "https://www.scholars4dev.com/scholarships-for-developing-countries-at-university-of-westminster/",
       "source": "scholars4dev",
       "first_seen_at": "2026-11-18T19:15:13Z",
-      "last_seen_at": "2026-11-26T11:53:03Z"
+      "last_seen_at": "2026-11-27T11:45:48Z"
     }
   ]
 }
